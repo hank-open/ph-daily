@@ -1,0 +1,44 @@
+name: Product Hunt 早报
+
+on:
+  schedule:
+    # 每天北京时间 09:00 (UTC 01:00) 自动运行
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "指定日期 (YYYY-MM-DD)，留空则取昨天"
+        required: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate report
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            python3 scripts/generate.py "${{ github.event.inputs.date }}"
+          else
+            python3 scripts/generate.py
+          fi
+        env:
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_COMMITTER_EMAIL: github-actions[bot]@users.noreply.github.com
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"

@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年7月14日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0;
+      color: #1a1a1a;
+      padding: 32px 16px 64px;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .header .logo {
+      font-size: 28px;
+      font-weight: 800;
+      color: #da552f;
+      letter-spacing: -0.5px;
+    }
+    .header .logo span { color: #1a1a1a; }
+    .header .date {
+      font-size: 14px;
+      color: #888;
+      margin-top: 6px;
+      letter-spacing: 0.5px;
+    }
+    .header h1 {
+      font-size: 22px;
+      font-weight: 700;
+      margin-top: 12px;
+      color: #1a1a1a;
+    }
+
+    /* Section title */
+    .section-title {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #999;
+      margin: 40px 0 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #e5e5e0;
+    }
+
+    /* Product card */
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px 22px;
+      margin-bottom: 12px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      border: 1px solid #eee;
+      transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+
+    .rank {
+      font-size: 22px;
+      font-weight: 800;
+      color: #da552f;
+      min-width: 32px;
+      padding-top: 2px;
+    }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+
+    .card-body { flex: 1; }
+
+    .card-top {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 4px;
+    }
+    .card-name {
+      font-size: 17px;
+      font-weight: 700;
+      color: #1a1a1a;
+    }
+    .badge-featured {
+      font-size: 11px;
+      font-weight: 600;
+      background: #fff3ee;
+      color: #da552f;
+      border: 1px solid #ffd0be;
+      border-radius: 4px;
+      padding: 1px 7px;
+    }
+    .votes {
+      margin-left: auto;
+      font-size: 13px;
+      font-weight: 700;
+      color: #da552f;
+      white-space: nowrap;
+    }
+    .votes::before { content: "▲ "; }
+
+    .tagline {
+      font-size: 14px;
+      font-weight: 600;
+      color: #444;
+      margin-bottom: 6px;
+    }
+    .desc {
+      font-size: 13.5px;
+      color: #666;
+      line-height: 1.65;
+    }
+
+    /* Small table for non-featured */
+    .table-section { margin-top: 8px; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #eee;
+      font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left;
+      padding: 10px 16px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #999;
+      border-bottom: 1px solid #eee;
+    }
+    td {
+      padding: 11px 16px;
+      border-bottom: 1px solid #f2f2f0;
+      vertical-align: top;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+
+    /* Trend box */
+    .trend-box {
+      background: #fff;
+      border-radius: 12px;
+      border: 1px solid #eee;
+      padding: 20px 22px;
+      margin-top: 40px;
+    }
+    .trend-box h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 12px;
+    }
+    .trend-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .tag {
+      font-size: 13px;
+      background: #f5f5f0;
+      border-radius: 20px;
+      padding: 5px 13px;
+      color: #444;
+    }
+
+    /* Yesterday section */
+    .yesterday-card {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 12px 16px;
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      margin-bottom: 8px;
+      font-size: 13.5px;
+    }
+    .yesterday-card .yr { font-weight: 800; color: #bbb; min-width: 20px; }
+    .yesterday-card .yn { font-weight: 700; flex: 1; }
+    .yesterday-card .yv { color: #da552f; font-weight: 700; white-space: nowrap; }
+    .yesterday-card .yd { color: #888; font-size: 12.5px; }
+
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: #bbb;
+      margin-top: 48px;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <!-- Header -->
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年7月14日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <!-- Top 12 -->
+  <div class="section-title">今日榜单</div>
+
+  <!-- 1 -->
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">AgentKey</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">648</span>
+      </div>
+      <div class="tagline">为您的代理提供一站式实时数据市场</div>
+      <div class="desc">一个 MCP 插件，一行命令将 Agent 接入搜索、网页、社交、金融、电商、加密等实时数据源。支持 Claude Code、Codex、OpenClaw 等主流 Agent 框架，内置自动故障转移。</div>
+    </div>
+  </div>
+
+  <!-- 2 -->
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Osaurus</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">612</span>
+      </div>
+      <div class="tagline">在你的 Mac 上完全本地运行的开源 Agent</div>
+      <div class="desc">用 Swift 编写的 macOS 原生 AI Agent 框架，支持任意模型、持久记忆、自主执行、加密身份，完全离线运行且开源。主打隐私与自主权。</div>
+    </div>
+  </div>
+
+  <!-- 3 -->
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">AI Media Buyer By Creatify</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">356</span>
+      </div>
+      <div class="tagline">你的广告由每天自我进化的 AI 管理</div>
+      <div class="desc">接入 Meta、Google、AppLovin、TikTok 广告账户，自动审计投放、找出预算黑洞、识别可扩展广告，并根据历史表现生成新创意——通过对话操作，越用越聪明。</div>
+    </div>
+  </div>
+
+  <!-- 4 -->
+  <div class="card">
+    <div class="rank">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Loomal</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">306</span>
+      </div>
+      <div class="tagline">5 分钟将任何 MCP server 变现，永不抽成</div>
+      <div class="desc">一行代码加 Agent 付费墙，AI Agent 用 USDC 支付（约 2 秒结算），卖家保留 100% 收入。支持 API 调用、数字产品、Shopify/WooCommerce 插件。前 500 位卖家可免费享受 1000 笔交易。</div>
+    </div>
+  </div>
+
+  <!-- 5 -->
+  <div class="card">
+    <div class="rank">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Playground</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">234</span>
+      </div>
+      <div class="tagline">每周 $10 万奖池的 AI Agent 黑客挑战赛</div>
+      <div class="desc">每个挑战是一个守护秘密的开源 AI Agent，系统提示公开。攻破防线并获批准即可赢取奖励，完全免费无需注册，每周一更新挑战。</div>
+    </div>
+  </div>
+
+  <!-- 6 -->
+  <div class="card">
+    <div class="rank">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Knockoff</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">216</span>
+      </div>
+      <div class="tagline">Amazon 购物，拒绝山寨</div>
+      <div class="desc">浏览器插件，自动过滤 SZHLUX、HORUSDY 等无信誉仿冒品牌，搜索结果只留真正在意口碑的品牌。</div>
+    </div>
+  </div>
+
+  <!-- 7 -->
+  <div class="card">
+    <div class="rank">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Marked QL</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">202</span>
+      </div>
+      <div class="tagline">Finder 中即时预览 Markdown</div>
+      <div class="desc">macOS Quick Look 插件，支持数学公式（Apex）、Mermaid 图表、语法高亮。Mac App Store 售价 $4.99。</div>
+    </div>
+  </div>
+
+  <!-- 8 -->
+  <div class="card">
+    <div class="rank">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Simba Voice Agents</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">162</span>
+      </div>
+      <div class="tagline">全球排名第一语音模型驱动的 Voice Agent</div>
+      <div class="desc">基于 Simba 3.2 构建生产级语音 Agent，&lt;100ms 延迟、流式传输、情感表达、支持 SSML。Speechify 新开发平台开放 API 接入。</div>
+    </div>
+  </div>
+
+  <!-- 9 -->
+  <div class="card">
+    <div class="rank">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">UnitPay</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">152</span>
+      </div>
+      <div class="tagline">为 AI 产品定价、计费、证明价值</div>
+      <div class="desc">专为 AI 原生公司打造的货币化操作系统，支持积分体系、混合定价、按 Token 计量、实时推理成本追踪。ARR 前 $50 万免费。</div>
+    </div>
+  </div>
+
+  <!-- 10 -->
+  <div class="card">
+    <div class="rank">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Fudge MCP</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">141</span>
+      </div>
+      <div class="tagline">给 AI Agent 注入真实网站的设计品味</div>
+      <div class="desc">搜索近 10,000 个真实网站的字体、颜色、组件、布局，本地运行 MCP，配合 Chrome 扩展保存参考资料。让代码 Agent 生成有设计感的 UI。</div>
+    </div>
+  </div>
+
+  <!-- 11 -->
+  <div class="card">
+    <div class="rank">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">NoMac.app</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">132</span>
+      </div>
+      <div class="tagline">面向 AI Agent 的无头 iOS 发布流水线</div>
+      <div class="desc">无需 Mac、无需 Xcode，通过 CLI 和 MCP，让 Claude/Codex/Cursor 代理完成签名、TestFlight 推送直至 App Store 提交。</div>
+    </div>
+  </div>
+
+  <!-- 12 -->
+  <div class="card">
+    <div class="rank">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">TailMux</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">115</span>
+      </div>
+      <div class="tagline">同时使用多个 Tailscale tailnet，无需切换，无需 VM</div>
+      <div class="desc">macOS/Linux 上同时连接工作和个人 tailnet，独立嵌入式节点按主机名路由，SSH、RDP、git、npm 等全部并行可用。</div>
+    </div>
+  </div>
+
+  <!-- Notable others -->
+  <div class="section-title">值得关注</div>
+  <div class="table-section">
+    <table>
+      <thead>
+        <tr>
+          <th>产品</th>
+          <th>票数</th>
+          <th>一句话</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Willow</td>
+          <td><span class="votes-sm">▲ 30</span></td>
+          <td>一次性 €299 的本地优先桌面 AI 助手，拥有而非租用</td>
+        </tr>
+        <tr>
+          <td>Proxon</td>
+          <td><span class="votes-sm">▲ 30</span></td>
+          <td>AI 团队的"记录系统"，监控成本、数据和治理</td>
+        </tr>
+        <tr>
+          <td>Coding harness for C/C++</td>
+          <td><span class="votes-sm">▲ 26</span></td>
+          <td>解决 40%+ 多 SWE-Bench C/C++ 任务的调试框架</td>
+        </tr>
+        <tr>
+          <td>Gitwork</td>
+          <td><span class="votes-sm">▲ 22</span></td>
+          <td>按真实 GitHub 产出排名招聘开发者</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Yesterday -->
+  <div class="section-title">昨日回顾 · 7月13日</div>
+  <div class="yesterday-card">
+    <span class="yr">1</span>
+    <span class="yn">Miora</span>
+    <span class="yd">带 Agent 记忆的可编辑画布创意工具</span>
+    <span class="yv">▲ 584</span>
+  </div>
+  <div class="yesterday-card">
+    <span class="yr">2</span>
+    <span class="yn">JustVibe</span>
+    <span class="yd">为你即时生成 App 的 AI 搜索引擎</span>
+    <span class="yv">▲ 568</span>
+  </div>
+  <div class="yesterday-card">
+    <span class="yr">3</span>
+    <span class="yn">FetchSandbox</span>
+    <span class="yd">会记住哪里出错的 API 集成测试工具</span>
+    <span class="yv">▲ 416</span>
+  </div>
+  <div class="yesterday-card">
+    <span class="yr">4</span>
+    <span class="yn">Second Brain for AI v2</span>
+    <span class="yd">跨工具的 AI 记忆层，连接一切上下文</span>
+    <span class="yv">▲ 370</span>
+  </div>
+  <div class="yesterday-card">
+    <span class="yr">5</span>
+    <span class="yn">ServiceBeard</span>
+    <span class="yd">邮箱与 Issue Tracker 双向同步</span>
+    <span class="yv">▲ 159</span>
+  </div>
+
+  <!-- Trend -->
+  <div class="trend-box">
+    <h3>今日主题趋势</h3>
+    <div class="trend-tags">
+      <span class="tag">🤖 Agent 基础设施</span>
+      <span class="tag">🔒 隐私本地化</span>
+      <span class="tag">💰 开发者变现</span>
+      <span class="tag">🎨 AI 辅助设计</span>
+      <span class="tag">📱 自动化发布</span>
+      <span class="tag">🛡️ 反 AI 滥用</span>
+      <span class="tag">🔊 Voice AI</span>
+    </div>
+    <p style="margin-top:14px;font-size:13px;color:#666;line-height:1.7;">
+      Agent 基础设施持续爆发——数据接入（AgentKey）、隐私本地化（Osaurus）、变现（Loomal/UnitPay）、设计（Fudge MCP）、发布（NoMac）形成完整链条。同时 <strong>反 AI 滥用</strong> 工具崭露头角（Knockoff 过滤山寨、Playground 红队对抗），折射出生态走向成熟。
+    </p>
+  </div>
+
+  <footer>
+    数据来源：Product Hunt · decohack.com &nbsp;·&nbsp; 生成于 2026-07-15
+  </footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年7月6日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年7月6日 · Top Products Launching Today</div>
+    <h1>今日精选 8 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">WorkBuddy</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">385</span>
+      </div>
+      <div class="tagline">与一群人工智能专家一起，更快地获得精准的结果。</div>
+      <div class="desc">腾讯WorkBuddy是一款为日常办公室工作设计的智能助手。你可以提出请求，指导你的AI专家团队，获取第二意见，帮助你获得清晰、可用的结果。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">DocsAlot</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">322</span>
+      </div>
+      <div class="tagline">既能为人类使用，也能被人工智能系统理解的文档。</div>
+      <div class="desc">DocsAlot将分散的帮助中心文章、知识库和开发文档整合成一个权威的信息来源，供人类和AI代理使用。它包括托管的MCP、llms.txt和skill.md。这样一来，您的文档可以在AI的回答中呈现，员工的入职培训也变得更加迅速，代理们不再需要阅读过时的信息。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Endl</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">312</span>
+      </div>
+      <div class="tagline">一个用于法币、稳定币和卡片的全球运营账户。</div>
+      <div class="desc">Endl是为无国界企业提供的全球运营账户。通过这个账户，您可以收款、以法定货币或稳定币存放资金、在160多个国家支付承包商费用，还可以使用企业信用卡消费。一切操作都可以在一个账户中完成，旨在支持快速、合规的全球商业运作。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">TryCase</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">203</span>
+      </div>
+      <div class="tagline">为人工智能编码代理创建一次性测试环境</div>
+      <div class="desc">TryCase为AI编码助手提供一次性Linux环境，允许它们运行应用程序、进行端到端测试、捕捉截图和录制视频，并返回经过验证的代码，而不是让你手动测试。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">MentionDrop MCP</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">175</span>
+      </div>
+      <div class="tagline">给你的人工智能助手实时市场信号。</div>
+      <div class="desc">MentionDrop MCP 连接了 Claude、Cursor、Windsurf 等多种了解 MCP 的代理，提供实时品牌监测服务。它的代理会从一些高质量的信息源（如 Reddit、Google 新闻、搜索引擎以及特定的公共网站）中提取品牌提及、竞争对手的讨论以及公众客户的痛点，进行分类整理，并为您草拟回复，供您审阅。这个工具支持11个工具、账户范围的 API 密钥，且不会自动发布内容。您只需问“我今天应该关注什么？”就能得到一个可以落实的答案。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">CircleChat</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">146</span>
+      </div>
+      <div class="tagline">给你的人工智能助手提供一个沟通平台、一个任务管理板和一个负责人。</div>
+      <div class="desc">CircleChat 是一个工作空间，团队里的 AI 代理在这里进行实际工作。你只需设定一个目标，团队就会把它拆分成任务，放到看板上，认领工作，并通过你能看到的渠道进行汇报。在任务完成之前，一个大型语言模型（LLM）将对每个交付成果进行验证，这样你得到的就是实际输出，而不是闲聊。你可以在 live.circlechat.co 公开观看我们的 AI 代理工作。我们提供免费的自托管版本（MIT 许可证），或者你也可以选择我们为你提供服务，价格从每个工作空间每月 29 美元起。你可以使用自己的模型密钥，我们绝不加价代币。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Pennen</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">111</span>
+      </div>
+      <div class="tagline">每天一页安静的手写文字。不需要社交媒体，也不需要人工智能。</div>
+      <div class="desc">Pennen是一款专为iPad和Apple Pencil设计的平静、私密的手写日记应用。每天一页，采用真实的墨水：过去的页面会被封存并变为只读，表情符号贴纸可以随意贴上，而即便是一行的夜间记录也不会被忽视。你的页面只存储在你的iPad上和个人的iCloud中：无需注册账号、没有广告、没有数据分析，也没有人工智能在阅读你的文字。定价与一本笔记本相当——提供为期7天的免费试用的年度订阅，或者一次性终身购买，价格还低于Moleskine。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Toku Reader</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">105</span>
+      </div>
+      <div class="tagline">阅读和收听母语为日语和汉语的内容，点击任何一个单词。</div>
+      <div class="desc">Toku将日语和中文的文章、小说、播客和YouTube视频转化为易于阅读的内容。你可以轻松点击任何单词，查看其读音、意思和词典解释，而无需离开页面。在音频和视频中，你会获得同步的可点击文字稿：点击单词进行学习、减速播放、重播某一行，或在每句话后暂停，跟读回去。它在设备上运行自己的日语/中文引擎，配有离线词典——快速、私密，无需注册，无需连续使用记录。只需专心阅读。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Claude Sonnet 5 Brand Report</td>
+        <td><span class="votes-sm">▲ 29</span></td>
+        <td>Claude Sonnet 5 是一首探讨品牌形象和价值的诗歌。它可能会强调品牌的独特性、创新性，以及与消费者之间建立的情感联系。通过生动的比喻和形象的描绘，诗中可能表达了品牌在市场中的地位和影响力，以及如何通过与用户的互动增强品牌忠诚度。总的来说，它传达了品牌不仅仅是一个名字，而是与人们生活密切相关的体验和故事。</td>
+      </tr>
+      <tr>
+        <td>VoicePad AI</td>
+        <td><span class="votes-sm">▲ 25</span></td>
+        <td>Windows、Mac、iOS 和 Android 的离线语音输入功能</td>
+      </tr>
+      <tr>
+        <td>tinypad</td>
+        <td><span class="votes-sm">▲ 22</span></td>
+        <td>浏览器书签，整齐又时尚的启动面板</td>
+      </tr>
+      <tr>
+        <td>NotientAI</td>
+        <td><span class="votes-sm">▲ 22</span></td>
+        <td>适应每位访客的AI社会证明弹窗</td>
+      </tr>
+      <tr>
+        <td>Serca</td>
+        <td><span class="votes-sm">▲ 18</span></td>
+        <td>为创作者提供的人工智能驱动工作空间，帮助他们加速成长。</td>
+      </tr>
+      <tr>
+        <td>Codeswtch</td>
+        <td><span class="votes-sm">▲ 18</span></td>
+        <td>AI构建软件的工程判断</td>
+      </tr>
+      <tr>
+        <td>Magnut AI</td>
+        <td><span class="votes-sm">▲ 17</span></td>
+        <td>人工智能驱动的社交媒体自动化平台</td>
+      </tr>
+      <tr>
+        <td>Proofling</td>
+        <td><span class="votes-sm">▲ 17</span></td>
+        <td>一个在你睡觉时收集反馈的AI助手</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-07-16
+  </footer>
+</div>
+</body>
+</html>

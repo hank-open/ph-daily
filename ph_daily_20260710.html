@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年7月10日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年7月10日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Auriko</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">553</span>
+      </div>
+      <div class="tagline">大型语言模型（LLM）调用的交易台</div>
+      <div class="desc">Auriko将大型语言模型（LLM）提供商视为交易场所，并通过套利来获取利润。这个由前量化交易员打造的成本套利引擎，会根据每个用户的请求模式进行调整，选择最优的推理路径。这些路径会基于代币价格、缓存行为、延迟、可靠性和请求质量等因素进行优化。Auriko的基准测试显示，与行业同行和直接提供商相比，平均可以降低30%的成本。想了解更多，可以查看来源网站：https://www.auriko.ai/reports/llm-cost-arbitrage</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Timbal AI</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">495</span>
+      </div>
+      <div class="tagline">在一个平台上构建人工智能代理、工作流程和应用程序。</div>
+      <div class="desc">Timbal帮助团队将人工智能原型转化为生产系统。你可以在一个平台上构建智能代理和工作流程，将它们与数据连接，设计界面，进行部署、监控、评估和管理。与其为数据检索、流程协调、用户界面、可观察性和评估分别使用不同的工具，Timbal提供了一个核心平台，让你可以轻松构建可靠的人工智能应用。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Perfai Security</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">317</span>
+      </div>
+      <div class="tagline">用一个提示找到并修复Vibe Apps中的实时漏洞。</div>
+      <div class="desc">为Vibe编码应用提供自动化访问控制安全。我们的平台能够实时发现并修复您在Replit、Lovable、Claude Code、Cursor等AI编码工具上构建的vibe-apps中的安全漏洞。只需一次提示，您的应用就能在几分钟内准备好上线，无需专业的安全知识。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Toyo</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">292</span>
+      </div>
+      <div class="tagline">一位专门的行政助理，习惯通过iMessage沟通，并且会打电话给你。</div>
+      <div class="desc">Toyo是一个个人智能助手，可以在你的信息中与之交流，也能打电话给你。你可以像和同事发信息一样和它对话。Toyo可以帮助你整理收件箱，准备电话会议，推动项目进展，并从公司的工具中提取答案和相关信息。它支持文字和语音交流：当你想要获取更新或讨论工作时，可以让它打电话给你。Toyo集成在iMessage中，因此无需下载新的应用程序，也无需管理新的标签页。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Lispr</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">277</span>
+      </div>
+      <div class="tagline">握住一个钥匙，讲出你的话，Lispr就会把它写到任何地方。</div>
+      <div class="desc">Lispr是一款适用于Mac和Windows的免费语音听写和翻译应用。只需按住一个键，说出你的话，然后松开。你的话语会出现在光标所在的任意应用中。它支持大约99种语言，你甚至可以在句子中途切换语言。同时按住翻译键，翻译结果会以32种语言呈现。平均延迟为346毫秒。麦克风在你按住按键之前是关闭的，我们也不会存储你的音频。无需注册、无需下载模型，完全免费。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Opper AI</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">240</span>
+      </div>
+      <div class="tagline">欧洲人工智能代理网关</div>
+      <div class="desc">一个API密钥即可访问300多个模型，服务器位于欧盟。与OpenAI、Anthropic和Google的SDK兼容，只需更改基本URL即可切换。我们的不同之处在于：超过30个提供商中约一半在欧洲进行推理，一个欧盟的子处理器覆盖所有模型，默认情况下不存储任何提示信息。还可以添加控制面板，用于路由、个人信息保护、每个团队的支出上限和审计记录。原生支持：只需在Claude Code或Cursor中粘贴一行代码，Opper就会为您设置好。代币没有附加费用，充值时收取3%的手续费。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">GPT-Live</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">206</span>
+      </div>
+      <div class="tagline">ChatGPT的全双工语音功能</div>
+      <div class="desc">GPT-Live是OpenAI为ChatGPT语音功能推出的新型全双工语音模型。它能够同时听和说，更自然地处理停顿和打断，并且可以将更复杂的搜索或推理任务交给后台的先进模型来完成。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Aura: Agents + Git + Intent Open Source</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">175</span>
+      </div>
+      <div class="tagline">开源IDE，用于控制带有内置循环的AI编程助手</div>
+      <div class="desc">Aura 不是一个普通的编程聊天框，而是一个与 Git 深度集成的 IDE，专为与 AI 编程助手协作而设计。你可以运行这些助手，跟踪它们在函数和类层面上的修改，比较代码与原始意图之间的差异，并在提交之前确认任务是否真正完成。Git 让你看到哪些行被修改了，而 Aura 则展示了逻辑上的变化。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Monogram AI</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">165</span>
+      </div>
+      <div class="tagline">具备视觉和互动界面的人工智能</div>
+      <div class="desc">我们想要分享我们的新iOS应用程序。你可以随便问，Monogram会用一个直观、互动的界面来回应你，而不是一大堆文字。我们开发了一项技术，可以瞬间生成完整的用户界面，仅需几秒钟。这种界面提供了一致且精心设计的用户体验。我们设计Monogram是为了满足日常需求，无论你是想找些东西看、寻找食谱、计划旅行，还是任何其他想法。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Tasks.txt</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">151</span>
+      </div>
+      <div class="tagline">macOS的纯文本任务管理器</div>
+      <div class="desc">你一直在使用 atxt 文件，所以我让它变得更快。Tasks.txt 是一款免费的原生 macOS 应用，专为在 atxt 文件中运行任务的人设计。它支持简单的文本 todo.txt 格式，所有操作都有快捷键。没有云存储，也不需要注册账户。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Just Ask by SEORCE</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">141</span>
+      </div>
+      <div class="tagline">在WhatsApp上与您的SEO和AI可见性数据进行交流。</div>
+      <div class="desc">SEO软件在过去20年里几乎没有变化：登录、打开仪表板、生成报告、寻找答案。我们认为是时候改变界面了。SEORCE让你可以直接在WhatsApp上与SEO、地理位置、分析、反向链接和AI可见性数据进行对话。你可以用简单的英语提问复杂的问题，并立即从实时数据中得到可操作的答案。别再费力寻找仪表板了，直接问就行。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Coasty</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">140</span>
+      </div>
+      <div class="tagline">一个可以像人类一样运行旧版软件的计算机使用代理。</div>
+      <div class="desc">Coasty是一款可以全自动操作真实桌面软件的计算机助手。最初，我们专注于医疗行业的预授权，自动处理保险公司门户和旧版电子健康记录，同时还负责数据隐私方面的数据删除。现在，我们的业务已经扩展到保险、税务和会计领域。Coasty能够独立完成这些工作，同时支持人工接管，并提供完整的审计记录。在OSWorld Verified的独立验证中，Coasty以82.81%的准确率排名接近榜单前列（共359个任务）。使用Coasty时不需要任何API接口。如果软件有屏幕，Coasty都能操作它。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Constellation Gate AI</td>
+        <td><span class="votes-sm">▲ 125</span></td>
+        <td>提示注入和令牌节省 &amp;#8211; 基准测试中的第一名</td>
+      </tr>
+      <tr>
+        <td>ARKAD Wallet</td>
+        <td><span class="votes-sm">▲ 111</span></td>
+        <td>用声音来控制你的预算</td>
+      </tr>
+      <tr>
+        <td>Glimpse</td>
+        <td><span class="votes-sm">▲ 111</span></td>
+        <td>竞争情报专员</td>
+      </tr>
+      <tr>
+        <td>Outloud</td>
+        <td><span class="votes-sm">▲ 63</span></td>
+        <td>一个能够用你的语气管理社交媒体的AI代笔助手</td>
+      </tr>
+      <tr>
+        <td>Surge</td>
+        <td><span class="votes-sm">▲ 34</span></td>
+        <td>将你的初创公司网址转变为每周内容系统</td>
+      </tr>
+      <tr>
+        <td>Blocks.ai</td>
+        <td><span class="votes-sm">▲ 32</span></td>
+        <td>AI代理的控制层和网络层</td>
+      </tr>
+      <tr>
+        <td>VerifiedMRR — Private Revenue Dashboards</td>
+        <td><span class="votes-sm">▲ 28</span></td>
+        <td>一个仪表盘汇总你所有项目的收入情况。</td>
+      </tr>
+      <tr>
+        <td>KnowYourCompany.ai</td>
+        <td><span class="votes-sm">▲ 28</span></td>
+        <td>揭示潜在洞察，自信投资</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-07-16
+  </footer>
+</div>
+</body>
+</html>

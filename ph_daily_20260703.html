@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年7月3日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年7月3日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Context.dev</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">730</span>
+      </div>
+      <div class="tagline">一个API，帮助你抓取、丰富和提取互联网信息。</div>
+      <div class="desc">Context.dev 是一个专为 AI 产品和代理设计的网页上下文 API。你可以抓取任何网址，爬取网站，轻松将页面转换为适合大型语言模型（LLM）使用的 Markdown 格式，提取结构化数据并按自己的需求进行整理，还能捕获屏幕截图，获取公司标志、颜色、字体、设计规范、公司信息和交易增强数据，所有这些操作都可以通过一个 API 完成。该项目得到了 YC 的支持，无需信用卡，开发者或编程代理可以在几分钟内轻松集成。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Fypro</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">673</span>
+      </div>
+      <div class="tagline">将你的TikTok粉丝转化为付费客户</div>
+      <div class="desc">你已经在TikTok上积累了一批信任你的粉丝。Fypro可以将这些粉丝转化为你真正拥有的付费客户。只需输入你的账号，它就会读取你的内容，并为你构建一个完整的系统：一个基于你内容的网站、一个与您领域匹配的商品商店、用你自己的声音制作的视频，以及一个属于你的客户和邮箱列表。Fypro经过4百万个热门TikTok视频的训练，已经被超过2000位创作者使用。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Needle</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">286</span>
+      </div>
+      <div class="tagline">Slack和Teams中的主动GTM代理</div>
+      <div class="desc">大多数销售AI工具都是被动等待你发问，而Needle则是主动出击。它就像你团队中的一名市场进入（GTM）工程师：它实时监控你的销售管道，在你采取行动之前就先行一步。它能识别停滞不前的交易，自动起草跟进邮件，帮助你准备电话会议，保持你的客户关系管理（CRM）系统整洁，并能挖掘真实的购买信号。Needle集成在Slack和Teams中，并与HubSpot、Gmail和Gong无缝连接。与一般的横向智能助手不同，它专为收入团队设计，能根据你的权限进行操作，同时你的上下文和记忆都是可移动的，没有锁定限制，也不需要再使用另一个仪表板。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">PixFit</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">221</span>
+      </div>
+      <div class="tagline">将一个创意瞬间转化为各种广告格式。</div>
+      <div class="desc">高级设计师不应该花时间手动调整素材大小，也不需要关注TikTok的安全区域。PixFit可以将一个关键视觉自动转换为适合各种广告格式的设计——完美契合品牌要求，针对不同平台，随时可以发布。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Macro</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">183</span>
+      </div>
+      <div class="tagline">将你的工作整合到一个应用中，使用共享记忆功能。</div>
+      <div class="desc">Macro是一个集成了电子邮件、消息、文档、任务、代码、代理、电话和客户关系管理（CRM）的全能工作空间。借助团队级的记忆功能，你可以随时查询整个工作空间的信息，再也不会失去上下文。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Solaris</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">158</span>
+      </div>
+      <div class="tagline">贵公司的人工智能应用和技能提升平台</div>
+      <div class="desc">Solaris 是一个以人工智能为核心的转型平台，旨在帮助组织在每个团队中建立人工智能的流利度。首先进行一次流利度测试，以了解团队当前的水平，然后为每个团队提供量身定制的学习内容、实际案例、工作流程挑战、倡导者以及采用情况跟踪。Solaris 帮助公司从零散的人工智能实验转向可衡量的能力，使得人工智能成为实际工作的一部分。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Banger Mail</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">146</span>
+      </div>
+      <div class="tagline">团队和人工智能代理的共享邮箱</div>
+      <div class="desc">Banger 是一款专为使用共享邮箱的团队设计的原生 Mac 应用，比如 support@、sales@ 和 founder@。你和 AI 助手可以在同一个邮箱中协作：AI 助手负责分类、标记和草拟邮件，而你在任何邮件发送之前都可以进行审核。你可以连接自己的域名或 Google Workspace 账户，搜索所有邮件，分配对话，并在工作板上跟踪进度。现在提供早期体验：14 天免费，包含 2 个邮箱和 100 个 AI 使用额度，无需信用卡。名额有限，现有 500 个位置。首发 Mac 版，Windows 和移动版将随后推出。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">PieterPost MCP</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">134</span>
+      </div>
+      <div class="tagline">将你的人工智能助手连接到邮政邮件系统。</div>
+      <div class="desc">PieterPost MCP 将人工智能代理与邮政邮件连接起来。无论是使用 ChatGPT、Claude、Codex 还是任何 MCP 客户端，这些代理都可以准备信件和明信片，使用 Mailbook 联系人，上传附件或明信片图片，创建付款链接，并跟踪订单。这项技术将 PieterPost 的在线邮件、API 和支付链接工作流程整合进代理工具中。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">scritty</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">124</span>
+      </div>
+      <div class="tagline">为每个AI编程代理提供共享的可搜索记忆</div>
+      <div class="desc">Scritty 是一个终端模拟器，可以记录每个命令行代理（比如 Claude、Codex、Copilot、Antigravity 和 Ollama）之间的对话。它会将这些对话整理成一个可搜索的数据库，完全由你掌控，并通过 MCP 返回给你的代理，同时你也可以在命令行界面查看。无论是在桌面、浏览器还是手机上，你都可以进行一次会话。你的记录将保留在你的设备上。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Sidedoor</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">121</span>
+      </div>
+      <div class="tagline">把你感兴趣的职位粘贴上来，看看你的人脉中谁可以帮你推荐。</div>
+      <div class="desc">Sidedoor 可以搜索你的 Gmail、LinkedIn、Instagram、Twitter、Outlook 以及朋友的联系网络，帮你找到可以推荐你去任何工作的联系人。很多人都会对结果感到惊讶。完全免费哦！</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Macuse</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">118</span>
+      </div>
+      <div class="tagline">在macOS上赋予你的人工智能超能力</div>
+      <div class="desc">Macuse 是一款本地 macOS 应用，它可以将 Claude、Codex、Cursor、Raycast 以及任何与 MCP 兼容的 AI 客户端连接到你的 Mac 应用程序。通过这个应用，AI 助手可以本地访问日历、邮件、笔记、提醒和信息，并能通过计算机使用实现对实际应用的控制。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">html.contact</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">117</span>
+      </div>
+      <div class="tagline">一个你可以在付款前测试的完整后端服务。</div>
+      <div class="desc">html.contact 将普通的 HTML 表单转变为功能齐全的电子邮件表单，支持附件、日志记录、导出、API 访问、经过验证的路由、域名白名单和垃圾邮件控制。免费计划旨在让您在升级之前能够真实地测试整个设置，而不仅仅是体验几个功能。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>EasyAR Mega</td>
+        <td><span class="votes-sm">▲ 115</span></td>
+        <td>将整个城市变成你的增强现实画布。</td>
+      </tr>
+      <tr>
+        <td>Basedash Actions</td>
+        <td><span class="votes-sm">▲ 115</span></td>
+        <td>一个可以为你采取行动的商业智能工具</td>
+      </tr>
+      <tr>
+        <td>Flowly</td>
+        <td><span class="votes-sm">▲ 111</span></td>
+        <td>一个可以在你的桌面和iPhone上运行的个人AI助手</td>
+      </tr>
+      <tr>
+        <td>Gaming Chat SDK by CometChat</td>
+        <td><span class="votes-sm">▲ 103</span></td>
+        <td>聊天功能就像一直存在一样，顺利地融入了Unreal。</td>
+      </tr>
+      <tr>
+        <td>Retrace</td>
+        <td><span class="votes-sm">▲ 99</span></td>
+        <td>通过回放和分叉运行来调试人工智能代理。</td>
+      </tr>
+      <tr>
+        <td>Quick Sub 2: Video Subtitling</td>
+        <td><span class="votes-sm">▲ 93</span></td>
+        <td>快速、创意的视频字幕制作，直接在画布上进行控制。</td>
+      </tr>
+      <tr>
+        <td>adsideō</td>
+        <td><span class="votes-sm">▲ 59</span></td>
+        <td>在你提问之前就能工作的环境智能层</td>
+      </tr>
+      <tr>
+        <td>ZCode</td>
+        <td><span class="votes-sm">▲ 51</span></td>
+        <td>GLM-5.2的官方安全带</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-07-16
+  </footer>
+</div>
+</body>
+</html>

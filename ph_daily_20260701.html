@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年7月1日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年7月1日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Cursor for iOS</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">537</span>
+      </div>
+      <div class="tagline">随时随地与编码助手一起构建项目</div>
+      <div class="desc">Cursor 现在作为原生 iOS 应用进入公测阶段，让你无论身在何处都能进行开发。之前，开发者们常常受到本地机器性能的限制，不得不随身携带半开着的笔记本电脑，随时喝咖啡维持精力。而有了 Cursor for iOS，你可以在云端启动始终在线的代理，或者通过手机控制正在你电脑上运行的代理。灵感来袭时随时启动，工作准备好审核时会收到通知，甚至可以在移动中合并代码请求。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Skills Marketplace by Databox</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">394</span>
+      </div>
+      <div class="tagline">为您的业务数据准备好的人工智能分析技能</div>
+      <div class="desc">一个现成技能的库，专注于付费广告、网站表现、电商、收入等多个领域。每个技能都会利用你实时的表现数据，并在一分钟内生成一份完整的、可分享的报告。你可以在Claude中即时获取答案，或者在n8n中预约，让报告自动发送到Slack或邮箱。免费下载哦！</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Foresight by Lightning Rod</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">317</span>
+      </div>
+      <div class="tagline">用人工智能预测任何事情</div>
+      <div class="desc">Foresight by Lightning Rod是一款与OpenAI兼容的预测API，专为开发者打造，适用于构建智能代理、预测市场机器人和决策工具。你只需提出一个关于未来事件的问题，就能获得一个经过评分和校准的预测结果。与通用的大型语言模型不同，Foresight是基于真实世界的结果进行训练和评估的，具有经过基准验证的准确性、成本更低的推理过程，以及即插即用的API，方便用于预测工作流。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Akiflow</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">248</span>
+      </div>
+      <div class="tagline">通过Claude、ChatGPT或Cursor管理任务和日历。</div>
+      <div class="desc">Akiflow是一款数字化的规划工具和日历，旨在集中管理任务、统一日程和优化工作效率，非常适合忙碌的专业人士！体验全球首屈一指的时间区块应用吧！</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Supafax</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">228</span>
+      </div>
+      <div class="tagline">一款能够学习您工作方式的电子邮件助手</div>
+      <div class="desc">Supafax 是一款专为电子邮件设计的智能助手，它可以学习你的工作习惯，帮助你整理收件箱，草拟回复邮件，并全程安排会议。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">v0 Design Systems 2.0</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">186</span>
+      </div>
+      <div class="tagline">使用你的组件、颜色、字体和图案进行构建。</div>
+      <div class="desc">v0 设计系统 2.0 发布了！现在你可以从团队已经使用的各类资源中导入你的设计系统，比如 GitHub 仓库、公共和私有的 npm 包、Storybook 和文档、Figma 框架、截图、ZIP 文件以及真实应用。v0 会学习你的设计系统是如何实际运作的，并为你创建一个包含组件和设计元素的实验空间。你可以预览结果，继续在聊天中迭代，等准备好了再保存。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Dayflow</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">174</span>
+      </div>
+      <div class="tagline">帮助你晋升的开源工具</div>
+      <div class="desc">升职不仅仅是做好工作，还要记住并证明自己的成就。你能记得自己23周前做了什么吗？Dayflow是一款以本地优先的macOS应用，它利用你的屏幕数据和人工智能，自动记录你的工作日。无需计时器，也不用手动记录。每一次修复的bug、撰写的文档和解决的问题都会被记录下来，随时可以用于团队会议、一对一交流和绩效评估。它支持运行任何模型（本地或云端），所有数据都保存在你的Mac上。开源，采用MIT许可证。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Pluno</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">173</span>
+      </div>
+      <div class="tagline">比Claude快十倍的浏览器代理</div>
+      <div class="desc">Pluno在浏览器中轻松超越了Claude。Claude像个醉酒的实习生一样在界面上乱点，而Pluno则直接与API对接，以10倍的速度完成任务，使用的令牌数量也减少了10倍。Pluno可以瞬间学习新工具，像专业人士一样使用各种网络应用。经过测试，Pluno在500多个网络应用中表现优于Claude。Claude在点来点去，而Pluno则高效完成任务。上线当天，用户可获得50美元的免费信用额度。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">AgentPeek</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">166</span>
+      </div>
+      <div class="tagline">在你的Mac的刘海屏上使用Claude Code和Codex</div>
+      <div class="desc">你正在运行越来越多的编码助手，但却跟不上它们的节奏。这时，AgentPeek就派上用场了。它可以将每个会话实时显示在你的Mac屏幕顶部。只需抬头看看，批准一个提示，监控使用的代币，管理整个流程，甚至可以不暂停你正在观看的YouTube视频。一切都在本地，完全掌控在你手中。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Brain2Qwerty v2</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">140</span>
+      </div>
+      <div class="tagline">直接从非侵入性脑信号中解码语句</div>
+      <div class="desc">Brain2Qwerty v2 是Meta推出的一种非侵入性脑机接口，能够将原始的脑磁图（MEG）信号解码成文本。通过端到端的深度学习和大型语言模型（LLMs），它在无需手术的情况下实现了高达78%的单词准确率。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Tinkerfont</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">140</span>
+      </div>
+      <div class="tagline">实时网站的免费字体试用平台</div>
+      <div class="desc">Tinkerfont是一款免费的Chrome扩展和Firefox附加组件，专为设计师、开发者和爱好者们打造，帮助他们在真实网站上实验字体，而无需打开开发者工具、修改设计系统或编辑样式表。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Load Nova</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">136</span>
+      </div>
+      <div class="tagline">为调度员提升速度而设计的AI副驾驶和仪表盘</div>
+      <div class="desc">为调度员提供一个统一的工作空间。减少切换标签页的麻烦，让货运更智能化。Load Nova 是一个位于货物运输板旁边的 Chrome 边侧面板和仪表盘。它能解析经纪人的邮件，计算真实的每英里收益和利润，规划实时天气下的运输路线——这一切在3分钟内即可完成，无需切换标签页。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Justwrite</td>
+        <td><span class="votes-sm">▲ 122</span></td>
+        <td>一个私密的、本地优先的写作空间，可以离线使用。</td>
+      </tr>
+      <tr>
+        <td>Oakamo</td>
+        <td><span class="votes-sm">▲ 120</span></td>
+        <td>你可以在这里找到一个安静的地方，稍后阅读文章。</td>
+      </tr>
+      <tr>
+        <td>Clade</td>
+        <td><span class="votes-sm">▲ 107</span></td>
+        <td>AI首席运营官，帮助你管理团队，使用你已经在用的工具。</td>
+      </tr>
+      <tr>
+        <td>Bilt.me &amp;#8211; Figma</td>
+        <td><span class="votes-sm">▲ 103</span></td>
+        <td>将你的Figma设计转化为真实的移动应用程序。</td>
+      </tr>
+      <tr>
+        <td>DropK</td>
+        <td><span class="votes-sm">▲ 94</span></td>
+        <td>不做作的托盘</td>
+      </tr>
+      <tr>
+        <td>iVox</td>
+        <td><span class="votes-sm">▲ 92</span></td>
+        <td>第一款专注于1980年代磁带编辑效果的应用程序。</td>
+      </tr>
+      <tr>
+        <td>Midway Chat</td>
+        <td><span class="votes-sm">▲ 88</span></td>
+        <td>Memberstack 和 Webflow 网站的实时会员聊天功能</td>
+      </tr>
+      <tr>
+        <td>Webless</td>
+        <td><span class="votes-sm">▲ 36</span></td>
+        <td>寻找将流量转化为销售线索的网站的AI工具</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-07-16
+  </footer>
+</div>
+</body>
+</html>

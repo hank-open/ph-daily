@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年7月16日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年7月16日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">V2Fun</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">644</span>
+      </div>
+      <div class="tagline">生成一个具有8K纹理和人工智能动作捕捉的3D角色。</div>
+      <div class="desc">V2Fun是一个人工智能3D创作平台，采用自主研发的3D建模和AI动作捕捉模型。它帮助创作者将图像、提示和视频转化为高质量的3D模型，利用先进的8K纹理生成技术提升素材，并且可以创建可直接用于动画的角色，而无需在不同的建模、纹理和动作捕捉工具之间切换。V2Fun还支持通过Nano Banana等模型生成图像，使创作者能够更快地探索视觉概念并将其转化为3D作品。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Velo 3.0</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">619</span>
+      </div>
+      <div class="tagline">AI视频基础设施，帮助更快地进行解释、培训和销售。</div>
+      <div class="desc">Velo 3.0来了，这是我们迄今为止最大的一次发布！你可以从屏幕录制或输入一个提示开始。只需描述你想要的视频，Velo会为你撰写脚本，用你的声音进行旁白，并制作出最终的视频成品。它会结合你公司的知识，利用你通过连接器和MCP连接的文档和工具。你只需通过输入文字来编辑内容。最终制作的视频可以一键翻译成25种以上的语言。无论是录制还是提示，Velo都能将其转化为一个精美的视频，随时可以发布。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Campus</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">430</span>
+      </div>
+      <div class="tagline">一个人类与人工智能代理共享的项目空间</div>
+      <div class="desc">Campus为开发者提供了一个共享空间，方便与团队成员和AI助手一起协作开发。你可以将代码仓库、终端、项目知识、对话记录和AI助手的工作集中在一个持久的工作区中，而不是分散到Slack线程、文档、工单、画布和一次性的AI聊天中。Campus围绕你正在构建的项目进行组织，这样人类和AI助手就能无缝接续之前的工作。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Agently</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">325</span>
+      </div>
+      <div class="tagline">你的整个技术栈，自动运行！</div>
+      <div class="desc">其他工具要么只是回答问题，要么检索信息，或者执行一些脆弱的规则。而Agently则能全面了解你公司的情况，并且真正完成工作。它有100多个连接器，将所有信息汇聚成一个从不遗忘的“大脑”。比如，它可以自动将Stripe的事件链接到Slack的讨论，再到Linear的工单。当有任务需要处理时，Jarvis会把它分配给一个代理，负责从头到尾完成：触发、执行、交付。工作的完成不需要你亲自参与，任何事情都不会被遗漏。连接的过程只需要几分钟。这是今天的人工智能和未来的通用人工智能之间的桥梁。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Crustdata Recruiter</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">275</span>
+      </div>
+      <div class="tagline">将Claude打造成一个100倍效率的招聘专家的技能</div>
+      <div class="desc">这是一套招聘技能，能够在Claude内运行，利用来自Crustdata超过10亿个个人资料的实时数据。它会随着每一次搜索学习你的判断，按照你的标准对候选人进行排名，解释每个候选人的选择理由，并将联系信息整理进你的申请追踪系统（ATS）中。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Flodesk Studio</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">192</span>
+      </div>
+      <div class="tagline">一个可以制作精美邮件的地方。</div>
+      <div class="desc">描述一下，Flodesk Studio 能在几秒钟内设计出美观且符合品牌形象的电子邮件。这款工具由顶尖设计师打造，借助人工智能加速设计过程，最后由你来完成。现在免费提供测试版。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">YAGNI</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">192</span>
+      </div>
+      <div class="tagline">您管理的主动代理团队就像人类一样。</div>
+      <div class="desc">如今的人工智能是被动的：它等待着你的下一条指令。而YAGNI则是一种主动的团队管理方式，像对待人一样管理团队。给团队分配职责和边界，定期检查他们的工作，随着他们的表现记录，你可以逐渐赋予他们更大的自主权，同时你依然掌控那些重要的决策。只需粘贴你公司的网址，YAGNI就能在几秒钟内为你创建第一个团队。你不再需要更多的软件，而是需要一个每周都在进步的团队。让你的公司变成一个自我提升的组织。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Tiptap AI Toolkit</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">176</span>
+      </div>
+      <div class="tagline">让你的人工智能能够实时直接编辑文档。</div>
+      <div class="desc">AI工具包现在已进入生产就绪的测试版阶段——我们将向100位开发者赠送终身免费许可证。聊天机器人制作很简单，但在富文本文档中实时编辑却出乎意料地困难。别再浪费几个月的开发时间：Tiptap为你的AI和团队实际工作的文档之间提供了一个安全、可靠的桥梁。现在就注册Tiptap账号，参与我们的赠品活动：前100位用户将获得免费的终身AI工具包许可证（每月可使用10万次工具调用），只需提供反馈即可。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">RecordMeeting</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">174</span>
+      </div>
+      <div class="tagline">在没有通知的情况下录音和转录任何通话。</div>
+      <div class="desc">私密记录并转录你的通话 🥷 没有机器人参与，也没有录音提示。自动生成转录、摘要、可搜索的笔记、关键点，还能生成可分享的团队链接。支持 Google Meet、Zoom、WhatsApp、Microsoft Teams、Webex、Telegram 和 Discord。今天就来免费试试吧！</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Review by Eddie AI</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">154</span>
+      </div>
+      <div class="tagline">来自您的团队和人工智能的带时间戳的视频反馈，免费提供。</div>
+      <div class="desc">Eddie Review 是获取剪辑反馈的最快方式，几分钟内即可完成。无需登录，无需重新上传，完全免费。你可以从团队那里收集精准的逐帧评论，获得人工智能对你剪辑的评审，并将每条意见转化为可以行动的待办事项列表。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">CodeNearby 2.0</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">152</span>
+      </div>
+      <div class="tagline">开发者版的Tinder！寻找编程伙伴，一起合作开发！</div>
+      <div class="desc">CodeNearby是一个开源社交网络，专为开发者打造。在这里，你可以根据技能、兴趣或地点找到编程伙伴，实时聊天，分享更新，举办线上会议，并通过AI-Connect功能，通过自然对话发现合作伙伴。支持GitHub的个人资料，具备全球视野，聚焦本地需求。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">nudge2.0</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">140</span>
+      </div>
+      <div class="tagline">人工智能为你安排整周的行动计划。</div>
+      <div class="desc">别再管理了，直接行动吧！nudge 帮你规划一周的安排，让你轻松搞定。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Copresent</td>
+        <td><span class="votes-sm">▲ 126</span></td>
+        <td>把你的手机变成 Google Slides 遥控器</td>
+      </tr>
+      <tr>
+        <td>Keepresso</td>
+        <td><span class="votes-sm">▲ 125</span></td>
+        <td>让你的Mac在你需要的时候保持活跃。免费且开源。</td>
+      </tr>
+      <tr>
+        <td>Clerk | AI Assistant for Cap Tables</td>
+        <td><span class="votes-sm">▲ 123</span></td>
+        <td>发放补助、模拟融资轮次、询问任何与股权相关的问题。</td>
+      </tr>
+      <tr>
+        <td>Jam-Pod</td>
+        <td><span class="votes-sm">▲ 122</span></td>
+        <td>适合那些保留自己音乐收藏的用户的播放器</td>
+      </tr>
+      <tr>
+        <td>ccshare</td>
+        <td><span class="votes-sm">▲ 121</span></td>
+        <td>“多人游戏克劳德代码”</td>
+      </tr>
+      <tr>
+        <td>New AI tools by IFTTT</td>
+        <td><span class="votes-sm">▲ 108</span></td>
+        <td>使用Grok、Gemini、Perplexity等工具进行自动化。</td>
+      </tr>
+      <tr>
+        <td>DeskMat 1.3</td>
+        <td><span class="votes-sm">▲ 108</span></td>
+        <td>现在可以隐藏单独的文件和文件夹，让你的桌面更加私密。</td>
+      </tr>
+      <tr>
+        <td>QuickQuill</td>
+        <td><span class="votes-sm">▲ 107</span></td>
+        <td>Mac 上的私人设备内会议记录</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-07-17
+  </footer>
+</div>
+</body>
+</html>

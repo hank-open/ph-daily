@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年7月19日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年7月19日 · Top Products Launching Today</div>
+    <h1>今日精选 9 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">ZooData</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">595</span>
+      </div>
+      <div class="tagline">AI代理的数据层</div>
+      <div class="desc">ZooData 可以将任何网址转换为适合代理使用的 JSON 格式，这样 AI 代理就能处理结构化数据，而不是原始的 HTML 或冗长的 markdown。使用 ZooData，您可以减少约 75% 的 LLM 令牌消耗，只需为实际使用的字段付费，还可以省去额外的提取费用。除了数据提取，ZooData 还为代理提供经过预分析的电子商务情报，包括竞争对手、市场、流量和消费者洞察，支持实时获取 Amazon 和 TikTok 的数据。它还包括 API、CLI 和 MCP 服务器。您可以先体验 1,000 个免费积分，无需信用卡。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Clark</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">471</span>
+      </div>
+      <div class="tagline">一个拥有自己云计算能力的人工智能同事</div>
+      <div class="desc">Clark是一个人工智能助手，拥有自己的云计算环境，包括浏览器、终端、文件和代码。你只需给它一个真实的任务，关闭标签页，再回来时就能看到完成的工作：包括广泛的研究、网站、电子表格、演示文稿、审计或经过测试的代码。它可以将工作分配给多个专业人士，按照计划进行，并返回带有相关证据的成果。你可以在网页或移动设备上使用Clark，也可以在真实的代码库中与Clark Code协作，或者通过兼容OpenAI的API嵌入这个助手。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">LiveDemo</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">324</span>
+      </div>
+      <div class="tagline">开源替代方案：Storylane、Navattic 和 Arcade 的替代品</div>
+      <div class="desc">在几分钟内创建互动产品演示。捕捉任何工作流程，添加AI配音和个性化文本，然后以链接、嵌入代码、GIF或视频的形式分享，同时跟踪用户参与情况，并在你的网站、文档和销售活动中收集潜在客户信息。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Mirage</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">231</span>
+      </div>
+      <div class="tagline">让你的SaaS在90秒内变成一个可点击的演示。</div>
+      <div class="desc">大多数产品演示都是一段40MB的视频，没人会看完，或者是每月500美元的工具，初创公司根本无法承担。Mirage 提供了第三种选择：您只需一键捕捉真实应用，添加引导热点，然后在大约90秒内发布一个可点击的演示，您可以将其嵌入到任何地方。您可以跟踪观看次数、完成率和每一步的流失情况，这样就能找到问题所在，而不是盲目猜测。这非常适合用于着陆页、产品发布和入职邮件。首个演示永远免费。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">OpenMarkdown</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">198</span>
+      </div>
+      <div class="tagline">一个你和你的助手共同编辑的Markdown编辑器</div>
+      <div class="desc">一款快速、轻量的Markdown编辑器，可以瞬间打开任何 .md 文件。您的助手可以在您正在编辑的文件中进行读取、写入和协作编辑 — 通过命令行界面（CLI）、插件和MCP。它是本地优先的：无需账户、无需数据监测，您的文件始终保留在您的硬盘上。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Acebuilder</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">154</span>
+      </div>
+      <div class="tagline">使用Aceternity UI构建着陆页</div>
+      <div class="desc">Acebuilder 是一款由 Aceternity UI 团队开发的人工智能网站构建工具。与从头开始生成通用布局不同，它会利用 Aceternity 的专业模板和组件库。你可以导入整个页面或单个模块，然后通过与助手聊天来调整文本、布局和结构。你还可以在聊天中生成图片。对任何部分运行设计“技能”，帮助助手超越简单的填充内容，打造更精确的布局。最后，你可以将代码导出为 ZIP 文件，你拥有自己构建的内容。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Mainichi</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">141</span>
+      </div>
+      <div class="tagline">逐个都道府县学日语。</div>
+      <div class="desc">通过一个为长期记忆设计的间隔重复系统，学习超过20,000个日语单词。每天只需不到5分钟的有趣游戏化课程——告别无聊的课本！Mainichi让你不再沉浸在闪卡的枯燥中。短小轻松的课程，融入你真正的生活中——只需出现，放松心情，轻松进行词汇学习，让你的学习进度自然增长。简洁的卡片，快速的学习环节，还有一个实际在进度条。界面设计简洁，让你可以专注于单词本身。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">WX</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">128</span>
+      </div>
+      <div class="tagline">一种可演奏的生成声音实验合成器</div>
+      <div class="desc">WX是一款生成合成器插件，通过受控的随机化来创建不断变化的音色。只需双击即可生成声音，然后可以通过熟悉的合成参数、调制和内置效果来塑造它。它旨在为那些喜欢不可预测结果但又希望声音能够保持可演奏性的音乐人服务。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">DocuSmart AI</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">124</span>
+      </div>
+      <div class="tagline">将零散的知识整合成一个简单的系统。</div>
+      <div class="desc">DocuSmart AI让你可以用简单的英语搜索所有内部文件——无论是在Google Drive、SharePoint、Dropbox等多个平台上，都能从一个地方轻松找到所需内容。无需迁移、无需重新整理，也不需要培训。只需提出问题，就能得到答案。这个工具专为面临文件混乱的非营利组织和中小企业设计，帮助他们应对分散在多个系统中的大量文件。如果文档混乱给你的团队带来了时间上的损失，我们期待你的反馈，欢迎早期用户加入！</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>创始人智能图谱 &amp;#8211; 记录你的创业情况和你作为创始人的发展。</td>
+        <td><span class="votes-sm">▲ 24</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>AgentGrid</td>
+        <td><span class="votes-sm">▲ 68</span></td>
+        <td>你的AI代理团队、终端和笔记：一个无限的画布。</td>
+      </tr>
+      <tr>
+        <td>LeadJarvis</td>
+        <td><span class="votes-sm">▲ 26</span></td>
+        <td>将每一次活动互动迅速转化为合格的潜在客户！</td>
+      </tr>
+      <tr>
+        <td>Klutter AI</td>
+        <td><span class="votes-sm">▲ 19</span></td>
+        <td>人工智能驱动的费用跟踪器</td>
+      </tr>
+      <tr>
+        <td>Threat Surveillance</td>
+        <td><span class="votes-sm">▲ 19</span></td>
+        <td>一个简洁、没有广告的全球病毒和疫情信息平台。</td>
+      </tr>
+      <tr>
+        <td>Dictately</td>
+        <td><span class="votes-sm">▲ 19</span></td>
+        <td>按住一个键，就能在任何Mac应用中进行语音输入——轻松实现文字录入。</td>
+      </tr>
+      <tr>
+        <td>Grievyn</td>
+        <td><span class="votes-sm">▲ 18</span></td>
+        <td>为你所爱的亲人创建一个美丽的在线纪念馆</td>
+      </tr>
+      <tr>
+        <td>Postfleet</td>
+        <td><span class="votes-sm">▲ 18</span></td>
+        <td>防止提示注入的AI代理邮件</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-07-20
+  </footer>
+</div>
+</body>
+</html>

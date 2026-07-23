@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年7月22日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年7月22日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Lev8</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">550</span>
+      </div>
+      <div class="tagline">找到、研究并联系合适的人选。</div>
+      <div class="desc">与Lev8聊天，快速找到并联系到目标人群和公司。它通过并行的人工智能代理在互联网上进行实时搜索，覆盖各个角落。您可以通过流水线查询来丰富CSV数据，监测意图信号，并自动发送个性化的多渠道消息，一切操作均可自动完成。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">CartAI</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">440</span>
+      </div>
+      <div class="tagline">处理结账的人工智能助手。</div>
+      <div class="desc">结账是最难的部分，而大多数解决方案只能在商家已经整合的地方进行结账。CartAI 可以在任何活跃的商家平台上完成结账，而无需商家进行额外的工作，并且能够与机器人检测系统协作，而不是试图躲避它。我们提供一个开发者优先的 API，包含四个产品：目录（跨商家的搜索和实时定价）、结账（清晰地跟踪订单直到确认）、支付（通过 Visa 和 Mastercard 的代理系统将 PCI 责任转移出你的技术栈）、变现（每笔代理销售的佣金）。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">ditto.site</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">417</span>
+      </div>
+      <div class="tagline">将任何网站克隆为简洁的代码。免费且开源。</div>
+      <div class="desc">只需将 Point Ditto 指向任何公共网址，几分钟内即可获得与之相符、结构清晰的 Next.js 或 Vite 代码。这个工具的输出完全可预测，因此速度快、成本低且结果一致。它包含组件、样式变量、交互效果和悬停状态。此外，还提供免费的 REST API 和 MCP 服务器，且是开源的。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Rerun</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">333</span>
+      </div>
+      <div class="tagline">构建适用于所有任务的AI助手的最简单方法</div>
+      <div class="desc">大多数人工智能代理都是“黑箱”操作，你看不清它们的内部运作。但Rerun不一样。你可以轻松创建无需编码的代理，它们可以全天候工作，自动处理发票、筛选潜在客户、清理你的收件箱，并实时监控每一个步骤。在处理敏感信息之前，它们会暂停等待你的批准。每个工作空间都有自己的私有服务器。你可以选择使用自带的模型，或者连接你自己的API密钥或订阅服务。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Phantomstory</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">247</span>
+      </div>
+      <div class="tagline">只需两次点击，启动一个第三方博客即可赢得AEO。</div>
+      <div class="desc">Phantomstory帮助团队在不到5分钟的时间内，通过在新域名上发布第三方博客，赢得AEO（应用程序优化）。只需两次点击，Phantomstory就能快速创建可信的内容中心，逐步发布适合AI搜索的文章。这背后的秘密是：这些专业撰写的文章中，有一部分专门设计用来帮助大型语言模型（LLMs）发现、理解并推荐你的公司。不要再把AEO仅仅看作一个监测问题；借助Phantomstory，将AEO转变为一个真正能推动结果的可执行计划。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Routine AI</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">238</span>
+      </div>
+      <div class="tagline">用声音控制工作。就像工作的Siri。</div>
+      <div class="desc">Routine AI 让你通过语音来管理任务、日历、笔记和项目。你只需自然地说话，就能安排会议、添加提醒、记录想法、写笔记、查找信息、更新项目和自动化重复工作。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Jockey by TwelveLabs</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">206</span>
+      </div>
+      <div class="tagline">能够理解你整个资料库的视频AI助手</div>
+      <div class="desc">Jockey是首款能够像你一样理解整个媒体库的人工智能，它可以通过人、时刻或上下文在你拍摄的每一张照片和视频中进行搜索。得益于TwelveLabs的先进模型，Jockey会随着每次更新自动优化。不管你是需要通过MCP连接Claude/ChatGPT，还是想使用我们的API构建自定义应用，Jockey都能让你的媒体库瞬间变得可搜索和易于访问。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">CreateOS Sandbox</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">178</span>
+      </div>
+      <div class="tagline">即时硬件隔离的人工智能代理沙箱</div>
+      <div class="desc">CreateOS Sandbox为AI代理开发者提供了一个快速、安全、硬件隔离的沙箱，响应时间约为30毫秒（90百分位）。我们还提供了一整套命令行工具、软件开发工具包（SDK）、50多个实际应用的SDK示例、Claude插件、计算SDK集成等丰富的资源。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Skim</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">171</span>
+      </div>
+      <div class="tagline">免费开源的人工智能电子邮件客户端，适用于Windows系统。</div>
+      <div class="desc">Skim 是一款免费的开源（MIT许可）电子邮件客户端，专为 Windows 设计。✂️ 它的设计理念是简约：没有日历、没有规则引擎，也没有多余的功能。按钮更少，思维负担更轻。⚡ Skim 采用原生的 Rust 核心（Tauri 2）：安装包约 5 MB，启动速度快，支持瞬时全文搜索。🔒 它强调本地优先，支持离线使用，并且没有数据监测。✦ 人工智能随你掌控：你可以使用自己的 Anthropic 或 OpenRouter 密钥，Skim 会根据你的声音草拟回复，并回答你邮箱中的各种问题。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Manifest</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">153</span>
+      </div>
+      <div class="tagline">将任何网页转变为AI代理的行动清单</div>
+      <div class="desc">Manifest可以将任何网页转换为一个结构化的JSON地图，方便AI代理进行点击、填写和提交。只需一次API调用，不用担心不稳定的选择器。每个操作都有明确的CSS/角色定位器，同时还提供一个“requires”字段，用于编码元素之间的依赖关系（例如：“在这个按钮可点击之前，必须先选择一个计划”）。这些是上下文aria快照所无法提供的信息。它还包括Python SDK、LangChain支持和一个MCP服务器，专为需要发布浏览器代理的用户而设计。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Bolna Agent Studio</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">150</span>
+      </div>
+      <div class="tagline">10分钟打造语音AI助手</div>
+      <div class="desc">Bolna的Agent Studio让任何企业都能在几分钟内构建并部署一个符合生产标准的语音AI代理，无需复杂的提示工程。只需上传一个文档或回答几个引导性问题，Studio就能从经过生产测试的模块中组装出一个可以直接拨打电话的代理。注册后，您可以在第0天就开始拨打电话。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Topolines</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">143</span>
+      </div>
+      <div class="tagline">生成拓扑轮廓</div>
+      <div class="desc">绘制一个区域，生成清晰的地形等高线，并导出适合打印的SVG和高清PNG文件。支持渐变、海拔渐变以及适合Figma的输出格式。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>OpenChatCut</td>
+        <td><span class="votes-sm">▲ 139</span></td>
+        <td>开源人工智能代理视频编辑器，配备真实时间轴</td>
+      </tr>
+      <tr>
+        <td>tterm</td>
+        <td><span class="votes-sm">▲ 132</span></td>
+        <td>一个终端、一个真实的浏览器，以及Claude Code，这三者集合在同一个平台上。</td>
+      </tr>
+      <tr>
+        <td>Routebase</td>
+        <td><span class="votes-sm">▲ 129</span></td>
+        <td>在客户发现之前，及时捕捉API的变化。</td>
+      </tr>
+      <tr>
+        <td>DualStream</td>
+        <td><span class="votes-sm">▲ 127</span></td>
+        <td>轻松实现桌面和移动设备的同步直播。</td>
+      </tr>
+      <tr>
+        <td>Universal Dictation on Stream</td>
+        <td><span class="votes-sm">▲ 127</span></td>
+        <td>iOS 和 Mac 上的私人语音环用于听写功能</td>
+      </tr>
+      <tr>
+        <td>Tidy</td>
+        <td><span class="votes-sm">▲ 122</span></td>
+        <td>你的Mac会自动整理：截图、安装程序和下载文件。</td>
+      </tr>
+      <tr>
+        <td>PieceKeeper</td>
+        <td><span class="votes-sm">▲ 121</span></td>
+        <td>记录你的音乐曲目和练习情况</td>
+      </tr>
+      <tr>
+        <td>ProtoFlow</td>
+        <td><span class="votes-sm">▲ 119</span></td>
+        <td>适用于工程师和硬件团队的人工智能驱动电路板设计工具</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-07-23
+  </footer>
+</div>
+</body>
+</html>

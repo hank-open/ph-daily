@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年7月26日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年7月26日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Heard</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">330</span>
+      </div>
+      <div class="tagline">赋予Claude Code和Codex声音</div>
+      <div class="desc">Heard 是一款专为 macOS 设计的语音工具，旨在优化你的工作流程。它可以连接到 Claude Code、Codex 和 Cursor，将这些工具的输出转化为你可以听到的智能摘要。当你无法专注于屏幕时，它会为你提供全面的解说，或者在没有错误或需要决策的情况下保持静默。使用并行运行的代理，Heard 在项目层面进行总结，这样你就能听到工作的进展，而不是五个终端同时在说话。你可以将手机与其配对，随时随地使用。它是开源的，个人使用免费。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">FluentDB</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">311</span>
+      </div>
+      <div class="tagline">适用于Mac的AI数据库客户端</div>
+      <div class="desc">FluentDB 是一款适用于 macOS 的人工智能数据库客户端。它支持 PostgreSQL、MySQL、SQLite 和 SQL Server，更多选项也将在不久后推出。FluentDB 旨在提供快速、简洁和安全的体验，可以与 Anthropic 和 OpenAI 进行连接，用户可以使用自己的 API 密钥或 Claude Code/Codex 订阅，同时也支持通过 Ollama 使用本地模型。您的数据在未经您同意的情况下不会离开您的机器：模型只能看到您的数据库结构，而看不到具体数据，并且每个 AI 生成的 SQL 查询默认都需要您的批准。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Second Brain for Mac and Windows</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">262</span>
+      </div>
+      <div class="tagline">你的AI记忆，随时随地伴随你工作。</div>
+      <div class="desc">第二大脑桌面应用程序让你在五分钟内完成设置。无需终端，也不需要git。只需下载、设置密码，然后登录Cloudflare，真正的功能就开始了。你的每一个AI工具都能拥有持久的记忆，记忆变得更聪明了。不再只是调取最新的记忆，而是能找到最合适的那条。知识图谱自动生成。你的数据存储在你自己的Cloudflare账户中，而不是我们的。适用于Mac和Windows。你们要求这个应用，也希望更好的记忆能力，我们都实现了。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">OpenComputer</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">216</span>
+      </div>
+      <div class="tagline">最简单的方式来部署一个托管代理。</div>
+      <div class="desc">部署一个托管代理的最简单方法就是这样：告诉你的代理需要完成什么任务，将一个提示粘贴到你的代码代理中，然后就能获取一个实时代理的链接。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Capsomnia</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">174</span>
+      </div>
+      <div class="tagline">Caps Lock键可以让你的Mac在合上盖子的情况下保持唤醒状态。</div>
+      <div class="desc">Capsomnia 将 Caps Lock 键变成一个物理开关，让你的 MacBook 保持唤醒状态。这意味着即使你合上电脑的盖子，Claude Code、Codex 以及其他 AI 助手、SSH 会话、构建、下载等仍然能继续运行。如果 Caps Lock 键已经被其他功能占用，你可以选择一个不同的快捷键。Caps Lock 指示灯依然会显示 Capsomnia 是否处于激活状态。这款应用是免费的、开源的，并且经过签名和认证，不需要注册账户或收集用户数据。我们在日本已经看到强烈的兴趣：超过230万的观看次数和6000多次下载。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Health in ChatGPT</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">147</span>
+      </div>
+      <div class="tagline">你个人的健康助手，由ChatGPT提供支持</div>
+      <div class="desc">ChatGPT的健康功能帮助你更好地理解和管理自己的健康，通过一个对话将你的健康信息汇集在一起。你可以连接健康数据、医疗记录和健康应用，以获取更个性化的见解，跟踪随时间变化的情况，准备就诊，理解检查结果，并建立更健康的生活习惯——而且你始终可以掌控自己分享的信息。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Islet</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">127</span>
+      </div>
+      <div class="tagline">iPhone 的动态岛，也来到了你的 Mac 电脑的刘海部分。</div>
+      <div class="desc">大多数凹口工具只是简单地在切口上绘制一个静态形状。而Islet则像iPhone的动态岛一样，具备动态的弹簧物理效果，可以展开和收缩。它提供实时的音量和亮度HUD（抬头显示），音乐播放时可以快速查看并进行全控制，一键切换音频输出（无需绕道系统设置），还有日历、天气信息，以及一个可以随时拖放文件的文件托盘。Islet是用Swift和AppKit原生开发的，而不是Electron，运行速度快，并且对全屏模式友好。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Speechius</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">126</span>
+      </div>
+      <div class="tagline">能够真正“听”的提词器</div>
+      <div class="desc">Speechius 能够听你的声音并为你滚动剧本——无论是加速、减速还是即兴发挥，它都能跟上你的节奏。不需要脚踏板，也没有固定的速度需要追赶。它可以在任何工具中实时工作——无论是在线研讨会、Zoom、Meet、Teams 还是 OBS，并且在屏幕共享时保持隐形。完全在设备上操作（私密）。一次性付款，无需订阅。支持 macOS 和 Windows。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Wisprkey</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">106</span>
+      </div>
+      <div class="tagline">跟你在Mac上的任何应用程序对话</div>
+      <div class="desc">Wisprkey是一款免费的Mac语音输入应用。你可以设置全局快捷键，支持98%的准确率，支持31种语言。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">ShellMate</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">101</span>
+      </div>
+      <div class="tagline">你会真正喜欢的SSH工作空间</div>
+      <div class="desc">ShellMate 是一个现代化的 SSH 工作区，专为开发者、系统管理员和 DevOps 团队打造。它允许你通过标签页、分屏终端、SFTP、代码片段、会话共享以及人工智能辅助功能，连接到无限的服务器，所有这些都集成在一个原生桌面应用中，支持 Windows、macOS 和 Linux。对于个人用户，ShellMate 永久免费，但不包括 AI 功能；对于需要协作和 AI 功能的团队，提供了经济实惠的付费计划。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Seller by Facebook</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">99</span>
+      </div>
+      <div class="tagline">在Facebook Marketplace上销售的简单方法</div>
+      <div class="desc">Seller是一个专为Facebook Marketplace卖家设计的应用，帮助他们管理商品列表、与买家联系，并发展自己的销售业务。通过人工智能，更快地创建商品列表，所有的对话都集中在一个收件箱中，方便管理；还可以跟踪库存，了解销售业绩——一切都在一个平台上完成。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Velane</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">99</span>
+      </div>
+      <div class="tagline">为你的人工智能助手提供的云端工具和功能</div>
+      <div class="desc">Velane 是一个为你的 AI 代理提供工具和功能的统一平台。它以代理为中心，完全由你的 AI 代理（如 Claude、Codex、Cursor 等）控制。它的主要功能包括：</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Browser FX:</td>
+        <td><span class="votes-sm">▲ 96</span></td>
+        <td>实时效果让你的网页音频焕然一新</td>
+      </tr>
+      <tr>
+        <td>ADE</td>
+        <td><span class="votes-sm">▲ 94</span></td>
+        <td>你所有的编码助手，随时随地同步，永久免费。</td>
+      </tr>
+      <tr>
+        <td>Speech To Markdown</td>
+        <td><span class="votes-sm">▲ 89</span></td>
+        <td>利用本地人工智能来记录笔记</td>
+      </tr>
+      <tr>
+        <td>Banquish — Make the web your workspace</td>
+        <td><span class="votes-sm">▲ 87</span></td>
+        <td>将网络上的各个部分汇聚到一个画布上。</td>
+      </tr>
+      <tr>
+        <td>ClipStudios.AI</td>
+        <td><span class="votes-sm">▲ 40</span></td>
+        <td>15款以上的AI视频模型，订阅后可连续使用——余额可累积使用。</td>
+      </tr>
+      <tr>
+        <td>Drifty &amp;#8211; Context Aware AI Time Tracker</td>
+        <td><span class="votes-sm">▲ 37</span></td>
+        <td>让你的重点更清晰可见</td>
+      </tr>
+      <tr>
+        <td>Fund Momentum</td>
+        <td><span class="votes-sm">▲ 20</span></td>
+        <td>为970多个正在积极投资的风险投资基金提供实时GP（普通合伙人）情报。</td>
+      </tr>
+      <tr>
+        <td>DockAMP Webstack Manager for Docker</td>
+        <td><span class="votes-sm">▲ 19</span></td>
+        <td>用于管理Apache/Nginx、PHP和数据库容器的网页界面</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-07-27
+  </footer>
+</div>
+</body>
+</html>

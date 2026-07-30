@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年7月29日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年7月29日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Prefactor</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">583</span>
+      </div>
+      <div class="tagline">实时评估你的人工智能代理</div>
+      <div class="desc">大多数代理在评估阶段表现良好，但在实际生产中却出现问题。Prefactor是一个评估工具，旨在填补这个差距。我们实时评分每个代理的运行，及时发现质量下降和性能漂移，并向工程团队展示他们的代理在大规模环境中的表现。这个工具专为将代理交付给客户的团队而设计。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Cekura</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">407</span>
+      </div>
+      <div class="tagline">语音助手的自我改进循环</div>
+      <div class="desc">Cekura 是一个专为生产环境中的语音和聊天 AI 代理而设计的测试、监控和自我改进平台。它能够模拟成千上万种场景，捕捉故障，诊断根本原因，改写提示和配置，然后通过全面回归测试来验证修复效果。与那些将故障反馈给团队的工具不同，Cekura 能够自动修复代理，并证明修复的有效性，避免过拟合的问题。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Lottie Creator 2.0</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">366</span>
+      </div>
+      <div class="tagline">基于Lottie的网页版After Effects</div>
+      <div class="desc">没错，我们称之为：网页版 After Effects。你可以在浏览器中从零开始设计矢量动画，使用 Motion Copilot AI 提高工作效率，利用状态机实现交互功能，并导出适合生产的 Lottie 和 dotLottie 文件。无需桌面应用程序，也没有开发交接的麻烦。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Leaping AI</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">219</span>
+      </div>
+      <div class="tagline">能够进行多天活动的AI代理，可以打电话和发送短信。</div>
+      <div class="desc">我们帮助那些在现实世界中运营的公司（如家庭装修、屋顶维修、各类行业）实现来电和发信的自动化，同时能够开展为期数周的多线程营销活动。我们的人工智能助手可以同时进行100多个对话，支持多种语言，并且可以与任何客户关系管理（CRM）系统无缝对接。我们使预约安排、客户服务和确认电话实现自动化，帮助客户减少错过的电话、提高响应速度并加强潜在客户的跟进。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Hardbook</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">214</span>
+      </div>
+      <div class="tagline">为您签署合同的自由职业者预约链接</div>
+      <div class="desc">在约定的日期和签署合同之间的空档期，很多自由职业的工作就会泡汤。Hardbook 解决了这个问题。你的客户可以在一个流程中选择日期并签署合同。无需下载应用、不用注册账户，也不需要再追赶。这个工具是由一位自由职业者开发的，旨在防止交易搁浅，确保工作顺利进行。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Ycode AI Agents</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">187</span>
+      </div>
+      <div class="tagline">用人工智能构建网站</div>
+      <div class="desc">将Claude、OpenAI、Gemini或Grok连接到Ycode，就可以在网站构建工具中直接使用你喜欢的人工智能。你只需描述想要修改的内容，智能助手就能为你更新设计、管理CMS内容，以及构建或优化组件。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">EasyCircuit</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">181</span>
+      </div>
+      <div class="tagline">硬件原型制作，就像编写代码一样简单。</div>
+      <div class="desc">一个人工智能电路助手，可以自动设计你的项目并找到所需的零件——你不需要任何电气工程的经验。用简单易懂的语言来描述它，获取经过验证的零件套件，然后从面包板到焊接的穿孔板，逐步完成你的项目。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Jotform Website Widgets</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">168</span>
+      </div>
+      <div class="tagline">在几分钟内构建并嵌入无代码网站小部件</div>
+      <div class="desc">通过可定制的无代码小部件升级您的网站。您可以创建互动体验，包括评论、预订、聊天、弹窗、倒计时、常见问题、媒体库、公告等等。然后，您可以个性化每个小部件，并在几分钟内将其嵌入到任何网站上。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">FlowTask 2.0</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">146</span>
+      </div>
+      <div class="tagline">公司大脑，用于人工智能代理</div>
+      <div class="desc">这家公司专注于为人工智能代理提供“智能大脑”，旨在解决企业内部沟通和数据碎片化的问题。现在，企业的交流往往分散在电子邮件、Slack、WhatsApp和LinkedIn等多个渠道中。我们的解决方案将这些沟通整合到一个地方，并添加了审批层，以确保个人聊天和工作聊天不会混淆。同时，它可以与多个人工智能代理同时连接，记录会不断实时更新，这样人工智能代理也会随之更新。通过这种方式，可以降低使用人工智能代理的上下文成本，无需反复重复相同的信息。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Firstpass</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">144</span>
+      </div>
+      <div class="tagline">可行的建议，让你每次发布都能成功。</div>
+      <div class="desc">如果你曾经发布过产品，却发现你的文案被截断、被忽视或被误解过，那么Firstpass可以帮你解决这个问题。它会展示陌生人首次接触你产品的每个地方（比如Product Hunt页面、排行榜、Glaze Store的展示网格），并在每个地方指出文案出现的问题，等你发布之前就能看到这些反馈。不同的平台对同一句宣传语的要求各不相同：Product Hunt限制在60个字符，Glaze Store最多只能用40个，而浏览网格则大约只能用33个。没有人会在发布之前去检查这些 — 直到它真正上线。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Superunit</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">130</span>
+      </div>
+      <div class="tagline">通过电话、电子邮件和传真验证就业的人工智能助手</div>
+      <div class="desc">每当有人被雇佣、申请抵押贷款或租公寓时，总有人需要确认他们所说的工作经历是否属实。这意味着成千上万的电话、电子邮件和传真（没错，2026年了，传真依然存在！）都要发送到人力资源和薪资部门。Superunit的人工智能代理可以从头到尾完成这一切。他们会进行调查、打电话、发邮件、传真，并处理相关文件，直到验证完成为止。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Cercle</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">124</span>
+      </div>
+      <div class="tagline">给你最亲密朋友的求助信号。</div>
+      <div class="desc">Cercle正在解决孤独问题，帮助人们重建与重要人物之间的联系。你可以随时关注自己的情绪，并与亲密的朋友或整个Cercle分享。这样就无需猜测朋友的心情，在打电话或发信息之前，你就能知道他们的感受。朋友们的情绪更新会实时显示在你的主屏幕小部件上，让你在他们需要帮助之前就能察觉到他们的状态。这一切的灵感来源于观察一群亲密朋友在默默承受压力时的生活。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Conduit</td>
+        <td><span class="votes-sm">▲ 124</span></td>
+        <td>专为酒店行业打造的人工智能助手</td>
+      </tr>
+      <tr>
+        <td>MCP-Billing</td>
+        <td><span class="votes-sm">▲ 119</span></td>
+        <td>OAuth 2.1 + 基于使用量的 Stripe 计费，用于多云平台（MCP）服务器</td>
+      </tr>
+      <tr>
+        <td>Liminal</td>
+        <td><span class="votes-sm">▲ 117</span></td>
+        <td>为你、你的助手和你的团队打造一个工作空间和第二大脑。</td>
+      </tr>
+      <tr>
+        <td>Phantom</td>
+        <td><span class="votes-sm">▲ 115</span></td>
+        <td>语音优先的人工智能助手，可以控制你的Mac电脑。</td>
+      </tr>
+      <tr>
+        <td>qsa.sh</td>
+        <td><span class="votes-sm">▲ 110</span></td>
+        <td>在你的终端中对你自己的IP进行外部安全扫描。</td>
+      </tr>
+      <tr>
+        <td>RecipeBook by Shofo</td>
+        <td><span class="votes-sm">▲ 109</span></td>
+        <td>按小时购买视频培训数据，包含超过2500万段视频片段。</td>
+      </tr>
+      <tr>
+        <td>Pinery Prose</td>
+        <td><span class="votes-sm">▲ 108</span></td>
+        <td>AI合著者为书籍创作提供支持，您可以审核每一次的修改。</td>
+      </tr>
+      <tr>
+        <td>G.I.A.ac</td>
+        <td><span class="votes-sm">▲ 108</span></td>
+        <td>根据一句话构建真实可用的应用程序。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-07-30
+  </footer>
+</div>
+</body>
+</html>

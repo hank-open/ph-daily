@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年8月9日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年8月9日 · Top Products Launching Today</div>
+    <h1>今日精选 5 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">The GTM Co-Founder</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">373</span>
+      </div>
+      <div class="tagline">面向技术创始人的开源GTM技能</div>
+      <div class="desc">大多数人工智能开发工具的创始人都收到相似的销售和市场推广建议，而GTM联合创始人则有所不同。它提供了一套开源技能，首先通过一次面试了解你的真实产品和市场，然后一步步引导你制定优先级的市场推广路线图：目标用户、市场定位、前50名用户、产品发布、定价等等。这些内容基于Adam Frankl和Jakub Czakon的成功经验，以及我自己作为创始客户经理和市场推广顾问的经历。完全免费且开源。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">AstraPixels</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">270</span>
+      </div>
+      <div class="tagline">一个像素风格的太阳系，展示了各个行星目前的真实位置。</div>
+      <div class="desc">一幅动态的像素艺术风格的太阳系地图，展示了每个天体的真实当前位置，这些位置是根据已发布的轨道元素计算得出的，而不是简单地从列表中复制的。你可以从太阳缩放到库珀带，浏览171个已编目对象，获取相关信息，并查看接下来六个月天空的动态。每颗小行星也可以出售：只需5美元就能拥有它，永久拥有，并可以任意命名。需要注意的是，这里的名称仅在AstraPixels上显示，不属于国际天文学联合会（IAU）认证的名称。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Hexis</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">180</span>
+      </div>
+      <div class="tagline">基于Git的技能、工具和AI代理的背景知识</div>
+      <div class="desc">Hexis是一个集成了公司AI技能、工具和知识的集中管理平台。它建立在Git的基础上，保留了版本控制和拉取请求（PRs）的核心功能，同时提供了简洁的用户界面，让每个人都能轻松使用技能、提出修改建议和提交新内容。管理员可以管理每个人、团队或代理人能够访问的上下文、工具和技能。通过MCP进行访问，Hexis可以在公司内的任何代理中使用。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Basedash Subscriptions</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">159</span>
+      </div>
+      <div class="tagline">订阅任何仪表板。按时送达。</div>
+      <div class="desc">订阅任意一个Basedash仪表板或图表，您就可以按照预定的时间表，定期收到最新快照——直接发送到您的邮箱或Slack频道。您可以选择发送频率（每周一上午9点、每天、每月1号），并指定接收人。每次发送的内容都包含最新的图表和指向实时仪表板的链接。无需导出、无需截图，也不用记得分享。这是您团队想要的周一数据邮件，无需任何人亲自制作。您的仪表板，按时送达。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Toolport</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">149</span>
+      </div>
+      <div class="tagline">每个工具，一个端口。为所有你的AI助手设置一个MCP。</div>
+      <div class="desc">一个免费的开源本地MCP网关。只需设置一次每台服务器，所有的AI代理（如Claude、Cursor、VS Code、Codex等29个工具）都可以共享它。与其一次性将所有工具的定义都放入上下文中，不如让你的代理在需要时去搜索一些元工具。经过基准测试和评分，可以保证在同样的任务成功率下，减少多达91%的令牌使用。秘密存储在操作系统的密钥链中，而不是客户端配置文件里。潜在的风险和工具中毒会被标记，而破坏性调用则需要你的批准才能执行。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Pocket Fit</td>
+        <td><span class="votes-sm">▲ 22</span></td>
+        <td>AI锻炼与饮食</td>
+      </tr>
+      <tr>
+        <td>Otiumz</td>
+        <td><span class="votes-sm">▲ 18</span></td>
+        <td>一款由人工智能驱动的社交应用，展现你的多面性</td>
+      </tr>
+      <tr>
+        <td>Pesterly</td>
+        <td><span class="votes-sm">▲ 12</span></td>
+        <td>自动化客户文件收集，帮你进行跟进。</td>
+      </tr>
+      <tr>
+        <td>Patch — Your Security Center</td>
+        <td><span class="votes-sm">▲ 12</span></td>
+        <td>保护好你的数字生活，掌控一切。</td>
+      </tr>
+      <tr>
+        <td>Rendemo</td>
+        <td><span class="votes-sm">▲ 11</span></td>
+        <td>在几分钟内将任何网页应用程序转变为可点击的演示。</td>
+      </tr>
+      <tr>
+        <td>Arbyn</td>
+        <td><span class="votes-sm">▲ 9</span></td>
+        <td>为 Shopify 提供的 AI 支持助手，可以处理您的订单。</td>
+      </tr>
+      <tr>
+        <td>Tweet Mockup Generator by MockupTown</td>
+        <td><span class="votes-sm">▲ 7</span></td>
+        <td>带有自定义头像、统计数据和功能的推文示例图</td>
+      </tr>
+      <tr>
+        <td>TrainZilla</td>
+        <td><span class="votes-sm">▲ 7</span></td>
+        <td>你的健身教练业务，由人工智能助手运营。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-08-10
+  </footer>
+</div>
+</body>
+</html>

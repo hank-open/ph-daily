@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年8月13日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年8月13日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Dograh</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">521</span>
+      </div>
+      <div class="tagline">开源的VAPI替代方案</div>
+      <div class="desc">封闭的语音平台让你不得不租用自己的代理。而Dograh则是完全开源的，没有任何限制。它提供了可视化流程构建工具，你可以在30多个集成中添加你的模型密钥，或者使用本地模型、电话服务、人工转接，以及高级的质量保证和监控功能——所有这些都可以通过一个命令免费自托管。此外，你还可以将你的Claude代码与MCP连接，以便为特定用例或通话录音构建语音代理。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Grok Bot</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">457</span>
+      </div>
+      <div class="tagline">可以真正分配工作任务的AI团队成员</div>
+      <div class="desc">介绍Grok Bot：你可以真正交付工作的AI助手。它们可以登录到你的工具中，像你一样使用这些工具，并带回完成的工作。你可以像对待同事一样与它们沟通。Grok Bot能保持上下文，进行多任务处理，还能自主学习你的工作风格，运行在它们自己的云计算机上。你可以要求这些Bot在夜间处理外部事务、从Gmail中整理费用、安排招聘现场、重新调整付费广告，或者解决bug。它们只会在需要你审批的事情上回来找你。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Lettertrace</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">376</span>
+      </div>
+      <div class="tagline">免费跟踪你的AI可见性（使用你自己的API密钥！）</div>
+      <div class="desc">Lettertrace 可以测量 Claude、ChatGPT 和 Gemini 提到你公司的频率。不过，有个特别之处：它是免费的、以开发者为中心的、支持自带密钥，并且是开源的。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Assembly Studio</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">247</span>
+      </div>
+      <div class="tagline">能够提升您收入的AI应用程序构建工具</div>
+      <div class="desc">Assembly Studio 是专为专业服务公司打造的人工智能应用程序构建工具。您可以轻松描述您的需求，比如入职代理、分析仪表板、社区中心等，并在几分钟内生成可投入生产的应用程序。它提供了20多种模板供您自由组合，可以连接任何第三方工具。您还可以克隆那些收费高昂的应用，按使用人数收费。我们有免费的永久计划，让您不再为别人的软件付费。来打造一个只有您能构建的公司吧！</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Unsloth Desktop</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">225</span>
+      </div>
+      <div class="tagline">在你的电脑上本地运行和训练人工智能模型</div>
+      <div class="desc">Unsloth Desktop 是一款开源应用程序，可以让你在本地运行和训练人工智能模型。它支持运行大型语言模型（LLMs）、图像/视频扩散以及音频处理。你只需一条命令，就能将 Claude Code 或 Codex 等智能体连接到你的本地 GPU，此外还可以通过无代码的工作流程来微调模型。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">BearDrive</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">172</span>
+      </div>
+      <div class="tagline">供团队的AI代理使用的开源共享文件夹</div>
+      <div class="desc">你的AI助手可以在本地创建真实的文件，比如报告、演示文稿、CSV文件和研究资料。BearDrive会自动同步这些助手正在使用的文件夹，因此每个文件一开始就是共享状态：具备版本控制，记录每个文件的来源，只有你的团队才能打开的链接。与Notion或Google Drive不同，没有人需要手动移动任何文件；同事的助手可以在几秒钟内读取你助手的工作内容。它与Claude Code、Cowork、Codex、Gemini CLI等任何本地工具兼容，且是开源并可自托管的。在测试阶段，管理服务是免费的。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">LaraCopilot</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">144</span>
+      </div>
+      <div class="tagline">能够构建真实应用的自主智能工程师</div>
+      <div class="desc">LaraCopilot 是一款智能AI工程师，可以帮助你构建真实、可投入生产的应用程序。只需用自己的语言描述你的想法，LaraCopilot 就能为你完成整个项目的搭建，包括用户界面、后台、数据库、身份验证和API，所有组件都已连接好，随时可以部署。你可以一键将应用部署到云端或自己的服务器上，还支持GitHub导出和即时回滚，完全没有绑定限制，代码归你所有。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Swipe</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">142</span>
+      </div>
+      <div class="tagline">对下一个顾客“右滑”吧！</div>
+      <div class="desc">输入你的目标客户。Swipe 提供了一份真实公司的排名列表。保留那些值得联系的公司，跳过其他的，然后导出为 CSV 文件。无需注册，无需积分，也没有抓取的邮箱。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Click</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">131</span>
+      </div>
+      <div class="tagline">ChatGPT和Claude的实时研究背景</div>
+      <div class="desc">Click是一个MCP（模块化连接平台），它提供了丰富的研究连接器，能够补充内置网页搜索所缺失的外部信息。它能够实时提供来自专业社交平台、市场、金融等多个领域的背景资料。只需简单的一分钟安装Click到ChatGPT或Claude中，就能让你的聊天体验更加丰富。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">RightCard</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">115</span>
+      </div>
+      <div class="tagline">诚实的信用卡选择器——无需银行登录</div>
+      <div class="desc">RightCard 会告诉你在任何商店应该使用哪张卡，并自动添加你可能忘记激活的银行优惠（如 Amex、Chase、Citi 和 Wells Fargo）。它会自动跟踪 5% 的优惠类别，让你无需费心记住这些信息，并在信用卡返现和年费续费之前提醒你。使用时无需登录银行账户、无需注册、也不需要追踪——这个 Safari 插件会读取你已经登录的优惠页面，推荐内容会在你的手机上计算，甚至离线时也能使用。所有数据都是真实可靠的。完全免费，无广告干扰。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">CodeBurn</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">105</span>
+      </div>
+      <div class="tagline">看看你的人工智能编码花费到底用在哪里</div>
+      <div class="desc">CodeBurn 是一个免费的开源工具，用于跟踪人工智能编程的成本。它可以读取你使用的工具（如 Claude Code、Cursor、Codex、Copilot 等共 40 种工具）自动生成的会话文件，并显示每个任务、模型、项目和拉取请求所使用的每个令牌和花费。优化标签可以帮助你发现诸如缓存膨胀或重试成本等浪费情况，应用修复措施，并跟踪实际节省了多少成本。所有功能都在你的计算机上运行：无需注册账户，也无需上传数据。它采用 MIT 许可证，真正免费，全球已有超过 15 万名开发者在使用。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Chat Agent by Trigger.dev</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">104</span>
+      </div>
+      <div class="tagline">关闭标签页后仍能持续运行的AI聊天功能</div>
+      <div class="desc">聊天代理是一种构建持久化AI聊天体验的方式，它可以在没有超时的情况下运行在机器上，并且在刷新和崩溃时能够持续进行。当没有人在输入时，机器会进入休眠状态，并在恢复时从上次中断的地方继续，无需你管理任何状态。你可以继续使用现有的AI开发工具包：在服务器上使用streamText，在客户端使用useChat。聊天代理则作为一个传输层，简化了它们之间的API连接。每一次对话都会被记录下来：包括提示信息、工具调用、延迟和成本等。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Media Sharing</td>
+        <td><span class="votes-sm">▲ 103</span></td>
+        <td>让人工智能助手在拉取请求中添加截图和视频。</td>
+      </tr>
+      <tr>
+        <td>tash</td>
+        <td><span class="votes-sm">▲ 97</span></td>
+        <td>交易卡片的投资平台</td>
+      </tr>
+      <tr>
+        <td>Ballet</td>
+        <td><span class="votes-sm">▲ 96</span></td>
+        <td>可靠的一致性工作流程，能够每次都实现相同的结果。</td>
+      </tr>
+      <tr>
+        <td>Sidekick™</td>
+        <td><span class="votes-sm">▲ 88</span></td>
+        <td>代理接口</td>
+      </tr>
+      <tr>
+        <td>Linforge</td>
+        <td><span class="votes-sm">▲ 83</span></td>
+        <td>把Anki闪卡变成真实的英语对话</td>
+      </tr>
+      <tr>
+        <td>Nearfield</td>
+        <td><span class="votes-sm">▲ 81</span></td>
+        <td>将两个或更多的Studio Display变成立体声音响</td>
+      </tr>
+      <tr>
+        <td>Cohesor</td>
+        <td><span class="votes-sm">▲ 81</span></td>
+        <td>企业人工智能代理的中立控制层</td>
+      </tr>
+      <tr>
+        <td>Statewave</td>
+        <td><span class="votes-sm">▲ 30</span></td>
+        <td>用于生产AI智能体的开源内存运行时。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-08-14
+  </footer>
+</div>
+</body>
+</html>

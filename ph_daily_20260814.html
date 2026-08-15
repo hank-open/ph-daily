@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年8月14日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年8月14日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Kane CLI</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">446</span>
+      </div>
+      <div class="tagline">从终端进行自然语言浏览器和移动应用测试</div>
+      <div class="desc">一个面向开发者和人工智能编码代理的自主质量验证工具。用户可以用自然语言描述测试，Kane CLI 会在真实的 Chrome 浏览器中执行这些测试，并返回结果（通过或失败），并提供可分享的证明。无需编写选择器。它支持本地优先使用，初始使用免费。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Ito</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">418</span>
+      </div>
+      <div class="tagline">运行您代码的AI代码审核</div>
+      <div class="desc">Ito是一个人工智能代码审核工具，它会在审核代码之前先运行你的应用程序。对于每个拉取请求，Ito会创建一个临时环境，验证受影响的流程，并提供运行时证据，这样团队就能发现静态分析和仅依靠模型审核所遗漏的错误。与其仅仅根据代码差异进行猜测，Ito能够清晰地展示到底是什么地方出了问题、发生在何处以及为什么这很重要，确保在拉取请求部署到生产环境之前就能解决潜在问题。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Nuphos</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">367</span>
+      </div>
+      <div class="tagline">AI原生DevOps工作空间。</div>
+      <div class="desc">Nuphos为工程团队提供了一个共享环境，让AI代理能够学习你的基础设施，调查问题，并管理生产系统。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Scrimba Explain</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">291</span>
+      </div>
+      <div class="tagline">问任何问题，立刻收到视频回复。</div>
+      <div class="desc">Scrimba Explain 是一款能瞬间为你生成讲解视频教程的工具，你只需提出任何问题。你可以上传文件、添加链接、粘贴代码，或者直接写下你想了解的内容。它的速度远远超过其他视频生成模型，因为我们使用了基于DOM的播放技术。这个视频讲解可以包含图像、代码演示、动画、图表等各种视觉辅助材料，还有配音、字幕和光标，让使用体验更接近YouTube，而不是传统的聊天机器人。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Human Behavior</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">264</span>
+      </div>
+      <div class="tagline">产品分析告诉你发生了什么，我们来处理它。</div>
+      <div class="desc">仪表盘往往是洞察力的“坟墓”。而“人类行为”则打破了这个死循环：</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Oasis</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">233</span>
+      </div>
+      <div class="tagline">人类和智能助手共同工作的地方。</div>
+      <div class="desc">为你、你的代理和团队打造一个智能工作空间。将来自整个生态系统的最佳代理集中在一个地方，让人和代理平等协作。每一次对话、决策和成果都成为共享的知识，随着时间的推移不断积累。当工作空间学习你们的工作方式时，它会适应你的需求，并构建专门的工具，帮助每个人发挥最佳表现。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Skilldocs</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">188</span>
+      </div>
+      <div class="tagline">Figma用于Markdown</div>
+      <div class="desc">打开一个技能后，大家可以同时参与其中——真实的光标、实时评论，还有一个在你输入时就能显示内容的编辑器。然后，将整个对话和差异反馈给代理。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Caveman</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">157</span>
+      </div>
+      <div class="tagline">为什么要使用很多代币，而少量就能解决问题呢？</div>
+      <div class="desc">一个命令可以将Claude Code、Codex、Hermes等工具整合在一起，使用本地代理在每次调用服务提供者之前压缩日志、工具输出和文件。在一次固定的54次基准测试中，输入的令牌减少了33.2%，而且正确性检查达到了18/18的完美成绩。Caveman还可以通过将文本加载为图像，以约70%的令牌量运行任何现有的代理技能。这一切都是建立在一个拥有超过97K GitHub星标的开源生态系统之上。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Kitbitz</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">142</span>
+      </div>
+      <div class="tagline">为您的项目提供2000多幅免费手绘插图，使用CC0授权。</div>
+      <div class="desc">一个免费的CC0素材库，包含2000多个手绘资源，分为13个主题包。你可以下载单独的SVG和PNG文件，或者获取完整的Figma社区库，其中有可重复使用的组件、颜色变量和灵活可调整大小的素材。这些资源可用于游戏、应用程序、地图、插图以及各种有趣的小世界。我们还在开发一个Figma插件、MCP支持和与该库相关的世界构建工具。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Mem Agent</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">127</span>
+      </div>
+      <div class="tagline">那个不让你失误的人工智能</div>
+      <div class="desc">一个重要的任务，或者是为将来去意大利旅行而保存的比萨店——Mem Agent会记录你所说的内容，以及你笔记和会议中的待办事项，确保它们能够顺利完成。而通过“按一下记住”功能，你可以轻松地将一个想法记录到Mem中，或者快速回忆起你保存的内容，只需按一个按钮——这一切都无需离开你的工作界面。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">FluidDocs CLI</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">121</span>
+      </div>
+      <div class="tagline">发布互动文档，能够回答问题并反馈信息。</div>
+      <div class="desc">FluidDocs CLI将您的提示转换为交互式文档，能够回答问题并进行反馈。您可以看到谁打开了文档、浏览到哪一步以及他们提出了什么问题。无论是推介文稿、提案、报告还是董事会更新，都能轻松处理。只需一行命令即可安装CLI，输入一个指令便可发布。您可以根据提示随时编辑，链接会自动更新。文档还内置了观众侧的AI问答功能和分析工具。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">WebBrain</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">120</span>
+      </div>
+      <div class="tagline">为我们普通人打造的侧边栏助手</div>
+      <div class="desc">你的浏览器、你的模型、你的数据。WebBrain 是一个免费的开源 AI 浏览器助手，适用于 Chromium 浏览器和 Firefox。你可以在本地运行它，结合 llama.cpp 使用，大多数查询都不收费——你的数据始终保留在你的设备上。它可以读取网页、提取数据，并通过侧边栏自动完成任务。如果你更喜欢云服务，也可以使用自己的 API 密钥接入 OpenAI、Claude、OpenRouter 或超过 100 个兼容 OpenAI 的服务提供商。界面支持多种语言，截图时也会考虑到使用的令牌。采用 MIT 许可证。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Google Pixel 11</td>
+        <td><span class="votes-sm">▲ 118</span></td>
+        <td>你最私人化的Pixel手机。</td>
+      </tr>
+      <tr>
+        <td>Execlave</td>
+        <td><span class="votes-sm">▲ 116</span></td>
+        <td>你AI代理与现实世界之间的桥梁</td>
+      </tr>
+      <tr>
+        <td>Coarena by Coasty</td>
+        <td><span class="votes-sm">▲ 107</span></td>
+        <td>代理人在现实工作中角逐的舞台</td>
+      </tr>
+      <tr>
+        <td>Qencode MCP</td>
+        <td><span class="votes-sm">▲ 105</span></td>
+        <td>让人工智能代理进行视频转码和处理</td>
+      </tr>
+      <tr>
+        <td>Insta360 X6</td>
+        <td><span class="votes-sm">▲ 100</span></td>
+        <td>一款集360度相机、稳定器和3D扫描仪于一身的设备</td>
+      </tr>
+      <tr>
+        <td>Kin Health</td>
+        <td><span class="votes-sm">▲ 95</span></td>
+        <td>记录医生就诊情况，并获取清晰的总结。</td>
+      </tr>
+      <tr>
+        <td>Patience</td>
+        <td><span class="votes-sm">▲ 92</span></td>
+        <td>唯一的修理工在等待，唯一的货币是时间。</td>
+      </tr>
+      <tr>
+        <td>Dishylink</td>
+        <td><span class="votes-sm">▲ 91</span></td>
+        <td>开源的Starlink监测应用，适用于Mac、Windows和网页版</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-08-15
+  </footer>
+</div>
+</body>
+</html>

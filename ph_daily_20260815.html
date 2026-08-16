@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年8月15日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年8月15日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Outcome</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">342</span>
+      </div>
+      <div class="tagline">将您的内容转化为每个潜在客户的个人化结果。</div>
+      <div class="desc">Outcome帮助创作者将他们的内容和专业知识转化为个性化的营销漏斗，这些漏斗能够倾听、理解每个潜在客户的需求，并提供有用的结果。与其将每个人都发送相同的引导材料或把他们放入预设的测验结果类别，不如让Outcome漏斗根据每个人的回答，结合创作者的内容、知识和流程，生成专为他们定制的东西——比如行动计划、审计报告、评分、路线图、推荐意见等等。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">BrowserAct Cloud</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">272</span>
+      </div>
+      <div class="tagline">只需一句话，就能从任何网站抓取数据。</div>
+      <div class="desc">别再修复那些坏掉的爬虫了。BrowserAct 的 AI 代理可以根据你的简单描述自动生成一个爬虫，并在真实浏览器中进行测试，即使网站发生变化，它也能保持运行。结构化的数据会直接输出到你的 CSV、JSON，或者像 Make、n8n 和 Zapier 这样的工具中。构建一次，可靠运行，不断改进。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Freebuff</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">268</span>
+      </div>
+      <div class="tagline">免费的编程助手，用来对付Claude、Cursor、Replit和Devin。</div>
+      <div class="desc">Freebuff 是一个免费的编码助手，让你能够使用最优秀的开源模型。我们提供命令行界面（CLI）、桌面应用、网页应用构建工具和云端助手——全部免费！这是构建全栈应用的无障碍方式。没有订阅费用，没有 API 密钥，也没有绑定限制。可以随时取消你在 Claude Code、Cursor、Codex、Lovable、Replit、Bolt、Windsurf 和 Devin 的订阅。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Gemini 3.7 Flash</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">228</span>
+      </div>
+      <div class="tagline">谷歌迄今为止最智能的编程和代理助手</div>
+      <div class="desc">今天，我们在广受欢迎的Flash系列基础上，推出了Gemini 3.7 Flash，这是我们迄今为止最智能的编程和代理模型。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Munder Difflin</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">177</span>
+      </div>
+      <div class="tagline">使用Claude Code和Codex来制作克隆，帮助你完成工作。</div>
+      <div class="desc">[开源] 本地多智能体框架，能够将您已经付费的编码助手（如Claude Code和Codex）整合在一起，创建一个24/7为您工作的“办公室”模拟环境。您可以选择自己作为办公室的老板，或者在您不在时让您的克隆替您管理。适合开发者、产品经理、设计师、创始人、销售、市场、法律、HR，以及任何在科技行业工作的人。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">DeepSeek Harness</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">156</span>
+      </div>
+      <div class="tagline">可组合代理框架，其中一切都可以作为插件使用。</div>
+      <div class="desc">DeepSeek Harness 是一个开源的智能体运行环境，在这里，模型、工具、提示、存储、智能体循环，甚至用户界面都是可以插拔的插件。你可以组合个人资料和智能体预设，进行程序化的工具调用，并保持完整的事件日志，以便于恢复和重放。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Hoplite</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">140</span>
+      </div>
+      <div class="tagline">轻松部署云软件工厂。</div>
+      <div class="desc">Hoplite将您的本地编码代理设置直接部署到云端，无需重新配置。在入驻过程中，我们会迁移您的会话、MCP服务器、依赖项和命令行工具，这样您的代理就能无缝接续您之前的工作。您可以同时运行多个代理，而无需担心笔记本电脑崩溃、处理git工作区或端口问题。您可以即时预览代理构建的所有内容，还可以通过iMessage随时发送提示。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Suno Studio 2.0</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">123</span>
+      </div>
+      <div class="tagline">基于浏览器的生成式数字音频工作站（DAW）</div>
+      <div class="desc">Suno Studio 2.0 新增了 MIDI、音频效果、聊天功能、自动化等多种功能，甚至可以自己设计插件和合成器。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">NS1</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">122</span>
+      </div>
+      <div class="tagline">个性化神经系统训练</div>
+      <div class="desc">NS1评估是一种个性化的评估工具，它将为你提供关于你的系统在压力下的反应情况的详细分析，帮助你了解这对你具体情况的意义以及改善的方法。只需5分钟，你就能获得以下内容：</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">isolate.video</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">114</span>
+      </div>
+      <div class="tagline">将屏幕录制转换为引人入胜的产品视频</div>
+      <div class="desc">将屏幕录制转换为精美的产品视频，配备自动运动缩放、AI音乐和聚焦效果。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Openmotion</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">112</span>
+      </div>
+      <div class="tagline">将产品截图和提示转化为动态视频。</div>
+      <div class="desc">OpenMotion 是一款免费的 macOS 动态设计工作室，专为创始人、设计师和开发者打造。用户可以用简单的英文描述一个场景，并附上产品截图或品牌套件，OpenMotion 的 AI 代理就能生成可编辑的动态视频，包括产品发布和 SaaS 说明视频。用户可以在真实的画布和时间线上调整图层、时机、缓动效果、颜色、摄像机视角和声音，最后导出为 MP4 格式。它与 Codex 和 Claude Code 兼容，使用时无需单独的 API 密钥。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Muse</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">105</span>
+      </div>
+      <div class="tagline">Mac专用的AI视觉书签管理器</div>
+      <div class="desc">适用于Mac的AI视觉书签管理器。它可以从任何应用程序或浏览器标签中收集您保存的所有内容，包括图片、截图、链接、视频和笔记，并在您需要时即时提供这些信息。所有内容都由设备内的AI自动标记和整理，完全存储在您的Mac上。一次性收费29美元，无需订阅。免费试用30天，无需信用卡。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>min.</td>
+        <td><span class="votes-sm">▲ 100</span></td>
+        <td>喜欢在会议后进行跟进的人工智能</td>
+      </tr>
+      <tr>
+        <td>Port22</td>
+        <td><span class="votes-sm">▲ 85</span></td>
+        <td>在手机上使用Claude Code、Codex等功能</td>
+      </tr>
+      <tr>
+        <td>Occasio®</td>
+        <td><span class="votes-sm">▲ 84</span></td>
+        <td>Pinboard结合了引用管理工具，旨在共享见解。</td>
+      </tr>
+      <tr>
+        <td>Basedash Tasks</td>
+        <td><span class="votes-sm">▲ 81</span></td>
+        <td>让你的生意自动运转</td>
+      </tr>
+      <tr>
+        <td>Compass Calendar</td>
+        <td><span class="votes-sm">▲ 79</span></td>
+        <td>快速整理的键盘优先日历</td>
+      </tr>
+      <tr>
+        <td>ChordViz</td>
+        <td><span class="votes-sm">▲ 76</span></td>
+        <td>打造属于你自己的MIDI和音频音乐可视化工具</td>
+      </tr>
+      <tr>
+        <td>oxpecker</td>
+        <td><span class="votes-sm">▲ 73</span></td>
+        <td>了解一下供应商刚刚打破了你哪些的规定。</td>
+      </tr>
+      <tr>
+        <td>Theos[RFM]</td>
+        <td><span class="votes-sm">▲ 66</span></td>
+        <td>实时在现实世界中以3D方式管理设施</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-08-16
+  </footer>
+</div>
+</body>
+</html>

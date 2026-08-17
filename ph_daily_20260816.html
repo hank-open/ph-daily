@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年8月16日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年8月16日 · Top Products Launching Today</div>
+    <h1>今日精选 11 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Inferock Bench</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">284</span>
+      </div>
+      <div class="tagline">每次调用大型语言模型（LLM）API都会生成一份独立的收据。</div>
+      <div class="desc">Inferock-bench 是一个本地代理，位于你的应用程序与 OpenAI、Anthropic、Gemini 或 OpenRouter 之间。它会记录每次调用的令牌使用情况、失败次数和重试次数，并生成一份独立的收据，详细说明你的账单以及你实际多支付了多少。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">GLM-5.3</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">210</span>
+      </div>
+      <div class="tagline">在相同基础上进行后训练的编码跃迁</div>
+      <div class="desc">GLM-5.3是Z.ai最新推出的模型，专门用于复杂的长期编码任务。通过大规模的后期训练，它在智能编码领域达到了开源的顶尖水平，并展现出在漏洞发现和网络防御方面的突显能力。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Big Mike</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">197</span>
+      </div>
+      <div class="tagline">你最喜欢的叔叔，懂得体育和投注，通过iMessage联系你。</div>
+      <div class="desc">大迈克整天关注美职棒（MLB）、美国国家足球联盟（NFL/大学足球）和NBA/WNBA，随时通过iMessage给你发消息，告诉你该下注什么、下注多少、在哪个平台下注。他在七月的战绩是115胜68负，盈利21.4个单位。每一条建议都公开评分，没有删除的失败记录。如果明星球员缺阵，或者交易发生变化，他会立刻告诉你这对赔率的影响。把他加进群聊，大家都能第一时间听到消息。需要提醒的是，他喜欢调侃。你可以链接你的Sleeper或ESPN联赛，他会根据你的阵容给出首发和替补的建议。想知道更多？问大迈克就对了。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Zetik</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">176</span>
+      </div>
+      <div class="tagline">口袋里的幕僚长</div>
+      <div class="desc">总统和首席执行官都有战略团队，而你呢……只是无休止地刷屏？认识一下Zetik：一个全天候运行的AI智能团队，能够完成完整的情报周期——收集、筛选、分析和简报，覆盖播客、论文、代码、推文和新闻。它几乎实时地追踪你关心的所有信息。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Attyn</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">151</span>
+      </div>
+      <div class="tagline">让你的光标更智能</div>
+      <div class="desc">Attyn为你在已经使用的应用程序中增添了智能化的光标功能。你可以使用“即插即用助手”快速重写选中的文本，通过“实时语音输入”说出完成的内容，利用“屏幕助手”询问屏幕上的信息，并通过“黑板”将问题转化为可视化的解释。你可以使用Attyn积分，输入提供者密钥，或运行支持的本地模型。Attyn是一家独立自主的公司，目前已在macOS上推出，Windows版本也在开发中。每个新账户都会获得500个启动积分。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">nenspace</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">132</span>
+      </div>
+      <div class="tagline">大模型的低保真：让你的思维更广阔</div>
+      <div class="desc">nenspace：一个扩展的思维，而不是第二个大脑——你自己的思维，变得更为广阔。它将低保真的大型语言模型与一个能够捕捉和培养你想法的空间结合在一起：工作记忆、任务、笔记、习惯、日志。虽然融合了人工智能，但并不生硬。你大脑里能同时容纳大约四个想法，而nenspace可以容纳更多。随时可以开始使用 · 适用于网页和iOS。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Joy</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">125</span>
+      </div>
+      <div class="tagline">一款Mac菜单栏应用，可以为你的胜利撒下五彩纸屑。</div>
+      <div class="desc">Joy 是一款 macOS 菜单栏应用，当你达到某个里程碑时，它会自动放出五彩纸屑，比如获得 GitHub 星星、Stripe 销售、Docker Hub 下载等。让你每一次成功都能得到庆祝，轻松又快乐。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">FileRouter</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">118</span>
+      </div>
+      <div class="tagline">掌控文件和编辑器</div>
+      <div class="desc">一个多文件类型的默认处理工具，可以打开合适的编辑器——Velja/Choosy。用户可以完全控制任何文件类型及其对应的编辑器，功能包括圆形选择器和自定义规则。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Chronock</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">106</span>
+      </div>
+      <div class="tagline">日程安排与日历同步，一应俱全</div>
+      <div class="desc">Chronock将日程安排和跨日历同步结合在一个工作空间中。它会检查你连接的Google和Outlook日历的可用性，将空闲时间转化为可预订的页面，并在工作、个人和项目日历之间同步活动，以防止重复预订。来宾只会看到可预订的时间，而你可以在一个集成日历中查看所有连接的活动。现在可以免费开始使用，无需信用卡。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Talvo</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">93</span>
+      </div>
+      <div class="tagline">连接2500多家欧洲银行，帮助你追踪消费情况。</div>
+      <div class="desc">欧洲的资金跟踪和预算管理应用程序。通过PSD2连接超过2500家银行，自动对每笔交易进行分类，跟踪预算和净资产。数据托管在欧盟，符合GDPR规范。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Clamshell</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">89</span>
+      </div>
+      <div class="tagline">关闭你的MacBook，但继续保持工作运行。</div>
+      <div class="desc">关闭我的MacBook之前，总是会中断我正在进行的工作，比如编译、下载，有时甚至是某个任务进行到一半的代理程序。为了避免这种情况，我开发了Clamshell。合上盖子后，屏幕变暗，但工作仍然在继续进行。不需要外接显示器，也不需要sudo或管理员设置。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Agent Orchestrator</td>
+        <td><span class="votes-sm">▲ 54</span></td>
+        <td>您的编码代理舰队管理器</td>
+      </tr>
+      <tr>
+        <td>Nick Launches</td>
+        <td><span class="votes-sm">▲ 38</span></td>
+        <td>将您的产品推向数千名开发者。</td>
+      </tr>
+      <tr>
+        <td>Mermail</td>
+        <td><span class="votes-sm">▲ 27</span></td>
+        <td>你的AI现在可以注册并支付了。</td>
+      </tr>
+      <tr>
+        <td>Supercut &amp;#8211; AI Video Editor</td>
+        <td><span class="votes-sm">▲ 12</span></td>
+        <td>输入编辑内容。录制你的屏幕。零上传。</td>
+      </tr>
+      <tr>
+        <td>PodRacer: Manage your iPod on Linux.</td>
+        <td><span class="votes-sm">▲ 9</span></td>
+        <td>100%离线，开源，不依赖systemd。</td>
+      </tr>
+      <tr>
+        <td>ilolink</td>
+        <td><span class="votes-sm">▲ 8</span></td>
+        <td>你们团队的AI代理实际读取的注册表</td>
+      </tr>
+      <tr>
+        <td>ResearchMaster AI</td>
+        <td><span class="votes-sm">▲ 8</span></td>
+        <td>可验证的产品决策市场调研。</td>
+      </tr>
+      <tr>
+        <td>AutoHDMI &amp;#8211; Auto Switch to HDMI</td>
+        <td><span class="votes-sm">▲ 8</span></td>
+        <td>在停电后，谷歌电视会自动切换到HDMI输入。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-08-17
+  </footer>
+</div>
+</body>
+</html>

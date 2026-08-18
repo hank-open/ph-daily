@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年8月17日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年8月17日 · Top Products Launching Today</div>
+    <h1>今日精选 7 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">HarnessRouter Community Edition</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">323</span>
+      </div>
+      <div class="tagline">开放源代码的统一接口，用于代理工具的整合</div>
+      <div class="desc">即插即用的托管代理可以在您的产品中使用：Codex、Claude Code 和 Hermes，通过一个API在您的基础设施上运行，现在已经在Apache 2.0协议下开源。您可以在不重建后端的情况下切换代理。会话、流媒体、文件、工件、取消和故障恢复功能一应俱全。模型提供者的密钥、状态和交付都由您掌控。网关、运行器和控制台集成在一个Docker容器中，方便使用。此外，还有现成的启动套件应用程序，激发您的创意灵感。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Blume</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">290</span>
+      </div>
+      <div class="tagline">AI友好的、以Markdown为主的文档框架</div>
+      <div class="desc">从简单的Markdown文档快速生成美观、适合AI的文档。Blume为你提供搜索功能、主题设置、SEO优化，以及一键部署到Astro和Vite的平台。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Expeditione</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">259</span>
+      </div>
+      <div class="tagline">互动三维百科全书</div>
+      <div class="desc">由一位创作者独立开发的《探险百科》是一款互动3D百科全书，旨在让学习变得有趣和难忘。与其仅仅阅读某个主题，不如进入精心制作的可探索世界，通过互动来发现新知识。这款应用可以直接在浏览器中运行，无需登录、没有广告或用户追踪，并且经过优化，使用起来非常轻便。前面三次探险是永久免费提供的，还有免费的教育资源可供课堂使用。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Vidaya</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">240</span>
+      </div>
+      <div class="tagline">来自可穿戴设备、实验室检测和 DNA 的健康寿命评分。</div>
+      <div class="desc">Vidaya 将你的可穿戴设备数据、实验室检查结果和日常习惯转化为一个真实的健康寿命评分，并为你量身定制一份长寿计划。这款产品是由一些厌倦了只显示数字但从不告诉你下一步该做什么的仪表盘的创始人打造的。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Chert</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">206</span>
+      </div>
+      <div class="tagline">Vapi for FaceTime：几行代码让AI视频助手变得简单易用。</div>
+      <div class="desc">Chert 是 FaceTime 的智能助手。通过简单的几行代码，您可以构建和部署互动 AI 视频代理，轻松进行 FaceTime 通话和回答问题。这些代理可以用于远程支持、现场服务、远程医疗接待、引导式入职培训，或任何更容易展示而非解释的场景。马上试试看：现在就给代理打个 FaceTime，展示给它看吧！</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">AirAlarm</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">124</span>
+      </div>
+      <div class="tagline">在你的睡眠周期结束时醒来</div>
+      <div class="desc">AirAlarm 将你的 iPhone 和 AirPods 变成一个更加温和的闹钟。你可以设定一个起床时间段，随着内置的声音或者你自己喜欢的音乐慢慢入睡，并在90分钟的周期结束时醒来。使用这个应用不需要 Apple Watch、账户、广告、分析数据或云端睡眠档案。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">CostLogic</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">116</span>
+      </div>
+      <div class="tagline">人工智能驱动的建筑项目预算、估算和发票管理</div>
+      <div class="desc">CostLogic 是一个专注于建筑预算和成本管理的工作平台，配备了一个强大的助手——Onyx。Onyx 可以代替你执行多种操作。你只需上传图纸，它就能自动识别房间、调整比例、计算数量，将预算转换为估算，并发送发票，所有这些都可以在一个基于浏览器的工作流程中完成。你可以实现从蓝图到发票的无缝转换，而无需使用五个不同的工具，大大节省时间，将几天的工作缩短为几个小时甚至几分钟。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Vaaya</td>
+        <td><span class="votes-sm">▲ 53</span></td>
+        <td>将你的Github个人资料变成代理的信用卡。</td>
+      </tr>
+      <tr>
+        <td>Mac Developer Bridge</td>
+        <td><span class="votes-sm">▲ 19</span></td>
+        <td>在你的Mac上给ChatGPT一个真正的终端。</td>
+      </tr>
+      <tr>
+        <td>Assetli.app</td>
+        <td><span class="votes-sm">▲ 19</span></td>
+        <td>个人财务与净资产，连接到你的人工智能</td>
+      </tr>
+      <tr>
+        <td>Make it RAIN</td>
+        <td><span class="votes-sm">▲ 14</span></td>
+        <td>在你自动化一个猜测之前，先找出可能会付费的人。</td>
+      </tr>
+      <tr>
+        <td>Harbor ATS/CRM</td>
+        <td><span class="votes-sm">▲ 13</span></td>
+        <td>唯一由真正的招聘人员打造的ATS/CRM系统。</td>
+      </tr>
+      <tr>
+        <td>Interview Agent by NexI</td>
+        <td><span class="votes-sm">▲ 11</span></td>
+        <td>AI面试：筛选、打分和筛选人才</td>
+      </tr>
+      <tr>
+        <td>Matimo™ Workbench, Studio &amp;amp; Governance</td>
+        <td><span class="votes-sm">▲ 9</span></td>
+        <td>AI代理操作平台：构建、部署与管理代理</td>
+      </tr>
+      <tr>
+        <td>Scaloom</td>
+        <td><span class="votes-sm">▲ 8</span></td>
+        <td>谷歌和人工智能搜索的AI驱动Reddit营销</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-08-18
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年8月24日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年8月24日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Construct Computer</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">321</span>
+      </div>
+      <div class="tagline">你的AI同事拿到了一台电脑，而你则重新找回了自己的时间。</div>
+      <div class="desc">为独立创始人和小团队打造的人工智能工作平台。任何MCP（多功能能力包）或技能安装就像下载应用一样简单，智能代理可以创建尚不存在的工具，这些工具由平台进行部署和管理，可以与整个团队共享。任何你希望的代理操作都能转化为可重复使用的工作流程，这样代理们就能减少思考时间，更多地投入到实际操作中。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">FetchSandbox MCP</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">239</span>
+      </div>
+      <div class="tagline">证明你的人工智能集成修复有效的MCP</div>
+      <div class="desc">你的代理集成修复已经通过了持续集成（CI）测试，但数据仍然有问题。FetchSandbox MCP 可以复现你代码中的实际错误，修复了这个问题，并且证明了修复是有效的。这就像是有了一个明确的凭证，而不是一种感觉。现在有70多个API沙箱，你只需要在Cursor或Claude代码中调整一个配置模块。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Aximote</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">203</span>
+      </div>
+      <div class="tagline">你的汽车数据，终于随身带着了！</div>
+      <div class="desc">Aximote将您汽车的数据传输到您的iPhone，让每一次出行变得易于理解。您的行程会自动记录，并提供关于油耗、充电情况、费用和驾驶效率的见解。您可以自定义一个仪表盘，显示20多项车辆指标，比较不同的行程和长期趋势，管理多辆汽车，并保持连续的驾驶历史，即使您更换品牌也不受影响。无需额外硬件。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">OpenLogi</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">180</span>
+      </div>
+      <div class="tagline">一个本地优先的替代方案，类似于Logitech Options+</div>
+      <div class="desc">一个本地优先的原生替代方案，取代Logitech Options+，使用Rust编写。可以重新映射按钮，调节DPI和通过HID++实现智能切换——无需账户，无需数据监控。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Claude Academy</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">163</span>
+      </div>
+      <div class="tagline">Anthropic官方学习中心</div>
+      <div class="desc">掌握整个Claude技术栈——从基础提示和AI流畅性到构建复杂的多智能体工作流程。Claude Academy将自学课程、开发者教程和官方认证路径整合到一个互动学习平台中。快来academy.claude.com开始你的学习旅程吧！</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Yatko</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">118</span>
+      </div>
+      <div class="tagline">GitHub 忘了添加的下载按钮</div>
+      <div class="desc">Yatko（yatko.app）可以将任何公开的Github代码库转化为简洁的下载链接，自动选择适合每位访客操作系统和架构的最新版本。只需更换域名，一键即可下载正确的二进制文件。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Plask</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">105</span>
+      </div>
+      <div class="tagline">让小鸭子来展示你在苹果手表上潜水的深度吧！</div>
+      <div class="desc">Plask 将你的 Apple Watch 变成一个迷你的水上剧院：像素风格的小橡皮鸭会随着你潜水而潜入水中，屏幕上显示你的真实深度，当然还有一只或者十只小鸭子。如果你选择了高级版，还会有鲨鱼、尼斯湖水怪、一个孤岛幸存者、发酵鲱鱼等更多有趣的角色。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">KanaSensei</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">102</span>
+      </div>
+      <div class="tagline">在两周内掌握日语假名阅读。</div>
+      <div class="desc">KanaSensei是一款学习日语阅读的网页应用。它通过自适应练习、挑战、有趣的记忆法、母语音频和进度追踪来帮助你练习平假名和片假名。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Tab Notes</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">88</span>
+      </div>
+      <div class="tagline">将浏览器的新标签页变成一个无干扰的记事本</div>
+      <div class="desc">Tab Notes 将每个新的浏览器标签页变成一个无干扰的记事本。你可以即时记录想法，支持丰富的文本、表格和带语法高亮的代码块，甚至可以用内置的图形画布草绘你的创意。它完全支持离线使用，并可以将笔记保存在本地，或者私密同步到你的个人 Google Drive，没有任何服务器锁定的限制。你可以在全屏标签页中访问笔记，也可以通过快速工具栏在任何网站上弹出访问，随时导出为 txt 或 md 格式。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Yattayo</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">86</span>
+      </div>
+      <div class="tagline">一个物理滑块待办事项板，忠实地以3D形式重建。</div>
+      <div class="desc">Yattayo 是一款可以让你亲身体验的待办事项应用。每个任务都是一个真实的 3D 滑块，放置在一个橙色的板子上——你可以拖动滑块，听到咔嗒声，然后一个“完成”印章就会落在上面，任务完成了。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Local Music Organizer for Mac</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">81</span>
+      </div>
+      <div class="tagline">本地Apple Music库维护的终极工具包</div>
+      <div class="desc">本地音乐整理工具是专为大型本地音乐收藏而设计的原生macOS工具包。它可以与Music.app库和独立音频文件一起使用，无需Apple Music订阅。您可以查找重复的文件和缺失的曲目，比较播放列表，检查元数据，检测可疑的升频和转码，查看频谱和波形，并且可以离线修复或转换一些罕见的格式。您的音乐文件会保留在您的Mac上。您可以免费试用所有功能3天，之后只需一次性购买即可解锁，绝无订阅费用。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Flown</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">72</span>
+      </div>
+      <div class="tagline">你搭乘过的每一趟航班，都在一张私人地图上记录。</div>
+      <div class="desc">你搭乘过的每一趟航班，都可以在一张地图上展示。勾选197个国家，收集护照印章，回顾你在空中的一年。如果因为航班延误，航空公司需要赔偿你220到520英镑，Flown会帮你计算清楚，并告知你。使用方便，不需要注册账户。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>ANCBuddy for Bose QC Ultra</td>
+        <td><span class="votes-sm">▲ 72</span></td>
+        <td>在你的 macOS 菜单栏中控制 Bose QC Ultra 耳机。</td>
+      </tr>
+      <tr>
+        <td>Oppora AI</td>
+        <td><span class="votes-sm">▲ 29</span></td>
+        <td>自动化寻找潜在客户、开展外联和预约会议</td>
+      </tr>
+      <tr>
+        <td>OPENBOT</td>
+        <td><span class="votes-sm">▲ 15</span></td>
+        <td>Grokbot的开源替代方案</td>
+      </tr>
+      <tr>
+        <td>DailyOutbid.lol</td>
+        <td><span class="votes-sm">▲ 11</span></td>
+        <td>又一个跟风的竞标游戏，不过排行榜每24小时重置一次。</td>
+      </tr>
+      <tr>
+        <td>asktube.xyz</td>
+        <td><span class="votes-sm">▲ 9</span></td>
+        <td>为YouTube高级用户打造的AI工具</td>
+      </tr>
+      <tr>
+        <td>OverMCP</td>
+        <td><span class="votes-sm">▲ 7</span></td>
+        <td>建筑市场。</td>
+      </tr>
+      <tr>
+        <td>Scrollytelling</td>
+        <td><span class="votes-sm">▲ 6</span></td>
+        <td>利用人工智能进行沉浸式故事讲述，无需设计技能。</td>
+      </tr>
+      <tr>
+        <td>Pruve.dev</td>
+        <td><span class="votes-sm">▲ 5</span></td>
+        <td>问问任何一行代码，它为什么存在，并且得到证据。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-08-25
+  </footer>
+</div>
+</body>
+</html>

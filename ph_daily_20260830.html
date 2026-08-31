@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年8月30日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年8月30日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">1752vc Pitch Deck Analyzer</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">311</span>
+      </div>
+      <div class="tagline">在你发送之前，先了解投资者会怎么说。</div>
+      <div class="desc">Pitch Deck Analyzer 能在几分钟内为你提供投资者级别的反馈——它的训练基础是超过 25,000 个真实的投资提案和随之而来的投资者决策。你只需上传你的提案，就能获得逐页的资金可行性反馈——系统会根据不同阶段进行校准，检查叙述的一致性，并交叉核对你的主张，找出投资者可能会注意到的矛盾之处。在你发送提案之前，清楚知道你在哪些地方可能失去投资者的信心。这个工具由 1752vc 开发，这是一家每年评估 4,000 多家初创公司的风险投资公司。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Hy4 preview</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">201</span>
+      </div>
+      <div class="tagline">腾讯的770亿开放模型用于长期任务</div>
+      <div class="desc">Hy4 Preview是腾讯推出的一款770亿参数的MoE模型（其中49亿参数是活跃的，支持1百万字的上下文），专为长期自主任务设计。它能够独立完成编码、游戏开发和复杂文档分析等工作，并在交付之前自行进行测试和修复bug。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Cohere Parse 5</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">196</span>
+      </div>
+      <div class="tagline">将复杂的文档、表格和图像转化为适合AI处理的数据。</div>
+      <div class="desc">Parse是Cohere推出的一款文档视觉解析模型。它可以将企业图像和文档中的非结构化数据转化为结构化数据，方便后续的人工智能代理和应用使用。该模型支持光学字符识别（OCR）、表格、图示和图像的处理，并通过边界框进行视觉定位，支持九种语言。用户可以通过API、云服务，或完全在本地及隔离环境中部署该模型。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">seendiff</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">142</span>
+      </div>
+      <div class="tagline">代码差异查看器，带进度跟踪功能</div>
+      <div class="desc">编码助手可以生成大量的代码差异，最后还是需要有人来阅读这些差异。seendiff 是一个本地差异工具，专门用于处理大规模的代码变更。它可以帮助你跟踪已经查看过的内容，以小块的形式进行审查，并且可以邀请编码助手来解释它的工作。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Neo</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">137</span>
+      </div>
+      <div class="tagline">来自《Silo》作者的一款新型小说创作工具</div>
+      <div class="desc">NEO是在尝试了许多写作工具后诞生的，但始终找不到“那个合适的”。NEO并不想什么功能都具备，它只想帮助你写出初稿。它提供无干扰的写作环境，界面简洁，让你可以在一个地方查看所有的工作进度。最重要的是，它会在你写作的同时将你的手稿格式化成书的样子。你只需按一下回车键，其他的交给NEO就行了。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">publicdesktop.lol</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">103</span>
+      </div>
+      <div class="tagline">公共互联网计算机</div>
+      <div class="desc">购买一个永久性的10美元图标位置，或者竞标控制其公共歌曲的权利。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Cursor Craft v2</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">101</span>
+      </div>
+      <div class="tagline">定制Mac光标，重构版v2</div>
+      <div class="desc">Cursor Craft v2 是一款重新开发的 macOS 应用，专门用于浏览、预览和应用自定义鼠标光标包。新版本增加了重新设计的界面，浏览速度更快，离线状态更清晰，光标渲染效果更佳，并为动态和动画光标包做好了准备。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">God’s Eye View</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">97</span>
+      </div>
+      <div class="tagline">在浏览器中模拟间谍卫星，但数据是真实的。</div>
+      <div class="desc">在你的浏览器中体验间谍卫星模拟器——然后你会发现这些数据来源都是公开的，数据也是真实的。这个逼真的3D地球仪能够实时显示飞机、船只、卫星、地震、交通以及公共摄像头。你可以通过语音控制与这个地球对话，使用的是实时的AI助手。它完全开源，采用MIT许可证，能在你的浏览器中运行，而且旨在让个人探索的成本低到几乎为零。没有地方会被遗落！</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Mossy</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">94</span>
+      </div>
+      <div class="tagline">一盆当你需要休息时就会枯萎的桌面植物。</div>
+      <div class="desc">Mossy是一种生活在你Mac桌面上的小植物。你坐得越久，它就越萎缩。你可以写一句关于你休息的内容，比如：伸展我的坏背，做20个俯卧撑，教我一个西班牙单词，或者就是让我站起来。然后，一个AI会根据你写的内容，每次给出一个任务，并设定计时器。它不会阻塞或变暗你的屏幕，忽视它也是正常的使用方式。软件免费，无需注册，大小1.4MB，支持macOS 12及以上版本。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">WIT</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">91</span>
+      </div>
+      <div class="tagline">识别全球英语中的潜在误解</div>
+      <div class="desc">WIT是一个为创始人和全球团队提供的AI沟通检查工具。你可以在这里粘贴电子邮件、Slack消息或产品文案，看看它在美国、印度和新加坡的英语中会如何被理解，了解其中的原因，并获得一个更清晰的表达方式，同时保持你的语言风格。在你点击发送之前，先确认一下你的信息是否能够顺畅传达。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">RawToHEIC</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">81</span>
+      </div>
+      <div class="tagline">在苹果照片应用中将RAW格式转换为HEIC格式的方法如下：</div>
+      <div class="desc">RawToHEIC是一款可以直接在iPhone、iPad和Mac的照片分享界面中，将相机的RAW和ProRAW文件转换为HEIC格式的工具。转换后的文件体积可缩小到原来的十分之一，同时保留编辑记录、相册和元数据。所有操作都在设备本地完成，无需上传、登录账户或数据分析。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Staats</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">79</span>
+      </div>
+      <div class="tagline">问问你的编程助手，看看你的网站运行得怎么样。</div>
+      <div class="desc">原生代理，无需 cookies 的网站分析。您的编码代理会自动测量部署情况，标记变更，并根据证据提出下一步建议。无需仪表盘，也没有需要解读的图表。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Einfall</td>
+        <td><span class="votes-sm">▲ 77</span></td>
+        <td>捕捉那些逃逸的思绪，并将它们引导到应该去的地方。</td>
+      </tr>
+      <tr>
+        <td>Tiles</td>
+        <td><span class="votes-sm">▲ 76</span></td>
+        <td>将桌面混乱变成精心整理的空间。</td>
+      </tr>
+      <tr>
+        <td>Lubb</td>
+        <td><span class="votes-sm">▲ 73</span></td>
+        <td>一个真实的心跳声有助于入睡。</td>
+      </tr>
+      <tr>
+        <td>Any Command</td>
+        <td><span class="votes-sm">▲ 70</span></td>
+        <td>将你的手机变成电脑的第二个屏幕和触控板</td>
+      </tr>
+      <tr>
+        <td>Democruit</td>
+        <td><span class="votes-sm">▲ 34</span></td>
+        <td>您的求职伙伴，从简历到录用，始终以候选人为中心。</td>
+      </tr>
+      <tr>
+        <td>TCTGame : Social Habit Tracker</td>
+        <td><span class="votes-sm">▲ 29</span></td>
+        <td>一款旨在促进责任感和一致性的社交习惯游戏</td>
+      </tr>
+      <tr>
+        <td>Mole</td>
+        <td><span class="votes-sm">▲ 28</span></td>
+        <td>一款原生的Mac维护应用，能在清理之前先展示要清理的内容。</td>
+      </tr>
+      <tr>
+        <td>ThriveStack citedby</td>
+        <td><span class="votes-sm">▲ 20</span></td>
+        <td>可见的AI技术，用于衡量、修复和归因于收入。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-08-31
+  </footer>
+</div>
+</body>
+</html>

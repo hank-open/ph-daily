@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年9月2日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年9月2日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Kilo Code for JetBrains</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">492</span>
+      </div>
+      <div class="tagline">为 JetBrains 打造的完全本地化、开源的编码助手</div>
+      <div class="desc">Kilo Code for JetBrains 是一个完全原生、开源的编码助手，适用于 IntelliJ IDEA、WebStorm、PyCharm、GoLand、Rider、PhpStorm、CLion 和 RubyMine 等所有 JetBrains 开发工具。它旨在支持本地和远程开发，具备隔离工作树中的并行代理，可以在 GitHub 的拉取请求和差异对比中直接查看，并且拥有超过 500 种模型供用户使用。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Computable GPU Index (CGI)</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">402</span>
+      </div>
+      <div class="tagline">首个开源GPU计算价格指数</div>
+      <div class="desc">可计算GPU指数（CGI）是按每小时每个GPU的美元价格计算的，这个价格来自于一组固定服务提供商的按需租赁费率。该方法在数学上是严谨的，任何人都可以验证并重复每一次计算结果。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Creatium Coach</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">302</span>
+      </div>
+      <div class="tagline">你的多媒体导师，帮助你从中等水平提升到卓越。</div>
+      <div class="desc">Creatium Coach 是一个栩栩如生的多媒体教练，帮助任何人设定目标并实现目标。与其浏览静态课程或模糊记忆视频，不如通过教练的指导、模拟、视频和角色扮演来学习。这种方式的效果和一对一的面对面辅导一样出色。无论你的目标是职业发展还是个人成长，无论你是单独学习还是整个团队，Creatium Coach 都能根据你的需求提供支持。注意：可能会出现的副作用包括征服世界哦。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Gauth AI Course</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">249</span>
+      </div>
+      <div class="tagline">你可以观看、测验并创建的AI课程</div>
+      <div class="desc">Gauth的人工智能课程可以将任何学科转化为互动式课程，首批包含200多个与人工智能相关的数学课程，涵盖了美国高中所有的数学主题，从代数I到AP微积分。这个AI课程配备了视觉图像、思维导图和主动回忆测验，您可以随时暂停课程向AI辅导员提问。此外，您还可以在几秒钟内生成自己的课程，以便按照自己的节奏创建个性化的学习内容，并与他人分享。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Sider Code</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">219</span>
+      </div>
+      <div class="tagline">通过Sider扩展，轻松用简单的语言重塑任何网站。</div>
+      <div class="desc">在过去的30年里，网站一直主导着规则。现在，你可以掌控一切。通过Sider Chrome扩展，你可以告诉Sider Code，依赖的网站应该如何运作。它能理解页面，编写代码，并进行相应的修改。你可以保存并控制这个功能。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">TrustedRouter</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">146</span>
+      </div>
+      <div class="tagline">每个模型都有统一的接口。隐私有保障，有证可依。</div>
+      <div class="desc">一个与OpenAI兼容的API，支持数百个模型，运行在经过验证的基础设施上，提供端到端加密，具备机密通道、零数据记录（ZDR）通道、提供商故障切换、带自带密钥（BYOK）功能，并且不会记录任何提示或输出日志。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">EAS Observe</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">132</span>
+      </div>
+      <div class="tagline">为Expo和React Native量身打造的性能监控工具</div>
+      <div class="desc">Observe 是一个可以测量你的 Expo 应用启动速度和每个屏幕变得可用的速度的工具，它可以在真实用户的设备上进行监测。只需安装这个库，并将其包裹在你的根布局中，你就能获取启动数据，而无需进行额外的设置。每个原生构建和每次 EAS 更新都会在图表上显示一个独立的标记，这样你就可以看到哪个版本的发布影响了这些数据。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Nodeterm</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">125</span>
+      </div>
+      <div class="tagline">一个基于节点的免费开源终端管理工具</div>
+      <div class="desc">一个基于节点的免费开源终端管理器，支持macOS、Linux和Windows。它提供真实的终端和编码代理，作为无限画布上的实时节点——你可以观察Claude、Codex和Gemini的工作，互相连接它们，并且在重启时也不会丢失会话。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Notchling</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">123</span>
+      </div>
+      <div class="tagline">一个小生物，栖息在你的MacBook缺口里。</div>
+      <div class="desc">Notchling 是一种小生物，生活在你的 MacBook 凹口里。它会盯着你的光标，当你不动的时候就打个盹，感知你的电池状态。当你拖动文件到它面前时，它会张开嘴巴，帮你搬运文件。它是免费的，体积不到一兆，而且不会把任何信息传出你的 Mac。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Murmell</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">104</span>
+      </div>
+      <div class="tagline">用于AI助手的Google文档，让你可以随时合上笔记本电脑。</div>
+      <div class="desc">我们第一次在Product Hunt上的发布为Murmell带来了许多新用户，同时也让我们意识到现有的基础设施还无法满足扩展的需求。因此，我们决定从头开始重建它。我们还创建了统一的代理记忆：你可以关上笔记本电脑，冻结一个画布，然后再回来时，能够找到完全相同的工作空间、终端、文件和对话。你的代理会保留上下文，继续之前的工作，而团队成员则可以一起加入同一个实时环境，进行实时协作。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">HONOR Robot Phone</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">102</span>
+      </div>
+      <div class="tagline">这款手机内置了一个稳定器。</div>
+      <div class="desc">HONOR机器人手机在一款旗舰安卓手机内置了一个电动的四自由度云台。它的200MP主摄像头能够进行物理移动，从而稳定拍摄画面、跟踪对象、在通话时自动跟随你，并且支持自主拍摄，同时在影像处理流程中内置了ARRI LogC3和Looks选项。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">ChannelOS</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">98</span>
+      </div>
+      <div class="tagline">把你的本地媒体库变成有线电视风格的体验。</div>
+      <div class="desc">ChannelOS 是一个本地优先的 Windows 电视系统，它可以将你已经拥有的媒体转变为持久的、可编程的频道。你可以创建自己的频道，设定播放时间，浏览类似有线电视的实时节目指南，随时观看点播内容，还可以通过一个方便沙发操作的界面切换频道。使用这个系统不需要账号、云服务或上传媒体。目前的 alpha 版本是免费的，且采用 MPL-2.0 开源协议。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>ThunderPhone</td>
+        <td><span class="votes-sm">▲ 97</span></td>
+        <td>构建可靠AI电话助手的平台（每分钟只需2元起）</td>
+      </tr>
+      <tr>
+        <td>Sourclip 2.0</td>
+        <td><span class="votes-sm">▲ 97</span></td>
+        <td>围绕Gemini Notebook构建的研究工作区</td>
+      </tr>
+      <tr>
+        <td>Keiki</td>
+        <td><span class="votes-sm">▲ 96</span></td>
+        <td>创建一个面向客户的AI助手，并将其全面推广。</td>
+      </tr>
+      <tr>
+        <td>Folio</td>
+        <td><span class="votes-sm">▲ 90</span></td>
+        <td>一个稍后阅读的应用程序将排版好的摘要发送到你的电子书阅读器上。</td>
+      </tr>
+      <tr>
+        <td>Happy Shrimp</td>
+        <td><span class="votes-sm">▲ 90</span></td>
+        <td>阿里巴巴推出了一个人工智能音乐生成器，可以将创意转化为歌曲。</td>
+      </tr>
+      <tr>
+        <td>WaseiGo</td>
+        <td><span class="votes-sm">▲ 85</span></td>
+        <td>学习1000多个看起来像英语的日语单词</td>
+      </tr>
+      <tr>
+        <td>Cosmic Agent Plugins</td>
+        <td><span class="votes-sm">▲ 81</span></td>
+        <td>将宇宙代理连接到任何服务，使用MCP服务器。</td>
+      </tr>
+      <tr>
+        <td>Tovel AI</td>
+        <td><span class="votes-sm">▲ 78</span></td>
+        <td>从对话到行动，三步走</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-09-03
+  </footer>
+</div>
+</body>
+</html>

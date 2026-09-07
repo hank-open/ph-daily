@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年9月6日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年9月6日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">dif.sh</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">353</span>
+      </div>
+      <div class="tagline">Markdown特性标志是你的编程助手为你安装的功能。</div>
+      <div class="desc">开源特性标志（feature flags）。每个标志都是一个与其控制的代码一起存放的Markdown文件，里面说明了它的功能、存在的原因以及你做出的决策，这一切都像其他变更一样经过审查合并（PR）。你的编码代理可以通过一个命令安装Dif，不需要注册账户，并且可以读取上下文文件，以了解哪些功能已经上线，哪些功能曾经尝试过。A/B测试的内容同样存放在这些文件中，直到你有流量可以测试。你可以将事件发送到自己的分析工具，或者让Dif Cloud读取结果，并将决策写入文件中。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Reflexio</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">277</span>
+      </div>
+      <div class="tagline">随着时间的推移，行为学习使得人工智能代理变得更为智能。</div>
+      <div class="desc">Reflexio通过每一次互动不断提升AI代理的表现。当用户纠正代理、某个路径失败或者某些操作特别顺利时，Reflexio会将这些经验转化为代理下次可以重复使用的行为。这样一来，宝贵的经验就不会被埋藏在日志中，而是让你的代理持续学习哪些做法值得重复，哪些要避免——每次学习的过程都是可见、可测试和可逆的。通过这种方式，任务失败率可以降低超过30%，同时节省超过60%的资源使用。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Ponytail</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">214</span>
+      </div>
+      <div class="tagline">编写新代码是最后的选择。</div>
+      <div class="desc">Ponytail是一个插件，它的作用是让编程助手在编写代码时尽量减少代码量。每次添加新内容之前，它都会检查这个改动是否必要、是否已经存在，或者是否可以使用标准库或原生API。这样可以实现相同的功能，但用更少的代码来完成。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Hyperprobe</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">192</span>
+      </div>
+      <div class="tagline">让你的AI助手在不重新部署的情况下进行生产环境的调试。</div>
+      <div class="desc">HyperProbe 是后端团队用来调试那些无法在本地重现的生产问题的一种工具。与其添加日志并等待部署，我们可以让 Claude Code、Codex 或 Cursor 在运行中的服务中插入只读探针，捕捉那些从未记录的变量状态。这样一来，你的代理就能像在本地重现一样进行调试，快速解决问题。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">at8pm</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">131</span>
+      </div>
+      <div class="tagline">你的真实日记</div>
+      <div class="desc">你今天写的每一条记录都会在你设定的时间锁定——默认为晚上8点。一旦锁定，就无法编辑、修改过往，也不能悄悄润色当时的真实感受。它只是你一天的真实、原始、未经修饰的记录。记录会通过你自己的私人iCloud在设备之间同步，而不会使用任何第一方或第三方服务器。当打字不够表达时，你还可以录制一个方形视频（squope）或音频笔记。at8pm可以免费下载（每天最多2条记录）。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Experiential Labs</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">125</span>
+      </div>
+      <div class="tagline">开源人工智能网关：将流量转化为更优模型</div>
+      <div class="desc">Experiential 是一个开源、零费用的网关，支持自带密钥（BYOK）和自托管，拥有超过1000个市场模型。它会根据你的流量进行学习，从而降低成本，推荐更好的模型，并训练出你专属的专业模型。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">PostBox</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">112</span>
+      </div>
+      <div class="tagline">从你的Mac上进行舞台和后期设计</div>
+      <div class="desc">PostBox把MacBook的刘海变成了一个便捷的拖拽海报工具，让你的工作展示更加轻松。只需将导出的内容拖进来，写一次说明，就能同时发布到X、Bluesky、Threads、LinkedIn、Dribbble、Instagram、Pinterest、Behance和Cosmos等多个平台。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">CommuteBar</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">106</span>
+      </div>
+      <div class="tagline">在你的菜单栏中显示实时通勤时间</div>
+      <div class="desc">看看交通情况，准时出发。CommuteBar 可以在你的 Mac 菜单栏上实时显示通勤时间，无需切换应用。你可以保存多个目的地，比如办公室、学校和健身房。为定期通勤设置自动切换功能，还能得到“尽快离开”或“现在离开”的提示，以及可选的通知功能。它还提供路线对比、延迟交通提醒和不同的出行模式。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Queuebrick</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">100</span>
+      </div>
+      <div class="tagline">Letterboxd的替代品</div>
+      <div class="desc">快速、优雅的电影追踪工具。搜索电影、评分、添加到观影列表、排序下一个要看的影片。这是一个 Letterboxd 的替代选择。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Retold</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">99</span>
+      </div>
+      <div class="tagline">将家庭的声音转化为手绘故事影片</div>
+      <div class="desc">记录一段记忆或导入一条旧的语音备忘录。Retold 会保留真实的声音，并将故事转化为手绘动画和可读的书籍。这些插图会随着人物、地点和细节的讲述而展开，最后每段记忆都会被整理在你家庭的书架上。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">GitWarren</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">90</span>
+      </div>
+      <div class="tagline">在提交代码之前，先和你的编程助手一起审查代码。</div>
+      <div class="desc">这是一个本地的类似PR（Pull Request）代码审查应用，能够直接与您的工作树配合使用。您可以审查已经提交、暂存、未暂存和未跟踪的更改，留下逐行评论，并将工作整理成实际的审查，而无需将任何内容推送到远程。您可以通过MCP连接您正在使用的任何人工智能，这样就能获得一个连贯的体验，无需繁琐的复制粘贴。所有评论都以线程的形式与特定的代码更改关联，因此跟踪事情的发展变得非常简单。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">BrickForgerAI</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">88</span>
+      </div>
+      <div class="tagline">把任何提示变成一个可以实际搭建的积木套装。</div>
+      <div class="desc">输入一个提示，就能得到一个可以搭建的砖块模型。AI（图像和网格生成）只是开始，真正的工作在于砖块放置引擎：将形状转化为体素，使用兼容乐高的零件进行铺砖，错开接缝以增强结构强度，进行结构分析（重力负荷）以识别薄弱环节，然后用斜面和砖块进行细化（目前有55种砖块库）。最终你会得到一个 realldr 文件、零件清单，以及逐步的 PDF 说明书。下面的渲染图是用 Mecabricks 高级插件制作的。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>​​AI Agents Listing​</td>
+        <td><span class="votes-sm">▲ 22</span></td>
+        <td>代理型人工智能生态系统，一览无遗</td>
+      </tr>
+      <tr>
+        <td>LiftmyCV 3.0</td>
+        <td><span class="votes-sm">▲ 13</span></td>
+        <td>你的个人AI求职助手和自动申请代理。</td>
+      </tr>
+      <tr>
+        <td>Malyatko — Baby tracker</td>
+        <td><span class="votes-sm">▲ 10</span></td>
+        <td>隐私优先的婴儿追踪器，完全离线工作</td>
+      </tr>
+      <tr>
+        <td>Brain Rest</td>
+        <td><span class="votes-sm">▲ 10</span></td>
+        <td>别让你的浏览器拖垮了你的思维能力。</td>
+      </tr>
+      <tr>
+        <td>Muse Spark 1.3</td>
+        <td><span class="votes-sm">▲ 9</span></td>
+        <td>Meta的旗舰产品：用于编程和长期任务的智能体</td>
+      </tr>
+      <tr>
+        <td>Autnest: Drive &amp;amp; AI</td>
+        <td><span class="votes-sm">▲ 8</span></td>
+        <td>为司机和车库打造的汽车中心——内置人工智能</td>
+      </tr>
+      <tr>
+        <td>supatools</td>
+        <td><span class="votes-sm">▲ 7</span></td>
+        <td>产品制造商目录</td>
+      </tr>
+      <tr>
+        <td>VerbX Localize</td>
+        <td><span class="votes-sm">▲ 6</span></td>
+        <td>安装一次，本地化永久有效。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-09-07
+  </footer>
+</div>
+</body>
+</html>

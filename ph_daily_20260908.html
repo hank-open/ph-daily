@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年9月8日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年9月8日 · Top Products Launching Today</div>
+    <h1>今日精选 10 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">PR Lens by Coldtea.ai</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">330</span>
+      </div>
+      <div class="tagline">用全新的视角看代码</div>
+      <div class="desc">PR Lens 是一种全新的代码观察方式。它能为任何代码库和每个拉取请求绘制动态的架构和数据流图，让你在阅读代码之前就能直观地看到变化。它可以作为 GitHub Action 运行，也可以在命令行工具中使用，或者作为你编码助手的一个技能。该工具是开源的，采用 MIT 许可证。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Scriptly</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">259</span>
+      </div>
+      <div class="tagline">一款可以通过声音控制的iOS提词器应用</div>
+      <div class="desc">使用 Scriptly，轻松编写、整理和录制视频。它具备实时语音跟随滚动、当地存储隐私保护以及专业的提词器工具。现在可以在 TestFlight 上下载公开测试版。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Tucky</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">257</span>
+      </div>
+      <div class="tagline">笔记固定在屏幕边缘，里面有一个人工智能助手。</div>
+      <div class="desc">Tucky 是一款原生的 macOS 笔记应用，它会以一条细长的条带形式静静地停靠在屏幕边缘。它支持本地存储并提供加密功能。此外，付费版每月 $4，可以使用语音输入、连接器以及最优秀的语言模型。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Routines by Databox</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">176</span>
+      </div>
+      <div class="tagline">一个定期进行分析和报告的人工智能分析师</div>
+      <div class="desc">给你的AI分析师设置一个提示和时间表。它会分析你的实时数据，准备你所要求的报告或分析，并通过电子邮件、Slack或应用内发送给你。你现在手动完成的重复工作将自动执行。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Airuncode</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">148</span>
+      </div>
+      <div class="tagline">在你的电脑上运行多个本地编码助手。</div>
+      <div class="desc">Airuncode 是一个本地优先的代理运行时，专为严肃的软件开发而设计。它允许您在自己的机器上运行多个编码代理，使用自己的 API 密钥，轻松切换云端和本地模型，并直接向服务提供商支付费用，完全没有额外的代币费用。它能够扫描您的代码库，代理之间讨论解决方案，编辑文件，运行测试，以及自我修复错误。此外，Airuncode 还配备了 V-CORE，这是一个本地的 Vulkan 3D 运行时，专为 AI 辅助的游戏开发而设计。该软件支持 Windows、macOS 和 Linux 系统。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Assist</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">135</span>
+      </div>
+      <div class="tagline">在你的Mac上进行语音注释，获取截图并使用剪贴板管理器。</div>
+      <div class="desc">在你的Mac屏幕上用语音注释，捕捉全屏截图，并从屏幕凹槽中轻松获取复制的文本，随时准备重用。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Bloop</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">131</span>
+      </div>
+      <div class="tagline">将任何Mac上的音频转换为可导出的视觉效果</div>
+      <div class="desc">Bloop将系统音频或麦克风输入转换为八种实时的特效画面，每一帧都会根据正在播放的内容进行反应。你可以将它放在可调整大小的迷你播放器旁边，或者发送到菜单栏中。只需将MP3播放列表拖入其中，就能将整个制作导出为完成的视频。它支持Apple Silicon，经过认证，无需订阅。两个皮肤永久免费，而且它们是完整的应用程序，而不是试用版。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Clipnote</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">115</span>
+      </div>
+      <div class="tagline">保存你的AI对话，以便在关闭标签页后仍然可以保留。</div>
+      <div class="desc">你的ChatGPT和Claude对话一关闭标签页就消失了。但有了Clipnote，你只需告诉你的AI“保存这个”，它就会立刻保留下来——当然，粘贴内容也可以。Clipnote就像一个记事本，方便你保存AI对话，随时回来查看，接着就能继续之前的讨论。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Remind</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">112</span>
+      </div>
+      <div class="tagline">全屏会议提醒与人工智能简报</div>
+      <div class="desc">Remind 会将你的下一个会议显示在每一个屏幕上，并提供 AI 简报，告诉你将要见谁，还有一键加入的按钮。让你在会议开始前保持专注。你可以连接 Google 或 Microsoft 日历，并在会议准备时带入相关的电子邮件、Slack 和 Notion 信息。适用于 macOS 14 及以上版本。价格为每年 19.99 美元，提供 7 天免费试用。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Nina by Antalpha</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">107</span>
+      </div>
+      <div class="tagline">非托管人工智能代理：研究、预测和交易加密货币</div>
+      <div class="desc">Nina是Antalpha（NASDAQ: ANTA）推出的一款非托管AI交易助手。与普通聊天机器人不同，Nina连接的是机构级的实时数据，能够首先给出结论，并以图表形式呈现，而不是一大堆文字。你可以用简单的语言提问，Nina会为你草拟交易、预测或安全检查的内容，你只需在自己的钱包上签字。现在，一次对话就可以涵盖加密货币和美国股票的内容，包括市场情报、聪明资金追踪、预测和Polymarket、钱包安全检查等。此外，Nina还提供全天候的Sentinel警报和针对任何AI客户的MCP服务。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Dash to Cart 2.0</td>
+        <td><span class="votes-sm">▲ 19</span></td>
+        <td>轻量化的商业。</td>
+      </tr>
+      <tr>
+        <td>SwiftXR</td>
+        <td><span class="votes-sm">▲ 18</span></td>
+        <td>使用人工智能创建互动的3D、增强现实（AR）和虚拟现实（VR）体验。</td>
+      </tr>
+      <tr>
+        <td>BotLinx</td>
+        <td><span class="votes-sm">▲ 16</span></td>
+        <td>根据您的文档和网站，构建一个人工智能支持聊天机器人。</td>
+      </tr>
+      <tr>
+        <td>Undeadlines</td>
+        <td><span class="votes-sm">▲ 16</span></td>
+        <td>在任务把你压垮之前，先把它们解决掉。</td>
+      </tr>
+      <tr>
+        <td>Capslane</td>
+        <td><span class="votes-sm">▲ 16</span></td>
+        <td>通过一个API获取可靠的YouTube字幕</td>
+      </tr>
+      <tr>
+        <td>abha.page 2.0</td>
+        <td><span class="votes-sm">▲ 15</span></td>
+        <td>将品牌色彩转化为可交付的设计系统</td>
+      </tr>
+      <tr>
+        <td>Ollie</td>
+        <td><span class="votes-sm">▲ 14</span></td>
+        <td>你的AI队友——连接顺畅，贴近需求，掌控全局。</td>
+      </tr>
+      <tr>
+        <td>Kitiz</td>
+        <td><span class="votes-sm">▲ 14</span></td>
+        <td>收集51只猫，并与每一只建立联系。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-09-09
+  </footer>
+</div>
+</body>
+</html>

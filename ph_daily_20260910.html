@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年9月10日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年9月10日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Mastra Factory</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">468</span>
+      </div>
+      <div class="tagline">从问题到生产，由代理人负责。</div>
+      <div class="desc">Mastra Factory 是一个开源、智能代理驱动的软件交付环境。它将持久的编码代理、代码仓库、问题收集、项目规划、实施以及拉取请求审核整合在一个你可以掌控的网页应用中。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Harden</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">387</span>
+      </div>
+      <div class="tagline">为人工智能编程代理提供的安全层</div>
+      <div class="desc">Harden AIF是一款免费的本地安全工具，专门为AI编码代理设计。它的后训练模型会在工具调用执行之前检查请求和会话上下文。它在关键的代理安全基准测试中超过了前沿模型，并且所有的代码库和工具输出都保存在你的机器上，确保了数据的安全性。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">ChatGPT Images 2.5</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">303</span>
+      </div>
+      <div class="tagline">更清晰的画面，更流畅的体验，更好的创作掌控。</div>
+      <div class="desc">ChatGPT Images 2.5是OpenAI最新一代的图像模型，旨在提供更清晰的细节、更快的生成速度和更精确的编辑能力。它帮助你将草图、提示和参考照片转化为精美的视觉作品，具有更好的一致性、自然的光影效果、更丰富的纹理，以及在每次编辑中更强的控制力。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Noodle Seed</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">245</span>
+      </div>
+      <div class="tagline">你的产品中的人工智能，以及人工智能在你的产品中。</div>
+      <div class="desc">Noodle Seed帮助软件团队将他们的产品准备好与AI代理进行互动。您可以在TypeScript中构建工作流程，通过安全的品牌助手将其集成到您的产品中，并使相同的功能也能被外部代理使用。与其将多个MCP SDK和托管基础设施拼凑在一起，Noodle Seed提供了一个管理良好的运行时环境，负责身份验证、权限管理、秘密存储、审计和操作等方面。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Muse by Meta</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">221</span>
+      </div>
+      <div class="tagline">你个人的AI助手，帮你完成各种任务。</div>
+      <div class="desc">试试Muse，你的个人AI助手，帮你完成各种任务。无论是财务、健康、购物，还是关心的人，告诉Muse你的目标或日常任务，它就会处理剩下的事情。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Ass Auction</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">150</span>
+      </div>
+      <div class="tagline">各大品牌争相出价，希望能把他们的logo放在我身上。</div>
+      <div class="desc">Ass Auction 是一个广告网络，只有一个广告位：一条内裤。只需支付5美元或更多，你的logo就能加入排行榜，具体排名取决于你花的钱。任何人都可以出更高的价，把你推下去。你的总花费就是你的排名，因此想要重新上升只需支付差额。前22名的logo会印在内裤上。没有账户，只需要一个网址或X（前Twitter）账号，以及Stripe付款。你还能看到实时点击数，有分享卡片，还会在你被推下去时收到邮件通知，同时还有一个“八卦栏”，让大家聊天讨论。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">AlphaGenome Atlas</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">146</span>
+      </div>
+      <div class="tagline">谷歌的人工智能绘制了每一种可能的人类DNA突变图谱。</div>
+      <div class="desc">AlphaGenome Atlas 是谷歌DeepMind开发的一个人工智能驱动的图谱，旨在展示基因突变如何影响人类生物学。这个项目通过预先计算所有90亿种可能的单字母DNA变化的AlphaGenome预测，创建了一个1拍字节的数据集，研究人员可以利用它来探索和优先考虑编码区和非编码区的变异。用户可以通过一个可视化的网络界面免费探索这些数据，同时也提供API和Antigravity接口供深入研究使用。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">DuckFightClub</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">141</span>
+      </div>
+      <div class="tagline">训练你的小鸭子，赢得金喙腰带！</div>
+      <div class="desc">想象一下 WWE SmackDown，但是换成可爱的人工智能机器人。八个团队花费数天时间为 Pollen 的开源 MicroDuck 训练强化学习策略，然后我们把它们放进模拟器里，争夺金喙奖杯。整个比赛将会进行直播。特别之处在于：你不是在造机器人，而是在训练它的大脑。想参与吗？组建一个团队，训练你的策略，或者在你所在的城市举办一场对决。当真正的 MicroDuck 准备好时，我们就会走进现实世界。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">49agents IDE</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">125</span>
+      </div>
+      <div class="tagline">无需疲劳的2D集成开发环境，用于跨项目运行智能代理。</div>
+      <div class="desc">49Agents IDE 是一个 2D 画布，你可以在上面创建一个包含所有代理、终端、代码库和机器的地图。49 利用我们大脑的工作方式，解决了工程师们在多个标签页中切换时的疲劳问题。它的界面类似于城市建设游戏，让你轻松地将工作流程与标签页关联起来，即使过了几天再回来也毫不费力。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Type.com</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">120</span>
+      </div>
+      <div class="tagline">一个供Claude、Codex和你的团队共同使用的工作空间</div>
+      <div class="desc">Type是一个共享工作空间，可以汇聚你团队最优秀的AI成果。只需连接工具一次，就可以使用任意模型，并将技能、文件和讨论集中在一个所有团队成员都能看到的地方。你可以在这个“公司大脑”上构建自定义应用和自动化功能，随着工作的进行，它会变得越来越聪明。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">GoModel</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">119</span>
+      </div>
+      <div class="tagline">开源的OpenRouter</div>
+      <div class="desc">开源AI网关，使用Go语言开发。为每个提供商提供一个与OpenAI兼容的API，支持预算管理、缓存、保护措施、负载均衡和故障转移。它是一个单一的可执行文件，Docker镜像大小约为20MB，采用MIT许可证，用户可以自带密钥。这是一个自托管的替代方案，类似于OpenRouter和LiteLLM。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Diiverge</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">112</span>
+      </div>
+      <div class="tagline">将任何图片转化为可玩的AI冒险游戏</div>
+      <div class="desc">将一张照片、画作或截图转变为一个点击冒险游戏。你可以点击画面中的物体，选择接下来发生的事情，AI会根据你的选择生成下一幕和短片。所有的选择结果都会被保存，这样其他人也能探索你创造的分支。你可以免费游玩公共世界，或者在创作工作室购买场景包，打造属于自己的冒险，并通过链接与他人分享。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Basedash in Español Français &amp;amp; Português</td>
+        <td><span class="votes-sm">▲ 107</span></td>
+        <td>用你自己的语言处理数据</td>
+      </tr>
+      <tr>
+        <td>AdScope</td>
+        <td><span class="votes-sm">▲ 102</span></td>
+        <td>几秒钟内了解您的广告表现</td>
+      </tr>
+      <tr>
+        <td>WorkID.ai</td>
+        <td><span class="votes-sm">▲ 101</span></td>
+        <td>在这里，经过验证的人才与机会相遇。放心雇用！</td>
+      </tr>
+      <tr>
+        <td>Frigade Assist API</td>
+        <td><span class="votes-sm">▲ 98</span></td>
+        <td>给你的AI助手提供指导，告诉用户该点击哪里。</td>
+      </tr>
+      <tr>
+        <td>OTP.com</td>
+        <td><span class="votes-sm">▲ 34</span></td>
+        <td>为产品开发者提供的一次性密码（OTP）服务。支持四种渠道，统一的API接口。</td>
+      </tr>
+      <tr>
+        <td>Nugget — LinkedIn Warm Outreach Tool</td>
+        <td><span class="votes-sm">▲ 23</span></td>
+        <td>“你下一个客户就已经在你的LinkedIn网络中。”</td>
+      </tr>
+      <tr>
+        <td>Brainloot</td>
+        <td><span class="votes-sm">▲ 22</span></td>
+        <td>Unity团队的任务管理 &amp;#8211; 编辑器中的相同卡片</td>
+      </tr>
+      <tr>
+        <td>Gsheet CRM</td>
+        <td><span class="votes-sm">▲ 21</span></td>
+        <td>来自 Google 表格的 CRM 应用程序</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-09-11
+  </footer>
+</div>
+</body>
+</html>

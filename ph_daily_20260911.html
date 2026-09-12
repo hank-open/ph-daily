@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年9月11日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年9月11日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Typewise Nova</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">335</span>
+      </div>
+      <div class="tagline">自我构建和改进的人工智能客户体验</div>
+      <div class="desc">Nova 是一个人工智能助手，可以帮助你创建和提升客户服务团队，而且不需要开发者的参与。简单来说，Nova 的工作流程是这样的：</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">AI Observability by OpenObserve</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">303</span>
+      </div>
+      <div class="tagline">OpenTelemetry原生的可观察性，用于代理和大型语言模型（LLMs）</div>
+      <div class="desc">你的代理费用是40美元，花费了34秒。这是为什么呢？OpenObserve可以追踪每个代理会话，包括模型、工具、服务、数据存储和用户会话，让你清楚地了解时间、金钱和质量的去向。你可以检测循环，进行在线评估，并追踪从大语言模型（LLM）调用到后端和数据库的故障，同时查看生产环境中的日志、追踪信息和指标。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">iPhone Duo</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">265</span>
+      </div>
+      <div class="tagline">史上最大的iPhone屏幕。采用纤薄的可折叠设计。</div>
+      <div class="desc">介绍一下iPhone Duo，这款是首款可折叠的iPhone。当它展开时，成为了迄今为止最薄的iPhone，屏幕面积比iPhone 18 Pro Max大了50%。此外，它的外屏幕面积也超过了iPhone 18 Pro的90%。通过全新设计的iOS体验，iPhone Duo在不同的使用姿势和方向上提供了前所未有的灵活性。而且，它的设计坚固耐用，方便随身携带。这是一款与众不同的iPhone。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">AirPods 5</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">201</span>
+      </div>
+      <div class="tagline">1.5倍主动噪声取消、人工智能Siri、实时翻译</div>
+      <div class="desc">AirPods 5 在开放式设计中引入了更强大的主动噪声取消功能，同时配备了更智能的 Siri，可以进行真实对话和实时翻译，方便跨语言交流。它们特别适合通话、锻炼和日常听音。将于2026年9月18日上市。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Live Captions by Subanana</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">177</span>
+      </div>
+      <div class="tagline">你的整个观众群体都用他们自己的语言在关注。</div>
+      <div class="desc">你只需讲述一次。你的听众扫描一个二维码，选择语言，然后在自己的手机上实时跟随你——可以是阅读内容，也可以是收听声音。可以在大屏幕上显示两种语言，或者将干净的信号发送到OBS和vMix中。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Suno v6</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">165</span>
+      </div>
+      <div class="tagline">首个与音乐行业合作的Suno模型</div>
+      <div class="desc">Suno v6 是一款新一代的音乐模型，分为三种版本：旗舰版 v6、探索版 v6-wild 和迷你版 v6-mini。你可以在不重制整首歌曲的情况下，编辑某个部分或歌词，还能将自己的歌曲混合在一起。无论你是从文本、音频、图片还是视频开始，都可以轻松创作！</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Desert Ant Labs</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">133</span>
+      </div>
+      <div class="tagline">专门的小型人工智能模型，用于语音、文本和视觉处理。</div>
+      <div class="desc">Desert Ant Labs开发的小型人工智能模型可以在手机或浏览器上运行，无需联网，也没有按使用量收费。与其依赖一个庞大的模型来完成所有任务，他们选择制作多个小模型，每个模型专注于一个特定的任务，包括语音、文本和视觉处理。通过一个软件开发工具包（SDK），只需几行代码就能添加任何模型。而且，对于每月活跃设备数量在10万个以内的用户，这项服务是免费的。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">FreeScan.app</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">132</span>
+      </div>
+      <div class="tagline">修复那些影响你可见性、信任度和转化率的问题</div>
+      <div class="desc">免费审计任何公开网址，无需注册。FreeScan 可以发现与 SEO（搜索引擎优化）、AEO（应用程序优化）、GEO（地理优化）、安全性、可访问性和设计相关的问题和机会。每个发现都包含证据、其重要性以及解决方法。Pro 版提供自动化的全站审计，将结果整理成 SEO、AI 可见性和修复工作区，跟踪改进和回退情况，生成适合代理使用的文档，通过 MCP 连接编码代理，监控网站正常运行时间，并发送每周报告和停机警报。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Modeinspect</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">128</span>
+      </div>
+      <div class="tagline">99天免费AI积分 &amp;#8211; 在你的代码库中设计产品用户界面</div>
+      <div class="desc">大多数软件在开发时会经过两次设计：首先是绘制一个概念图，然后再用代码实现。在这两者之间，设计的初衷可能会有所偏离。Modeinspect 是一个 AI 设计平台，旨在帮助你直接在真实项目中进行设计。你只需连接你的代码库，打开一个现有的界面，然后使用组件、令牌、实时数据、状态和断点来进行设计。你可以用 AI 来探索各种可能性，同时保留重要的细节。当你准备好后，可以将更改实时发布，或者发送给工程团队进行审核。最终决定什么时候发布的权利掌握在你手中。记住，画布并不是最终目标，产品才是！</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Speechmark</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">103</span>
+      </div>
+      <div class="tagline">Mac上的私密本地会议记录</div>
+      <div class="desc">Speechmark是一款专为macOS设计的私人会议笔记应用。它可以在你的Mac上录音、转录和总结会议内容，包括决策、待办事项和根据发言者归属的逐字稿。使用时无需任何机器人参与通话，也不需要注册账户，只需一次性付费。此外，它还可以通过MCP服务器与Claude Code良好集成。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Thousand</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">103</span>
+      </div>
+      <div class="tagline">为人类和智能助手提供的Git支持文档</div>
+      <div class="desc">使用Git管理的文档，具备真正的访问控制，所有内容都集中在一个Markdown仓库中，支持文件夹级别的访问权限。这样，团队成员、外部人员和AI代理可以各自看到自己专属的文件夹。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Viso Now</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">102</span>
+      </div>
+      <div class="tagline">使用人工智能构建计算机视觉应用程序</div>
+      <div class="desc">Viso Now 是一个自助式的人工智能视觉平台，可以将图像、视频和摄像头画面转化为可运行的计算机视觉应用。你只需描述想要了解的内容，Viso Now 就会构建智能视觉逻辑和定制的实时仪表板。整个过程无需进行模型训练、标注或编写代码。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Athenic AI</td>
+        <td><span class="votes-sm">▲ 99</span></td>
+        <td>用90多个数据集和专为分析而创的人工智能，超越市场表现。</td>
+      </tr>
+      <tr>
+        <td>Whip</td>
+        <td><span class="votes-sm">▲ 94</span></td>
+        <td>YouTube用于互动网页体验</td>
+      </tr>
+      <tr>
+        <td>Wealthfolio</td>
+        <td><span class="votes-sm">▲ 90</span></td>
+        <td>私密的、本地优先的个人财务管理</td>
+      </tr>
+      <tr>
+        <td>hob</td>
+        <td><span class="votes-sm">▲ 90</span></td>
+        <td>为您的整个代理系统提供专业工作空间</td>
+      </tr>
+      <tr>
+        <td>Mock Magic: Video Presets</td>
+        <td><span class="votes-sm">▲ 88</span></td>
+        <td>使用保存的预设，可以快速制作带有品牌标识的视频内容。</td>
+      </tr>
+      <tr>
+        <td>Vibe Eyes</td>
+        <td><span class="votes-sm">▲ 86</span></td>
+        <td>把你的宠物放进macOS菜单栏！</td>
+      </tr>
+      <tr>
+        <td>Drive</td>
+        <td><span class="votes-sm">▲ 76</span></td>
+        <td>为您下个周末的驾车出行提供车辆遥测和车牌识别提醒。</td>
+      </tr>
+      <tr>
+        <td>Gojo</td>
+        <td><span class="votes-sm">▲ 67</span></td>
+        <td>本地听写和日常Mac工具在你的小窍门中</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-09-12
+  </footer>
+</div>
+</body>
+</html>

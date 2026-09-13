@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年9月12日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年9月12日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Anysite.io</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">450</span>
+      </div>
+      <div class="tagline">通过与您的代理沟通，构建并丰富B2B客户名单。</div>
+      <div class="desc">Anysite.io 是一个B2B数据平台，可以与您喜欢的AI助手连接。只需向助手询问您需要的列表——比如按地区、行业和规模分类的公司、公司内部人员的信息、他们的职位和邮箱——Anysite.io就会为您提供。您无需编写查询，也不需要维护任何爬虫。它可以通过MCP或REST API与Claude、Codex、Cursor、OpenCode等多种助手进行合作。您只需连接并在同一天启动您的外部数据收集。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Loqua</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">396</span>
+      </div>
+      <div class="tagline">自然地表达自己的想法，并将这些想法付诸实践。</div>
+      <div class="desc">你的思维不应该为了键盘而减速。使用Loqua，你可以用自然的语言表达，把粗略的想法转化为可用的文字，理解屏幕上的内容，听取你不想阅读的内容，通过语音推动工作进展——从重写和翻译到安排日程和编码工作流程。减少打字，减少上下文切换，让你更专注于工作。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Wisry</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">310</span>
+      </div>
+      <div class="tagline">大规模复制你所在市场中已经成功的广告。</div>
+      <div class="desc">AI代理可以全面操控整个过程：扫描Meta和TikTok的广告库，找出在你所在市场中表现优异的广告，将它们克隆为你品牌的静态和视频广告，并优化后投放到Meta和Google，提升投资回报率（ROAS）。让你无需猜测，直接使用成功的广告。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Raycast 2.0</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">309</span>
+      </div>
+      <div class="tagline">下一代 Raycast 已经来临！</div>
+      <div class="desc">Raycast 2.0在全新基础上重新设计，内外焕然一新。现在，你的快捷工具不仅能快速访问所有内容，还引入了可以在应用中执行操作的人工智能、用于重复任务的自动化功能，以及用来整理持续工作的项目管理工具。你可以连接自己的ChatGPT或Claude账户，将人工智能与日常使用的命令和扩展结合起来。最棒的启动器变得更加出色。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Cline Desktop App</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">253</span>
+      </div>
+      <div class="tagline">一个用于开放权重模型的开源应用程序</div>
+      <div class="desc">Cline Desktop为您提供了一个开源的工作空间，让您可以充分利用自己喜欢的模型。您可以运行多个智能体会话，自动化重复任务，通过Cline的市场扩展功能，并继续使用像Claude Code和Codex这样的智能体。您可以选择最适合自己的模型和提供商，而Cline的智能体框架则专为开放权重模型进行了优化，支持这些工作的展开。所有这一切都不需要依赖封闭的生态系统。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">easyspecs.ai</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">152</span>
+      </div>
+      <div class="tagline">规格审查平台</div>
+      <div class="desc">1.5倍和100倍之间的差距，不在于速度，而在于信任！人工智能代理生成代码的速度是人类的100倍，但你的团队无法逐一审核这些代码。EasySpecs能够记录那些没有文档的代码库，并将其转化为可靠的规范，这样规范审核就变成了新的合并请求审核。让你的代理与现实接轨，推动自主开发而无需过多监管。只需一次性记录基础文档，审核规范，包括测试用例和评分标准，最终发布经过验证的代码。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Sliick</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">135</span>
+      </div>
+      <div class="tagline">免费的3D模型，让你的截图和视频更出彩！</div>
+      <div class="desc">在浏览器中轻松将截图和视频转换为精美的3D设备模型。你可以选择场景，定制形状和颜色，调整相机角度，甚至添加动画效果。导出图片或视频完全免费，无需账号，也没有水印。而且，你的媒体文件将保留在你的设备上。由Liinks制作。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Devin Voice</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">120</span>
+      </div>
+      <div class="tagline">你说了算，Devin来搞定。</div>
+      <div class="desc">Devin Voice 让你可以与 Cognition 的人工智能软件工程师 Devin 进行交流，简单地说出你的任务，Devin 就会负责规划、编码并交付成果。它采用 GPT-Live 技术进行自然对话，并在后台使用 Cognition 的新型 SWE-2 编码模型。你可以在 https://devin.ai 试试 Devin！</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Moji</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">107</span>
+      </div>
+      <div class="tagline">像打开PDF文件一样打开Markdown文件。</div>
+      <div class="desc">像打开文档一样快速、简洁且无干扰地使用Markdown。Moji是一款轻量级的阅读和编辑工具，支持Windows、macOS和Linux系统，具有实时预览、Mermaid图表功能，并可导出为PDF、HTML和PNG格式。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">ChatHop</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">97</span>
+      </div>
+      <div class="tagline">随时随地畅所欲言。</div>
+      <div class="desc">将你的 AI 对话在思考过程中转移到另一个助手，保持上下文不变。以纯文本或 Markdown 格式复制整个聊天记录。每月开始时提供 20 次免费使用机会。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">chat-recall</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">95</span>
+      </div>
+      <div class="tagline">在与AI的每次对话中，按Ctrl+F可以快速搜索你想要的信息。</div>
+      <div class="desc">你的团队花了几个月的时间与AI助手合作。Claude Code、Codex、Cursor和OpenCode各自以不同的格式保存了完整的工作记录，但它们之间无法互相读取。有了一个指令，可以把它们的记录整合成一个可搜索的历史记录。在任何信息离开你的电脑之前，密码就会被处理掉。你的助手会自己进行搜索，因此不再需要询问你上个月的决定。同时，它还会找到那些泄露到旧聊天中的密钥，并检查哪些仍然可用。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">sizeless</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">93</span>
+      </div>
+      <div class="tagline">地下基础设施的空间人工智能</div>
+      <div class="desc">sizeless将智能手机拍摄的开挖沟渠视频转化为法律要求公用事业公司和承包商必须提供的文档，包括3D模型、CAD/BIM图纸和计费所需的数量数据。现在，这个过程通常需要数月的时间和一名测量师，而我们只需几个小时，就能通过工人自己拍摄的视频完成这一切。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Design Studio by Monday Merch</td>
+        <td><span class="votes-sm">▲ 92</span></td>
+        <td>一个浏览器画布，可以设计超过1000种产品的商品。</td>
+      </tr>
+      <tr>
+        <td>Cadenya</td>
+        <td><span class="votes-sm">▲ 89</span></td>
+        <td>一个托管的自主循环，旨在将自主可能性变为现实。</td>
+      </tr>
+      <tr>
+        <td>GLYPH Immersive</td>
+        <td><span class="votes-sm">▲ 84</span></td>
+        <td>一个免费的模块化网格字母工具</td>
+      </tr>
+      <tr>
+        <td>Accordio</td>
+        <td><span class="votes-sm">▲ 80</span></td>
+        <td>“给Claude的管理员工具缺失。”</td>
+      </tr>
+      <tr>
+        <td>Jackalope</td>
+        <td><span class="votes-sm">▲ 79</span></td>
+        <td>Codex、Claude Code、Grok 和 OpenCode 在一个共享工作区内。</td>
+      </tr>
+      <tr>
+        <td>Formesign</td>
+        <td><span class="votes-sm">▲ 79</span></td>
+        <td>在你的Google表单中添加具有法律效力的签名</td>
+      </tr>
+      <tr>
+        <td>Spaces</td>
+        <td><span class="votes-sm">▲ 77</span></td>
+        <td>一个团队与人工智能助手共同工作的共享空间</td>
+      </tr>
+      <tr>
+        <td>TIM PG</td>
+        <td><span class="votes-sm">▲ 77</span></td>
+        <td>在将敏感数据粘贴到人工智能工具之前，务必先进行匿名处理。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-09-13
+  </footer>
+</div>
+</body>
+</html>

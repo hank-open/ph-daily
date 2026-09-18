@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年9月17日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年9月17日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Weave Router 2.0</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">331</span>
+      </div>
+      <div class="tagline">订阅感知编码代理路由器</div>
+      <div class="desc">在你的现有计划中，使用Claude模型进行Codex，使用GPT模型进行Claude Code，并根据剩余配额进行路由。新的Router 2.0会将每个编码请求分配给最便宜且能正确完成的模型。在Terminal-Bench 4.0和SWE-Atlas上，它的性能能以一半的成本匹配GPT-6 Astra，速度提升了两倍。这一切得益于一个新的分类器，它可以评估任务复杂性，并通过缓存感知切换，仅在节省的成本超过重建成本时才进行切换。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Appwrite 2.0</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">240</span>
+      </div>
+      <div class="tagline">面向代理和开发者的开源云平台</div>
+      <div class="desc">Appwrite 2.0是该平台的第二个主要版本。它对底层引擎进行了全面替换，重新构建了控制台，并扩展了项目能够存储的数据类型，包括关系型数据、无模式数据和向量数据，同时支持原生的PostgreSQL和MySQL引擎。此外，它还提供了可通过S3访问的存储、符合OAuth 2.1和OIDC标准的身份提供者，以及在这一切之上的网络层。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Gemini 3.8 &amp;amp; 3.8 Live Extended Thinking</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">205</span>
+      </div>
+      <div class="tagline">我们迄今为止最先进的双子音频模型</div>
+      <div class="desc">Gemini 3.8 Live 和 Gemini 3.8 Live Extended Thinking 是我们迄今为止最先进的实时对话模型，专为自然对话而设计。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">和朋友们分享你新得的小猫咪。每个“猫咪肖像”都是由人工智能生成的，基于原始照片，将人的特征、表情、发型和配饰转化为一只独一无二的猫咪。你想知道自己作为一只猫会是什么样子吗？</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">156</span>
+      </div>
+      <div class="tagline"></div>
+      <div class="desc"></div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Toki Coordination</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">196</span>
+      </div>
+      <div class="tagline">您的个人助理，用于安排和跟进会议。</div>
+      <div class="desc">别再浪费三天时间来安排一个只有30分钟的团队会议，或者每次有人取消就重新开始。Toki就像一位真正的执行助理，它会主动给与会者发邮件，协商一个大家都能接受的时间，必要时进行跟进，并发送邀请函。Toki还能帮助你管理时间，优化日程，记住你的偏好，帮助你优先处理最重要的任务和紧急的截止日期。更棒的是，现在这个服务是免费的，而不是花费数万块钱！</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Expand Board for macOS</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">132</span>
+      </div>
+      <div class="tagline">在无限的板块上扩展想法、概念和计划。</div>
+      <div class="desc">Expand 是一款适用于 macOS 的空间板工具。你可以在一个开放的画布上放置文本、图片、文件和形状，然后嵌套可以实际进入的板块。双击板块可以添加内容，右键点击可以选择文本、图片、文件或形状。工具栏上的加号可以从窗口顶部添加内容。你可以拖动来调整位置。打开一个板块后，可以在里面工作，然后使用标题栏的面包屑导航返回上层。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Thread</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">125</span>
+      </div>
+      <div class="tagline">将思绪连接成更大事物的AI日志</div>
+      <div class="desc">Thread 是一个人工智能日记和第二大脑，用来记录你的想法、创意、笔记和语音记录。它能自动连接相关的记忆，发现你思维中的模式，把零散的想法变成有意义的线索。你可以在几秒钟内捕捉任何信息，重新发现重要的内容，并通过一个私人化的智能记忆系统将你的思考转化为可执行的创意。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Twigg</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">121</span>
+      </div>
+      <div class="tagline">你永远不需要构建的上下文层</div>
+      <div class="desc">Twigg是一个有状态的API，用于调用大型语言模型（LLM）。与其每次请求都重新构建并发送整个对话，不如先创建一次聊天，然后只发送下一个事件。Twigg会保存会话状态：它会将上下文调整为目标模型的格式，必要时进行压缩或者截断，并处理调用请求。你可以通过仪表板控制工具的架构、系统提示和上下文窗口，同时跟踪使用情况和账单。无论是个人助手还是企业应用，你都可以轻松构建。再也不用担心上下文管理了。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">ZeroClick</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">120</span>
+      </div>
+      <div class="tagline">将您的产品销售给人工智能代理。</div>
+      <div class="desc">ZeroClick帮助企业向人工智能代理销售产品。您可以将您的API或产品转变为一个供AI代理发现和购买的在线商店，所有的支付、定价控制和交易跟踪都能集中管理。开始使用是免费的，我们还提供设置帮助。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Fide Island</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">120</span>
+      </div>
+      <div class="tagline">媒体、笔记、设备内翻译以及更多功能都在你的Notch中。</div>
+      <div class="desc">使用 Fide Island，将你的 MacBook 笔记本电脑的刘海区域变身为一个动态岛屿，方便访问媒体、Apple Notes、设备内翻译、日历、文件、剪贴板和快速工具。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Jottoo</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">101</span>
+      </div>
+      <div class="tagline">AI会议记录转化为可追踪的任务</div>
+      <div class="desc">Jottoo可以将会议和笔记自动转换为有序的、带有截止日期的任务。你可以录音、上传或直接输入内容——无需任何机器人参与会议，也不需要安装任何软件。你可以随时向Jottoo询问过去会议的内容，立刻得到答案。只需每月$13.99的固定费用。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Project Feed</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">99</span>
+      </div>
+      <div class="tagline">内置文件审查的项目管理</div>
+      <div class="desc">Project Feed 是一个为游戏开发者、设计团队和机构提供的工作空间。在这里，你可以分享更新、规划任务、编辑文档以及共同在画布上协作。你可以查看图片、视频、音频、PDF、3D 模型、Rive 文件和精灵图。将反馈转化为任务，并与评审内容关联。客户可以在一个平台上批准选定的更新或请求更改。它还包括聊天功能、时间追踪和分析工具。专业版提供更多集成功能以及完整的 API、CLI 和 MCP 访问权限。免费版支持最多 3 位编辑者使用。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>flat.social</td>
+        <td><span class="votes-sm">▲ 98</span></td>
+        <td>荒诞而又令人愉悦的3D空间，远程团队在这里聚会。</td>
+      </tr>
+      <tr>
+        <td>Convo</td>
+        <td><span class="votes-sm">▲ 96</span></td>
+        <td>为销售人员打造的人工智能助手</td>
+      </tr>
+      <tr>
+        <td>CreatorHat</td>
+        <td><span class="votes-sm">▲ 92</span></td>
+        <td>适用于Safari的YouTube SEO工具，搭载苹果智能技术</td>
+      </tr>
+      <tr>
+        <td>PeakHour 6</td>
+        <td><span class="votes-sm">▲ 91</span></td>
+        <td>适用于Mac的实时网络监控工具，提供详细的WiFi信息分析。</td>
+      </tr>
+      <tr>
+        <td>PhraseVault 3.0</td>
+        <td><span class="votes-sm">▲ 74</span></td>
+        <td>现在逐个用密码锁定敏感短语。</td>
+      </tr>
+      <tr>
+        <td>Pollen Create</td>
+        <td><span class="votes-sm">▲ 21</span></td>
+        <td>您的互动培训AI助手</td>
+      </tr>
+      <tr>
+        <td>Shower Time</td>
+        <td><span class="votes-sm">▲ 15</span></td>
+        <td>整个互联网只有一间淋浴间，每次只能一个人使用。</td>
+      </tr>
+      <tr>
+        <td>LMSY</td>
+        <td><span class="votes-sm">▲ 12</span></td>
+        <td>一个24小时不间断的视频频道，任何人都可以花5美元购买一个时段。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-09-18
+  </footer>
+</div>
+</body>
+</html>

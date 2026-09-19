@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年9月18日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年9月18日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">CREEM 2.0</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">549</span>
+      </div>
+      <div class="tagline">销售并发展你的人工智能产品</div>
+      <div class="desc">Creem 2.0 是为人工智能构建时代打造的资金平台：您可以在全球范围内销售软件和数字产品，支付、税务、分成和使用费用等都由我们为您处理——这是一个为AI开发者提供的全能平台，让您能将自己的创作变成一个商业项目。支付、税务、账单、分成和全球支付，所有这些都包罗在内。开发一个产品的时间从几个月缩短到一个周末，而获得报酬的速度并没有变化。有了CREEM，您也可以以同样的速度获得报酬。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Bitrise Remote Dev Environments</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">321</span>
+      </div>
+      <div class="tagline">云端Mac，让你的编程助手真正可以使用的工具</div>
+      <div class="desc">Bitrise RDE提供云端的Mac和Linux机器，几秒钟就能启动。这些机器和你的持续集成（CI）使用的是相同的环境、工具栈和缓存。你可以为每个代理分配一台机器，并通过MCP（多云处理）并行运行，或者连接VS Code、Cursor或Claude Code。停止时可以归档，稍后再恢复。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Text Agent Store</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">304</span>
+      </div>
+      <div class="tagline">一个可以通过文本交流的AI代理市场</div>
+      <div class="desc">认识一下你可以发短信的所有代理。代理商店是一个目录，里面有你手机通讯录中的AI代理。你可以浏览这些短信代理的生态系统，发送一条短信，今天就可以开始使用它们。无需注册，无需下载，也没有设置步骤。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Modaal for Android</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">296</span>
+      </div>
+      <div class="tagline">使用 Swift 和 Kotlin 从一个项目同时在两个应用商店发布应用。</div>
+      <div class="desc">Modaal for Android 让你只需开发一个应用，就可以同时在两个应用商店发布，而且你可以使用自己的 AI 代理，无需重新构建。与其说是一个 React Native 的代码库在两种手机上绘制相同的界面，Modaal 更像是共享逻辑，而不是屏幕：你的代理可以从一个项目中为 iPhone 编写真实的 Swift/SwiftUI 代码，并为 Android 编写真实的 Kotlin 和 Jetpack Compose 代码，构建后的应用在两种平台上的表现一致。因此，任何使用 Modaal 开发过 iPhone 应用的人，都可以轻松添加 Android 版本，而无需修改任何逻辑代码——没有计费限制，也无需重新构建。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">NovaSynth by Noveum</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">194</span>
+      </div>
+      <div class="tagline">在无法安排的电话接听者上测试你的语音助手。</div>
+      <div class="desc">通过自定义角色、场景、干扰、噪音、口音和网络条件，大规模模拟真实的来电场景。NovaSynth 会将这些电话与您的语音代理进行对比，评估音频和转录结果，覆盖30多个维度，找出对您的团队最重要的失败和解决方案。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Higgsfield API</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">168</span>
+      </div>
+      <div class="tagline">一个统一的异步 API，可用于 50 多个生成媒体模型。</div>
+      <div class="desc">Higgsfield API 是一个经过认证的异步接口，专门用于生成媒体内容。你可以通过同一个请求流程来调用 Seedance、Kling、Soul、Grok Imagine、Wan 及其他50多种前沿模型——只需提交请求、轮询结果或使用Webhook，然后下载结果。在控制台中探索各种模型，在云端获取密钥，并使用 Python/TypeScript 的 SDK 进行开发。按使用量付费，并享受高达50%的首单折扣。你还可以在 open.higgsfield.ai 上构建属于自己的 Higgsfield。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">MCPJam</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">150</span>
+      </div>
+      <div class="tagline">MCP服务器的测试与评估平台</div>
+      <div class="desc">在你的MCP服务器上进行用户测试、群体测试、评估以及持续集成/持续交付（CI/CD）检查，以了解用户在使用ChatGPT、Claude和Copilot时是否能够顺利完成任务。可以通过桌面应用程序、命令行界面（CLI）或软件开发工具包（SDK）来测试本地服务器。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Die With Me</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">117</span>
+      </div>
+      <div class="tagline">AIM 好友列表，用于查看你朋友的 Claude Code 和 Codex 使用情况</div>
+      <div class="desc">一个用于AI使用的AIM好友列表。在你的Mac上，可以看到朋友们的Claude Code和Codex使用情况，就像小吉祥物一样。你可以设置状态，访问他们的空间，当你的使用额度快用完时，还可以解锁一个聊天室。虽然你的AI下线了，但你的朋友们依然在这里。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Figo</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">107</span>
+      </div>
+      <div class="tagline">时刻关注竞争对手的每一步动向。</div>
+      <div class="desc">Figo可以帮你监控竞争对手，让你不必亲自去做。每周，它会检查竞争对手的排名、新网页、博客文章、谷歌广告、Meta广告、TikTok广告、Instagram、Facebook和Reddit上的动态，还会关注ChatGPT、Claude、Gemini和Perplexity在买家寻求推荐时的反馈。每周一早上，你会收到一份简短的简报，告知你有什么变化、这些变化意味着什么，以及你可以采取的一个行动。只需添加你的网站，Figo就能为你找到竞争对手。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Zella</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">101</span>
+      </div>
+      <div class="tagline">在Mac和iPhone上的自动编辑视频录制器</div>
+      <div class="desc">Zella可以在你的Mac或iPhone上录制屏幕或摄像头，并为你编辑视频。所有操作都在本地进行，不需要上传、注册账户或订阅。免费使用1080p分辨率且没有水印。只需一键即可启动“自动打磨”功能：自动生成字幕、剪除静音部分、去掉填充词、缩放画面以及清理声音。使用“让它走红”功能可以添加节奏、转场、音效和背景音乐。只需一次性支付89美元，就能永久解锁Mac和iPhone的专业版，而不是每月付费。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">TinyKPI</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">100</span>
+      </div>
+      <div class="tagline">您的商业分析直接在您的掌控之中。</div>
+      <div class="desc">将您已经使用的工具连接起来，比如Stripe和PostHog，再到Google Analytics和您自己的数据库。选择您关注的关键绩效指标（KPI），按照自己的方式进行排列，并在一个围绕您MacBook凹槽设计的小型可定制仪表盘中实时展示。100%本地化，您的数据始终保留在您的Mac上。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Blanc</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">90</span>
+      </div>
+      <div class="tagline">一个简约浏览器，配有悬浮的工具栏岛屿。</div>
+      <div class="desc">Blanc是一款适用于macOS、Windows和Linux的免费桌面浏览器。它的浮动岛屿界面取代了传统的标签栏和工具栏，同时在网络层面进行广告和追踪器的屏蔽。可选的Patron功能则增加了命名工作区的选项。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Pitchfire for Startups</td>
+        <td><span class="votes-sm">▲ 89</span></td>
+        <td>找到与你理念一致的投资者</td>
+      </tr>
+      <tr>
+        <td>Axiom</td>
+        <td><span class="votes-sm">▲ 88</span></td>
+        <td>现代机器数据平台</td>
+      </tr>
+      <tr>
+        <td>MacSentinel</td>
+        <td><span class="votes-sm">▲ 87</span></td>
+        <td>找出是什么让你的Mac变慢，然后安全地清理它</td>
+      </tr>
+      <tr>
+        <td>AskDeck</td>
+        <td><span class="votes-sm">▲ 85</span></td>
+        <td>请叫一个人工智能来制作一个PPT和一个配音视频。</td>
+      </tr>
+      <tr>
+        <td>The Forge by Bob&amp;#8217;s Workshop</td>
+        <td><span class="votes-sm">▲ 81</span></td>
+        <td>描述一下你的想法，以及你的团队如何构建、部署和运营它。</td>
+      </tr>
+      <tr>
+        <td>Opyt</td>
+        <td><span class="votes-sm">▲ 80</span></td>
+        <td>你的关注是你的人工智能所缺失的背景。</td>
+      </tr>
+      <tr>
+        <td>Compute:Arena</td>
+        <td><span class="votes-sm">▲ 80</span></td>
+        <td>社区提交的本地人工智能基准测试</td>
+      </tr>
+      <tr>
+        <td>QAgent</td>
+        <td><span class="votes-sm">▲ 80</span></td>
+        <td>为AI代理进行自动化质量检测。别再凭感觉来出货了。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-09-19
+  </footer>
+</div>
+</body>
+</html>

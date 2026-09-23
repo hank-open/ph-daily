@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年9月22日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年9月22日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Jev</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">486</span>
+      </div>
+      <div class="tagline">快速、结构化的人工智能决策，用于软件自动化。</div>
+      <div class="desc">Jev是TypeSafe AI的System One前沿模型：接受非结构化的输入状态，输出经过类型化的概率决策。与其生成文本，Jev会返回选择、分数和带有校准概率的Noul答案，方便你的代码进行操作。并行采样使得响应时间在70到500毫秒之间，相比于类似的大型语言模型工作流，速度提高了约20至200倍，成本降低了40至400倍，同时输出的令牌是免费的。现在，大家可以在console.typesafe.ai上使用Jev，无需排队等候。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Superset Mobile</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">481</span>
+      </div>
+      <div class="tagline">你的编程助手，现在随时随地都能用！</div>
+      <div class="desc">在你的iPhone上轻松管理编程助手。你可以随时随地访问电脑上的工作空间，查看代码差异，合并拉取请求，无需坐在桌前。该功能支持Claude Code、Codex及其他终端助手。此服务包含在Superset Pro中。使用代码MOBILELAUNCH，首月免费体验。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Sai</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">406</span>
+      </div>
+      <div class="tagline">您指挥的自主计算机车队</div>
+      <div class="desc">Sai是全球首款机器人秘书，它能够与一组自主计算机协同工作，帮你完成无尽的屏幕操作。每台计算机的操作方式和你一样：阅读屏幕、点击按钮、填写表单。Sai经过训练，可以与计算机界面互动，即使是没有API支持的软件也能自动化处理：包括旧版桌面应用、内部门户，以及任何需要登录才能访问的内容。Sai支持Windows、macOS和Linux系统，在OSWorld上的评分为73%。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Arcjet</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">383</span>
+      </div>
+      <div class="tagline">在运行时保护你正在构建的人工智能代理。</div>
+      <div class="desc">Arcjet 是一个运行时安全平台，它与您的 AI 代码一起提供。它可以检测提示注入，授权代理工具的调用，隐藏敏感数据，并阻止机器人和滥用行为。Arcjet 提供实时安全构件，您可以在应用程序中调用这些构件，以便在动作发生之前进行保护。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Hyrax AI</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">222</span>
+      </div>
+      <div class="tagline">你整个代码库的人工智能架构师</div>
+      <div class="desc">代码审查工具主要告诉你一个拉取请求（PR）中存在的问题。而Hyrax则更进一步，它能识别出整个代码库中需要改进的地方，并自动完成这些工作。它会深入理解你的架构和编码规范，优先处理六个工程领域中的问题，针对每个问题提供上下文中的修复方案，并将其与测试和检查进行验证，最后为你的团队打开一个GitHub的PR，以便进行审查和合并。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Google Flow for iOS &amp;amp; Android</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">176</span>
+      </div>
+      <div class="tagline">谷歌的人工智能创意工作室现在可以在手机上使用了。</div>
+      <div class="desc">使用谷歌先进的生成模型，轻松将创意变为现实，无论是电影视频、图片还是工具，都可以直接在你的手机上实现。从手机相册或实时摄像头上传素材，能够让你生成的图像和视频与个人经历紧密相连。现在，从相册或瞬间拍摄的照片和视频中寻找灵感变得前所未有的简单。而且，跨设备项目同步功能，让你可以随时随地继续你的创作工作。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Sell to State</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">120</span>
+      </div>
+      <div class="tagline">搜索3M在64个国家的政府合同</div>
+      <div class="desc">全球各地的政府采购数据结构化——包括招标、供应商和机构。我们帮助您研究世界各国政府的采购情况，寻找向他们销售的新机会。在决定有盈利空间之前，无需先联系外国公司或电子签名。您可以免费浏览数据，支付固定费用即可解锁完整数据集、保存的搜索记录、REST API 和MCP（多渠道平台）。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">CC</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">118</span>
+      </div>
+      <div class="tagline">共享助手，帮助你的家庭保持同步。</div>
+      <div class="desc">CC是谷歌实验室为家庭和家庭共享设计的人工智能助手。最多可以有六个人各自选择想要分享的信息，然后CC会帮助大家协调当天的安排，并处理那些通常在收件箱中被忽略的小事务。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">AI Creative Insights by Decode</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">110</span>
+      </div>
+      <div class="tagline">在花费广告预算之前，预测哪则广告会获胜。</div>
+      <div class="desc">上传任何广告、横幅、户外广告或视频创意，AI创意洞察工具会在你的媒体预算上线之前预测人们的反应。你可以获得关注热力图，显示观众目光的主要聚焦点，以及逐秒的情绪曲线和针对性的改进建议，告诉你应该改动什么以及原因。该工具还能与行业标准进行对比，横向比较不同版本，并使用合成受众功能，逐个角色查看预测效果。这个工具是由Entropik团队开发的，他们也是Decode的幕后团队。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Turfs</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">100</span>
+      </div>
+      <div class="tagline">在你的Mac上将内容组织在指定区域内，保持整洁有序。</div>
+      <div class="desc">使用桌面功能，可以让你的 Mac 内容在特定区域内易于访问和有序整理，或者保持桌面整洁。一个“区域”可以通过真实的文件夹、Finder 标签，或你精心挑选的文件和文件夹来支撑。通过“显示桌面”功能，这些区域会保持原样；而你可以选择在“任务控制”中如何处理它们。退出后，桌面会恢复到退出前的状态。这个功能替代了 Finder 自己的桌面图标层，因此无法被沙盒化或在 Mac 应用商店出售。一次性收费 $29，提供 10 天的免费试用，不需要信用卡。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Flicka</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">94</span>
+      </div>
+      <div class="tagline">准备上线的产品演示，来自于一个Chrome扩展程序。</div>
+      <div class="desc">一个可以快速制作演示的屏幕录制工具：自动放大你的点击，提供背景、边框，还可以添加摄像头画面，并支持MP4导出。Flicka现在作为Chrome扩展程序上线。你可以录制一个标签页、整个屏幕、某个窗口、特定区域或摄像头；在录制时可以在页面上绘图和模糊处理。你的点击会在编辑器中自动放大，同时设备上会生成字幕。所有内容都不会上传。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Cronhq</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">93</span>
+      </div>
+      <div class="tagline">实际运行的定时任务</div>
+      <div class="desc">Cron作业常常在无声中失败。假如两台服务器上运行着相同的定时任务，可能会导致你的计费任务被执行两次。某个任务停止运行，可能几周内都没人发现。为了解决这个问题，Cronhq应运而生，它的设计理念是确保每个任务只执行一次，这一点通过Postgres的锁机制来保证，而不是靠“尽力而为”。该工具还提供了重试机制（带有延迟）、HMAC签名的网络钩子、用于监控未执行任务的心跳监测，以及在任务失败和恢复时各触发一次的警报。Cronhq使用Rust语言和Postgres数据库开发，具备MIT许可证，可以自我托管，使用的镜像与我们运行的一致。免费套餐支持5个任务。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>PostSider</td>
+        <td><span class="votes-sm">▲ 90</span></td>
+        <td>为人类和代理商设计的社交媒体排程平台</td>
+      </tr>
+      <tr>
+        <td>Milliseconds.ai</td>
+        <td><span class="votes-sm">▲ 89</span></td>
+        <td>通过一个API，快速对文本和图像做出AI决策。</td>
+      </tr>
+      <tr>
+        <td>slop-grader</td>
+        <td><span class="votes-sm">▲ 89</span></td>
+        <td>Jev-AI 命令行工具，用于根据自定义规则集评估文本。</td>
+      </tr>
+      <tr>
+        <td>Jevtown</td>
+        <td><span class="votes-sm">▲ 88</span></td>
+        <td>在你发布之前，有1万名人工智能读者会对你的帖子进行反馈。</td>
+      </tr>
+      <tr>
+        <td>Gradio Workflow</td>
+        <td><span class="votes-sm">▲ 85</span></td>
+        <td>连接节点以构建人工智能管道，支持Hugging Face技术。</td>
+      </tr>
+      <tr>
+        <td>Supacut</td>
+        <td><span class="votes-sm">▲ 81</span></td>
+        <td>快速将采访视频剪辑成初步版本。</td>
+      </tr>
+      <tr>
+        <td>Simha Digital</td>
+        <td><span class="votes-sm">▲ 79</span></td>
+        <td>SEO工作区，它会告诉你需要修复的地方，并提供一个计划。</td>
+      </tr>
+      <tr>
+        <td>AppGrowthKit</td>
+        <td><span class="votes-sm">▲ 77</span></td>
+        <td>自动化你的应用商店截图，让你轻松赚钱……</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-09-23
+  </footer>
+</div>
+</body>
+</html>

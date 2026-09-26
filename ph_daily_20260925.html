@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年9月25日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年9月25日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Scholé Learn by Building</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">399</span>
+      </div>
+      <div class="tagline">学习不应该只是“点击下一步”那么简单。</div>
+      <div class="desc">在任何网站上，通过与Scholé一起构建来学习。你可以阅读工具的介绍、观看YouTube上的演示，或者请ChatGPT给你讲解。但真正掌握一项技能，还是需要亲自去动手实践。我们的“随时学习”模式会引导你直接在屏幕上使用真实的工具，适应你的任务并提供视觉提示。你所学到的一切都会更新到你的Scholé知识图谱中，并计算入你的学习进度。我们的理念是：要学得足够扎实，以便能够运用自如。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Floot MCP</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">367</span>
+      </div>
+      <div class="tagline">在Claude或ChatGPT中构建和发布网页与手机应用。</div>
+      <div class="desc">将Floot连接到Claude或ChatGPT，您就可以在聊天中构建完整的全栈应用程序。Floot为您的AI提供一个现成的工作空间，包括数据库、用户登录、托管服务和一个实时网址——完全无需安装或配置。您现有的Claude或ChatGPT订阅负责处理智能任务，因此Floot不会根据AI的使用量收费。当您准备好后，可以将同一个项目发布到网页、iOS和Android平台，并在同一对话中不断更新。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">NOAN</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">309</span>
+      </div>
+      <div class="tagline">你AI代理的事实层</div>
+      <div class="desc">你的公司拥有成千上万的文件，但只有一个真实的版本。NOAN将你们认可的事实，如定价、市场定位、政策、产品、客户等，转化为一个经过验证的、版本化的真实数据源，通过API和MCP进行访问。你可以将任何模型、代理或者应用连接到这个数据源，让它们都使用相同的公司信息，而不是让每个AI对你的文件进行不同的解读。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">minimi 2.0</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">308</span>
+      </div>
+      <div class="tagline">关闭你未完成任务的AI小猫</div>
+      <div class="desc">minimi是属于你的个人智能助手。我们正在构建一个这样的世界：在你开口之前，人工智能就已经理解你，帮助你管理生活中的琐事，让你有更多时间去真正享受生活。目前，你可以在minimi上领养AI猫咪🐱：1. Cotton会捕捉你的个人信息，让你无需再向AI解释自己。2. Melody会利用这些信息，确保你不会错过任何承诺。更多猫咪🐈🐈‍⬛即将上线……</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">CtrlOps 1.0</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">284</span>
+      </div>
+      <div class="tagline">您的服务器。经过审计、管理，并使用人工智能进行部署。</div>
+      <div class="desc">你真的知道现在谁能访问你的服务器吗？CtrlOps可以为你提供一个安全加固评分，涵盖25项检查，附带PDF审计报告和针对每个问题的修复命令。你可以查看谁可以登录每台服务器，只需一键就能撤销整个系统的访问权限，还可以在不使用终端的情况下分配各种角色和权限。每一个日志文件都能被找到并搜索，无需SSH。你可以在几分钟内从GitHub部署任何应用程序。100%本地处理，你的凭据始终保留在你的机器上。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Hookest</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">236</span>
+      </div>
+      <div class="tagline">你的病毒视频创意库</div>
+      <div class="desc">Hookest 追踪病毒式 TikTok、Reels 和 Shorts 的开场几秒钟，并提供可搜索的真实表现数据。你可以研究自己所在领域的成功案例，观察竞争对手的表现，并通过 MCP 将保存的吸引点导入 Claude、ChatGPT 或 Gemini。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Bitrise Build Hub</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">176</span>
+      </div>
+      <div class="tagline">GitHub Actions 运行器，能够让你的代理构建速度提升两倍。</div>
+      <div class="desc">编写代码的人员提交了更多的代码，这导致你的持续集成（CI）系统运行的构建次数比以往任何时候都多。GitHub 的构建运行器速度较慢，因此每一个额外的构建都会在队列中等待，你的团队也不得不跟着等待。而 Bitrise Build Hub 则能在最新的 Apple Silicon 和高性能的 Linux 上运行这些构建：在 iOS 上快了 54%，在 Android 上快了 31%。拉取请求（PR）几分钟内就能返回，你的应用程序也能更快上线。你可以继续使用 GitHub Actions，只需在工作流程中修改一行代码，就能在为移动设备优化的最佳运行器上运行。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Maximem Synap</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">147</span>
+      </div>
+      <div class="tagline">AI代理的最快、最精准的记忆层</div>
+      <div class="desc">Maximem Synap 是一种为人工智能代理提供的记忆和上下文基础设施，确保每次对话都不是从零开始。它在公开基准测试中表现出色，记忆系统的速度和准确性都名列前茅：在 LongMemEval 中得分为 92%，在 Locomo 中得分为 93.2%，并且在 P75 召回率上低于 15 毫秒。它能够自动处理实体解析、时间推理和多层次范围，无需调节向量数据库或排序器。它原生支持包括 LangChain、LangGraph 和 Claude Agent SDK 在内的 22 个框架。提供免费套餐，无需信用卡。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Opaline</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">146</span>
+      </div>
+      <div class="tagline">PostHog 用于 Claude 团队的 Code 和 Codex 会议。</div>
+      <div class="desc">团队范围内的消息级别分析，适用于Claude Code和Codex会话。跟踪团队每次会话中每条消息的代币成本、时间和技能使用情况。捕捉Claude说的每一句“你说得完全正确”和每位沮丧同事的“我知道，你这个笨蛋”。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Autonomous Product Delivery</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">134</span>
+      </div>
+      <div class="tagline">发现、规划、构建、交付、再来一次。这是产品团队的日常工作。</div>
+      <div class="desc">AI 编程助手可以快速生成代码，但交付过程仍然缓慢，因为编程只是产品生命周期中的一个环节。自主产品交付将整个流程整合为一个系统，直接运行在你的真实代码库上。你可以提出问题，或者让它自动建议下一步的改进。这个流程的最后一环是新推出的发现模式，它会分析你的数据、工单、通话记录和代码，然后系统会进行规划、构建、验证，并给你的工程师生成一个准备好合并的代码审查请求。每次合并都会让它变得更聪明。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">jev-seo</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">115</span>
+      </div>
+      <div class="tagline">免费的Rust命令行SEO/GEO审核工具，无需订阅。</div>
+      <div class="desc">Semrush 和 Ahrefs 的月费超过 130 美元，而它们的主要功能大多是确定性的：爬取网站、检查元标签、验证架构、查看 AI 爬虫能看到什么。相比之下，jev-seo 提供了一个免费的 Rust 命令行工具，能够完成这些核心检查（爬取、审核、架构、robots、网站地图），无需订阅，也不需要付费的 API 密钥。若想使用可选的 Jev 驱动的语义评分（意图分类、地理/AI 引用评分），则需要一个免费的 API 密钥。此外，jev-seo 还可以作为 MCP 服务器为编码代理提供服务。只需运行 cargo install jev-seo 即可安装。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Opencontroller by lyzr</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">111</span>
+      </div>
+      <div class="tagline">通过统一控制平面管理所有代理。</div>
+      <div class="desc">人工智能代理正在云端、SaaS工具、Kubernetes和各种设备上不断涌现，但目前没有一个统一的层来管理它们。OpenController就是这样一个统一的控制平台，它能够发现每一个代理、模型和工作流程，并确保它们在评估和治理下安全运行。同时，它还提供实时监控，将使用信号转化为实际行动。与仅仅列出代理的注册表不同，OpenController能够部署到您的集群中，完全由您掌控，并在政策不允许的情况下拒绝请求。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>NotchPop</td>
+        <td><span class="votes-sm">▲ 107</span></td>
+        <td>你MacBook上缺失的动态岛</td>
+      </tr>
+      <tr>
+        <td>Gemini 3.8 text-to-speech models</td>
+        <td><span class="votes-sm">▲ 101</span></td>
+        <td>Gemini 3.8 Flash 语音合成和 Gemini 3.8 Flash-Lite 语音合成</td>
+      </tr>
+      <tr>
+        <td>Storytailor®</td>
+        <td><span class="votes-sm">▲ 92</span></td>
+        <td>围绕孩子的想象力构建的个人化世界</td>
+      </tr>
+      <tr>
+        <td>AIMapy &amp;#8211; AI Map</td>
+        <td><span class="votes-sm">▲ 85</span></td>
+        <td>智能旅行地图与规划工具</td>
+      </tr>
+      <tr>
+        <td>IntellAgents.io</td>
+        <td><span class="votes-sm">▲ 84</span></td>
+        <td>每个电话、聊天和私信都配备一个AI助手。</td>
+      </tr>
+      <tr>
+        <td>Harness Manager</td>
+        <td><span class="votes-sm">▲ 80</span></td>
+        <td>你的人工智能代码管理工具，一站式服务。</td>
+      </tr>
+      <tr>
+        <td>Parall</td>
+        <td><span class="votes-sm">▲ 79</span></td>
+        <td>在你的Mac上运行同一个应用的多个实例</td>
+      </tr>
+      <tr>
+        <td>ChoreDivider</td>
+        <td><span class="votes-sm">▲ 75</span></td>
+        <td>根据每个人的喜好来分配家务。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-09-26
+  </footer>
+</div>
+</body>
+</html>

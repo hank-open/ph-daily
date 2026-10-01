@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年9月30日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年9月30日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">iFixAi</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">405</span>
+      </div>
+      <div class="tagline">对人工智能代理进行独立审计，以揭示其与预期目标的不一致性。</div>
+      <div class="desc">iFixAi是一家独立审计机构，帮助企业评估他们是否可以信任自己的人工智能代理。与单纯依赖评估和可观察性工具不同，iFixAi的综合审计涵盖了在69个人工智能不一致性类别中进行的250项检查，结合了人工智能红队测试、运营保障，以及哲学、伦理和社会学的视角。它能够识别在测试中出现的失败，解释这些失败对业务的影响，并提供工程师可以用来调查和修复问题的证据。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">LUCI Desktop</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">355</span>
+      </div>
+      <div class="tagline">让你的人工智能助手记住你所看到的内容。</div>
+      <div class="desc">Luci 会在本地保存你的屏幕历史记录和会议记录，这样像 Claude Code、Cursor 和 Codex 这样的智能助手就能帮你找到你忘记收藏的页面，或者回忆起通话中的某个决策。它可以在多个应用之间捕捉上下文，无需为每个应用单独设置连接器。此外，它还提供设备上的转录功能和每日总结，支持 Microsoft Foundry Local，适用于 Mac 和 Windows，且完全免费。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">ZenABM</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">287</span>
+      </div>
+      <div class="tagline">使用任何AI工具创建、优化并报告LinkedIn广告。</div>
+      <div class="desc">告别在广告管理工具中复制粘贴的麻烦吧！使用你最喜欢的人工智能工具（如Claude、ChatGPT、Perplexity等），通过ZenABM的MCP服务器，或者直接使用我们的AI助手Zena，轻松创建、启动和优化你的LinkedIn广告活动。无论哪种方式，它们都配备了20多项专家技能和96种工具！此外，我们的AI助手Zena还可以自动生成报告，包括公司参与度和收入归因的每周和每月报告，让你轻松掌握广告效果。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Claude Sonnet 5.5</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">258</span>
+      </div>
+      <div class="tagline">Anthropic的Claude 5.5系列中的第二款模型</div>
+      <div class="desc">Claude Sonnet 5.5 是 Anthropic 公司推出的一款快速、高性价比的 AI 模型，专为日常工作而设计，包括编码、修复bug、处理文档、制作幻灯片和设计等。它的运行速度比 Sonnet 5 快超过 30%，任务成本降低了最高可达 30%，同时在编码和知识工作方面的表现也更为出色。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Semos.ai Manager Agents</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">224</span>
+      </div>
+      <div class="tagline">专为管理者打造的人工智能助手</div>
+      <div class="desc">经理助手会从你的会议中学习，然后告诉你接下来需要关注的事项：那些已经过期的反馈、你错过的表扬、你在回避的冲突，以及那些一直拖延的成长对话。你会了解到什么有效，什么无效，以及原因，从而提升你的领导能力。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Paste 7</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">177</span>
+      </div>
+      <div class="tagline">智能剪贴板，它能预测你即将粘贴的内容。</div>
+      <div class="desc">智能剪贴板是Paste这款生产力应用程序中的新功能，它可以记住你复制的所有内容。现在，Paste会根据你正在进行的工作，智能推荐你最有可能接下来粘贴的内容。这一功能由苹果智能技术支持，保护你的隐私，只在你的Mac上运行。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Hopscotch AI</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">134</span>
+      </div>
+      <div class="tagline">通过一个API可以访问500多个人工智能模型。</div>
+      <div class="desc">🎁 产品猎人独家优惠：前250名注册的用户可获得50美元的免费模型积分。创建免费账户并在账单选项卡中输入代码 HOPSCOTCH50OFF 来兑换。 | 🚀 通过一个API访问500多个来自OpenAI、Anthropic、Google等公司的AI模型。您可以使用多个服务提供商，而无需管理不同的集成、账户或支付。可以在您的提示上比较模型，配置备用选项，并在一个地方跟踪使用情况和支出。直接支付服务提供商的费用，无需平台费用或代币加价。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Would you pay?</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">128</span>
+      </div>
+      <div class="tagline">在你开始建设之前，先找出谁会付费。</div>
+      <div class="desc">大多数副业项目都默默失败：经历几个月的投入，最后却没有人付费。你会付钱吗？这个工具可以让你将你的创业项目展示给真正的用户，他们只有在愿意付费的情况下才会点赞。你能看到有多少人愿意付费，他们是谁，以及谁点击了你的项目。这个服务是免费的。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Timeless Code</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">122</span>
+      </div>
+      <div class="tagline">会议记录工具，可以在Claude Code内部安装和运行。</div>
+      <div class="desc">一个内置于Claude Code中的AI记笔记工具。Claude会为你设置好这个工具，从此你就可以在终端上记录会议内容，并随时询问会中讨论的任何事情。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Jotform Sign for ChatGPT and Claude</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">122</span>
+      </div>
+      <div class="tagline">在ChatGPT和Claude中创建、发送和签署文档</div>
+      <div class="desc">Jotform Sign 为 ChatGPT 和 Claude 带来了文档创建和电子签名功能，直接融入你的 AI 工作空间。你可以通过输入提示或上传文件来创建准备好签名的文档，编辑内容和签名字段，管理收件人和签名顺序，发送文档以进行签名，并在不切换工具的情况下跟踪进度。此外，现有的 Jotform Sign 用户也可以直接在 ChatGPT 或 Claude 中访问和管理他们的工作流程。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Pokébinder</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">115</span>
+      </div>
+      <div class="tagline">规划一下你的宝可梦收集册，然后打印出缺少的部分。</div>
+      <div class="desc">为宝可梦集换式卡牌游戏（TCG）收藏者提供的免费视频夹规划器。你可以搜索超过40,000张英文和日文卡片，按3×3的页面布局进行整理，甚至可以在整页的卡片上方展示自己的艺术作品。此外，还可以打印出卡片的真实大小占位符，以便于那些还没有的卡片。不需要注册账号，你的规划器会保留在浏览器中。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Engine Room Media</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">109</span>
+      </div>
+      <div class="tagline">我们负责数据分析，你来掌控全局。</div>
+      <div class="desc">专为创作者成长而设计的Engine Room，将您的平台分析、媒体工具包和价格表整合到一个易于使用的仪表盘中。Engine Room Media帮助创作者在他们最喜欢的各大平台（包括YouTube、Instagram、Facebook、TikTok、Patreon、Spotify和Twitch）上实现成长，通过数据驱动的洞察、品牌合作和同行连接。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Curie</td>
+        <td><span class="votes-sm">▲ 99</span></td>
+        <td>科学文献和文件分析助手。</td>
+      </tr>
+      <tr>
+        <td>Arsaze</td>
+        <td><span class="votes-sm">▲ 99</span></td>
+        <td>让Claude、ChatGPT或Gemini来编辑你的真实时间线吧。</td>
+      </tr>
+      <tr>
+        <td>Imejis.io</td>
+        <td><span class="votes-sm">▲ 93</span></td>
+        <td>给你的代理商一个设计工作室，以便自动化你的营销。</td>
+      </tr>
+      <tr>
+        <td>Gladys Assistant 5</td>
+        <td><span class="votes-sm">▲ 91</span></td>
+        <td>私有的自托管智能家居，无需YAML配置</td>
+      </tr>
+      <tr>
+        <td>Declutr</td>
+        <td><span class="votes-sm">▲ 87</span></td>
+        <td>一键整理你的Mac桌面和下载文件夹</td>
+      </tr>
+      <tr>
+        <td>Supertake</td>
+        <td><span class="votes-sm">▲ 86</span></td>
+        <td>将你的想法转化为实际投资的人工智能</td>
+      </tr>
+      <tr>
+        <td>Clink</td>
+        <td><span class="votes-sm">▲ 85</span></td>
+        <td>你真正拥有的iOS键盘</td>
+      </tr>
+      <tr>
+        <td>ShipHappens:</td>
+        <td><span class="votes-sm">▲ 83</span></td>
+        <td>应用商店的ASO、关键词和截图</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-10-01
+  </footer>
+</div>
+</body>
+</html>

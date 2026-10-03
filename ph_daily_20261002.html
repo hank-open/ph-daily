@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年10月2日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年10月2日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Monospace from Directus</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">439</span>
+      </div>
+      <div class="tagline">每个应用、每个人和每个代理的管理API层</div>
+      <div class="desc">Monospace 在企业数据和所有依赖这些数据的开发者之间架起了一座桥梁。它可以连接任何数据源，让你的开发团队、业务团队和 AI 代理都能实时访问这些数据，并且可以进行读写操作。所有这一切都在同一套详细的权限模型下进行，数据不会被复制或移动。你最古老的数据库在创建时并没有考虑到 AI 或现代应用的需求，而 Monospace 能够直接从这些数据库生成接口，实时分析数据结构和查询，这样就不需要对数据库进行重建。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Yedric.ai</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">317</span>
+      </div>
+      <div class="tagline">让用户通过自然语言控制你的软件即服务（SaaS）产品。</div>
+      <div class="desc">用户不应该花时间去学习每个功能的位置。Yedric 为你的软件即服务（SaaS）产品添加了一个可嵌入的人工智能助手，它能将用户的自然语言请求转化为产品已经能够执行的操作。用户只需简单地说出他们想要完成的任务，Yedric 就会处理后续的互动。这样，开发者就可以在不到 30 分钟的时间里，让他们现有的产品具备 AI 原生功能，而无需自己构建和维护一个独立的助手体验。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Dots by OpenAI</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">285</span>
+      </div>
+      <div class="tagline">始终在线的代理，旨在处理所有事务。</div>
+      <div class="desc">在ChatGPT中，您总能看到“点”在每个代理上，这些代理由GPT-6 Astra驱动。每个点都有自己的云计算机和浏览器，通过插件连接到超过4000个应用程序，可以全天候为您的目标服务。您可以在桌面、网页和手机上通过消息或电话与您的点沟通，或者在Slack和Teams中发送消息。它会根据您的反馈学习您的偏好，并将完成的工作呈现给您审核。自定义规则、活动视图和自动审核功能让您掌控一切。目前，这项功能正在向Pro和Business Premium用户逐步推出。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Omnia Agent</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">211</span>
+      </div>
+      <div class="tagline">这个人工智能助手可以完成你95%的地理信息工作。</div>
+      <div class="desc">每个品牌都需要在人工智能搜索中崭露头角。现在，您的品牌也可以做到这一点，无需聘请地理专家。Omnia Agent会找出您竞争对手获胜的关键词，然后为您争取这些机会，使用的是专为地理优化设计的技能。它可以与您已经在使用的工具无缝对接，这样您批准的每一个操作都能立即生效，无需额外工作。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Polylane</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">186</span>
+      </div>
+      <div class="tagline">在你醒来之前就能修复生产问题的人工智能助手</div>
+      <div class="desc">没人应该随时待命。Polylane 可以将你的代码、基础设施和监控数据连接起来，自动调查每一个事件，并提出修复的拉取请求。如果代码无法解决问题，它会告诉你根本原因并给出建议。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">DSH Desktop</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">172</span>
+      </div>
+      <div class="tagline">DeepSeek开源代理工具的官方应用程序</div>
+      <div class="desc">DeepSeek Harness Desktop是DeepSeek开放源代码代理工具的官方Mac和Windows应用。安装后，您可以登录并在本地运行日常工作、编码以及定时任务，使用的插件系统与命令行界面（CLI）相同。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">statusbar</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">135</span>
+      </div>
+      <div class="tagline">适用于任何终端的状态栏</div>
+      <div class="desc">适用于任何终端的状态栏。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Chat.sh</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">125</span>
+      </div>
+      <div class="tagline">我在Intercom的搜索功能崩溃后建立的帮助中心。</div>
+      <div class="desc">🎉 限时优惠：使用代码 PHLAUNCH 可享受任何终身套餐 $200 折扣（原价 $399 降至 $199，原价 $799 降至 $599）。活动截止到 10 月 2 日凌晨 12 点（太平洋时间）。大多数帮助中心提供的是子域名、关键词搜索和每月账单，而 chat.sh 则与众不同：🔍 AI 搜索能够自动生成答案，并引用所用页面 📁 存放在您自己网站的文件夹中（例如：yoursite.com/help） 🤖 每个页面都以 Markdown 格式提供，适用于 ChatGPT、Claude 和 llms.txt 💸 一次性付费，无需订阅 立即体验：chat.sh/help。聊天工具和支持邮箱即将上线。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Bracket</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">109</span>
+      </div>
+      <div class="tagline">您业务的记忆层</div>
+      <div class="desc">Bracket能够将您公司内已在进行的对话转化为一个动态、持续更新的记忆库。它可以连接Gmail、Slack、Figma和GitHub，或者您可以添加会议记录和转录内容。Bracket会自动记录需求、决策、项目范围、交付物、截止日期和变化，实时跟进这些信息。然后，您可以向Bracket询问任何发生的事情，或者利用完整的上下文生成回复。这样一来，您就不需要手动更新其他工具了。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">America.gov</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">107</span>
+      </div>
+      <div class="tagline">无论你需要什么政府服务，先从这里开始。</div>
+      <div class="desc">America.gov 是获取美国政府信息最简单、最快捷的方式。你无需在各个机构的网站上费力寻找，只需用简单明了的语言提问，便能得到清晰的答案。这个平台由国家设计工作室与总务管理局共同打造，将所有联邦机构的信息汇集到一个地方。它提供英文、法文和西班牙文的服务。接下来，你将能够直接在聊天中申请、注册并跟踪进度。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Starlie</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">102</span>
+      </div>
+      <div class="tagline">一款快速的本地Jira客户端，专为Mac设计。</div>
+      <div class="desc">Starlie 是你每天在 Jira 中工作的好帮手：查找问题、查看动态、更新内容、留下评论、在看板上移动任务，然后继续工作。它提供流畅的看板拖放功能、快速过滤器、JQL 自动补全、自定义字段、快速查看、提醒功能，以及通过 ⌘K 快速访问最近的问题。Starlie 支持 Jira Cloud 和自托管版 Jira，并且设计上注重隐私，不进行任何分析或追踪。你可以在 Claude Code 或 Codex 中打开编码任务，并附上问题的上下文和本地项目。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">13</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Helo</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">99</span>
+      </div>
+      <div class="tagline">一款来自前Postmark团队的独立邮件API。</div>
+      <div class="desc">Helo 是一个专为开发者和平台设计的电子邮件 API，旨在帮助他们代表客户发送邮件。它可以在坏邮件发送者影响邮件送达率之前将其阻止，让客户能够使用自己的域名发送邮件，并且为每个租户分别管理统计数据、退订和凭证。此外，Helo 还涵盖了一些基本功能，包括 REST API 和 SMTP，支持多种流行编程语言的 SDK，提供独立的事务性和广播基础设施，以及从每封邮件仅 $0.00035 起的按使用量计费——所有功能均已包含。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Cura</td>
+        <td><span class="votes-sm">▲ 100</span></td>
+        <td>您的人工智能旅行代理，负责规划、预订和调整行程。</td>
+      </tr>
+      <tr>
+        <td>Helo</td>
+        <td><span class="votes-sm">▲ 99</span></td>
+        <td>一款来自前Postmark团队的独立邮件API。</td>
+      </tr>
+      <tr>
+        <td>Buddy Drop</td>
+        <td><span class="votes-sm">▲ 98</span></td>
+        <td>将文件拖放到这里，几秒钟内就能获得一个实时链接。</td>
+      </tr>
+      <tr>
+        <td>Phare C1®</td>
+        <td><span class="votes-sm">▲ 95</span></td>
+        <td>一种能识别火灾而不是烤面包的烟雾报警器。</td>
+      </tr>
+      <tr>
+        <td>Vitra.ai</td>
+        <td><span class="votes-sm">▲ 84</span></td>
+        <td>代理内容平台，用于创作和本地化内容</td>
+      </tr>
+      <tr>
+        <td>JevGPT</td>
+        <td><span class="votes-sm">▲ 82</span></td>
+        <td>一个无法写作的模型构建的聊天机器人</td>
+      </tr>
+      <tr>
+        <td>NotchMind</td>
+        <td><span class="votes-sm">▲ 82</span></td>
+        <td>充分利用你的MacBook刘海：音乐、文件、计时器等等</td>
+      </tr>
+      <tr>
+        <td>Clarity</td>
+        <td><span class="votes-sm">▲ 80</span></td>
+        <td>实时静音房间，保持演讲者。</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-10-03
+  </footer>
+</div>
+</body>
+</html>

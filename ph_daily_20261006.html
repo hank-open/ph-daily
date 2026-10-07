@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt 早报 · 2026年10月6日</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f5f5f0; color: #1a1a1a;
+      padding: 32px 16px 64px; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header .logo { font-size: 28px; font-weight: 800; color: #da552f; letter-spacing: -0.5px; }
+    .header .logo span { color: #1a1a1a; }
+    .header .date { font-size: 14px; color: #888; margin-top: 6px; letter-spacing: 0.5px; }
+    .header h1 { font-size: 22px; font-weight: 700; margin-top: 12px; color: #1a1a1a; }
+    .section-title {
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.5px; color: #999; margin: 40px 0 16px;
+      padding-bottom: 8px; border-bottom: 1px solid #e5e5e0;
+    }
+    .card {
+      background: #fff; border-radius: 12px; padding: 20px 22px;
+      margin-bottom: 12px; display: flex; gap: 16px; align-items: flex-start;
+      border: 1px solid #eee; transition: box-shadow 0.15s;
+    }
+    .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+    .rank { font-size: 22px; font-weight: 800; color: #da552f; min-width: 32px; padding-top: 2px; }
+    .rank.gold   { color: #f5a623; }
+    .rank.silver { color: #9b9b9b; }
+    .rank.bronze { color: #c07840; }
+    .card-body { flex: 1; }
+    .card-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+    .card-name { font-size: 17px; font-weight: 700; color: #1a1a1a; }
+    .badge-featured {
+      font-size: 11px; font-weight: 600; background: #fff3ee; color: #da552f;
+      border: 1px solid #ffd0be; border-radius: 4px; padding: 1px 7px;
+    }
+    .votes { margin-left: auto; font-size: 13px; font-weight: 700; color: #da552f; white-space: nowrap; }
+    .votes::before { content: "▲ "; }
+    .tagline { font-size: 14px; font-weight: 600; color: #444; margin-bottom: 6px; }
+    .desc { font-size: 13.5px; color: #666; line-height: 1.65; }
+    table {
+      width: 100%; border-collapse: collapse; background: #fff;
+      border-radius: 12px; overflow: hidden; border: 1px solid #eee; font-size: 13.5px;
+    }
+    thead tr { background: #fafaf8; }
+    th {
+      text-align: left; padding: 10px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 1px; color: #999; border-bottom: 1px solid #eee;
+    }
+    td { padding: 11px 16px; border-bottom: 1px solid #f2f2f0; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #fafaf8; }
+    td:first-child { font-weight: 700; color: #1a1a1a; }
+    td .votes-sm { color: #da552f; font-weight: 700; }
+    footer { text-align: center; font-size: 12px; color: #bbb; margin-top: 48px; }
+    footer a { color: #bbb; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="logo">Product<span>Hunt</span> 早报</div>
+    <div class="date">2026年10月6日 · Top Products Launching Today</div>
+    <h1>今日精选 12 款产品</h1>
+  </div>
+
+  <div class="section-title">今日榜单</div>
+  <div class="card">
+    <div class="rank gold">1</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Spira Maxima</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">435</span>
+      </div>
+      <div class="tagline">将剧本转化为病毒式社交媒体视频的视频模型</div>
+      <div class="desc">Spira Maxima可以将普通文本转化为一段完整的社交视频：只需一次操作，就能得到包括讲解者、时尚的背景素材、字幕和音乐在内的全套内容，发布时无需再编辑。你只需提供一张照片和声音用于你的AI克隆，或者产品图片和录音，系统就会围绕你创建编辑好的视频。它基于社交趋势和表现数据进行训练，因此每个视频都能跟随当前流行的风潮，最大化你的社交影响力。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank silver">2</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">FastRouter.ai</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">354</span>
+      </div>
+      <div class="tagline">将请求路由到合适的大语言模型，以优化成本、延迟和质量。</div>
+      <div class="desc">FastRouter 是一个为开发者和企业团队打造的统一 AI 网关和控制平台，专门用于与大型语言模型（LLMs）进行交互。它通过一个兼容 OpenAI 的 API，将每个请求智能地路由到200多个 LLM中最合适的模型，从而在成本、延迟、质量和可靠性方面进行优化。凭借智能路由、故障切换、可观察性和治理功能，团队可以在不受特定供应商限制或代码更改的情况下扩展 AI 应用。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank bronze">3</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Invofox Self Serve</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">336</span>
+      </div>
+      <div class="tagline">99%准确的文档提取，服务水平协议保证。</div>
+      <div class="desc">Invofox可以通过一个API将任何文档转换为整洁、结构化的JSON格式。我们提供超过99%的准确率，并且有服务水平协议（SLA）作为保障。如果我们出错了，您无需为该文档付费。Invofox负责解析、提取、验证、处理极端情况和监控，所有这些都通过一个接口完成。此外，它还能根据您的反馈自动学习，不断优化您实际处理的文档。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">4</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Opengeni</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">317</span>
+      </div>
+      <div class="tagline">几分钟内即可部署AI代理。代理的基础设施。</div>
+      <div class="desc">在几小时内将AI代理投入生产！Opengeni为您提供会话恢复功能，避免故障，独立的沙盒环境，超过100种集成选项，人为审批，以及每一步和每一分钱的透明度。您只需专注于您的代理，我们来处理基础设施。您可以选择免费自托管，或在我们的云平台上开始使用。为了庆祝此次发布，前100名用户将获得100美元的云服务信用额度。优惠码：PRODUCTHUNT100</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">5</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">DailyHelm</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">223</span>
+      </div>
+      <div class="tagline">将数据分析转化为每日提升收入的解决方案。</div>
+      <div class="desc">DailyHelm 是一款专为创业者和成长团队设计的人工智能商业评估工具。它会在你睡觉时监控你的分析数据、广告、搜索引擎优化和商店数据，然后识别出值得关注的问题和机会。与传统的仪表盘不同，DailyHelm 不仅仅提供图表让你自己去解读，而是直接给出一个优先级列表，列出了可能带来收益的修复建议，让你的团队清楚知道该修复哪些问题以及接下来该做些什么。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">6</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Web Search API</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">169</span>
+      </div>
+      <div class="tagline">让人工智能助手访问实时互联网数据</div>
+      <div class="desc">Web Search API 让你的人工智能代理和应用程序可以在互联网上进行搜索，从而根据实时信息来提供答案，而不是依赖于猜测网址或模型的训练截止日期。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">7</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">HyperFrames Studio (Desktop)</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">158</span>
+      </div>
+      <div class="tagline">为代理人打造的首款视频编辑器</div>
+      <div class="desc">首款为代理人打造的视频编辑器——由HeyGen团队开发，并开源了HyperFrames。你可以将你最喜欢的代理人（无论是Codex还是Claude代码）带入HyperFrames Studio，让你的编程代理变成视频编辑器，而你依然掌控导演的角色。只需描述一个视频，你的代理就能利用HyperFrames制作出来，接着你和你的代理可以在一个共同的编辑器中合作完成。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">8</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">devpit</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">110</span>
+      </div>
+      <div class="tagline">为您的Claude Code代理提供一个本地控制中心</div>
+      <div class="desc">Devpit 是一款本地桌面应用，用于运行 Claude Code 代理。它有一个你可以实际监控的终端，一个在移动卡片时可以实际执行工作的看板，每次调用代理都会产生费用，还有一个可以同时查看所有项目的协调器。它是本地优先的开源软件。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">9</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Siteprint</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">107</span>
+      </div>
+      <div class="tagline">测量任何网站的设计，然后交给你的人工智能。</div>
+      <div class="desc">Siteprint是一款适用于Mac的Safari扩展工具，能够测量任何网页的设计元素，包括颜色及其作用、字体比例、间距、圆角和布局。只需一次支付9.99美元，便可在你的Mac上使用。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">10</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Reactive Resume v6</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">103</span>
+      </div>
+      <div class="tagline">一个免费且开源的简历生成器</div>
+      <div class="desc">这个新版的Reactive Resume将简历、匹配的求职信和职位跟踪整合到一个全新的工作流程中，同时依然保持免费、开源和可自托管。它引入了人工智能，提供了详细的自定义选项，还有分享与协作功能，以及更多其他实用特性。最重要的是，在过去的六年里，它已经赢得了许多用户的信任，成为了最受欢迎的简历制作工具。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">11</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">CirclePanel</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">95</span>
+      </div>
+      <div class="tagline">端到端用户研究平台</div>
+      <div class="desc">Circle Panel 是一个全面的人工智能原生用户体验研究平台，旨在帮助用户规划、招募和分析用户研究。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="rank ">12</div>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="card-name">Jarq</span>
+        <span class="badge-featured">精选</span>
+        <span class="votes">95</span>
+      </div>
+      <div class="tagline">翻译、缩短、修正或重写光标附近的任何文本。</div>
+      <div class="desc">在Mac上的任何应用中，你可以直接翻译、简化或修改文本，无需切换标签或复制粘贴。只需选中文本，按下快捷键，内容就会自动替换。或者按下⌥`，用一种语言说话，另一种语言的干净文本会自动生成。支持13种语言。隐私方面：Jarq使用云端AI模型处理你的文本和语音，但不会在服务器上保存你的文本记录，历史记录保留在你的Mac上。免费版每天可用5次，专业版每月4.99美元或每年39美元，提供14天免费试用，无需信用卡。</div>
+    </div>
+  </div>
+
+  <div class="section-title">值得关注</div>
+  <table>
+    <thead><tr><th>产品</th><th>票数</th><th>一句话</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Dots UI</td>
+        <td><span class="votes-sm">▲ 95</span></td>
+        <td>一个用于可变粒子界面的 React 库</td>
+      </tr>
+      <tr>
+        <td>Oogwai Beacon</td>
+        <td><span class="votes-sm">▲ 94</span></td>
+        <td>问答引擎优化审计</td>
+      </tr>
+      <tr>
+        <td>Marv</td>
+        <td><span class="votes-sm">▲ 92</span></td>
+        <td>一个智能光标助手，它会告诉你该点击什么。</td>
+      </tr>
+      <tr>
+        <td>crosswalk</td>
+        <td><span class="votes-sm">▲ 86</span></td>
+        <td>为人们和他们的代理人提供的第三空间，从邮箱开始。</td>
+      </tr>
+      <tr>
+        <td>iLand</td>
+        <td><span class="votes-sm">▲ 85</span></td>
+        <td>将你的Mac的凹口变成日常工作空间</td>
+      </tr>
+      <tr>
+        <td>Pilot5 Legal</td>
+        <td><span class="votes-sm">▲ 84</span></td>
+        <td>五个人工智能模型挑战每一个法律答案</td>
+      </tr>
+      <tr>
+        <td>Unscary AI</td>
+        <td><span class="votes-sm">▲ 81</span></td>
+        <td>简短的课程帮助你不再对人工智能感到落后。</td>
+      </tr>
+      <tr>
+        <td>Reviu</td>
+        <td><span class="votes-sm">▲ 77</span></td>
+        <td>你所编写的代码的审查应用程序</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    数据来源：Product Hunt · <a href="https://decohack.com">decohack.com</a>
+    &nbsp;·&nbsp; 生成于 2026-10-07
+  </footer>
+</div>
+</body>
+</html>
